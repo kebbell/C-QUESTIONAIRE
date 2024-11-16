@@ -1,0 +1,29 @@
+/Users/macbookpro/Desktop/app/bin/Debug/net8.0/app
+/Users/macbookpro/Desktop/app/bin/Debug/net8.0/app.deps.json
+/Users/macbookpro/Desktop/app/bin/Debug/net8.0/app.runtimeconfig.json
+/Users/macbookpro/Desktop/app/bin/Debug/net8.0/app.dll
+/Users/macbookpro/Desktop/app/bin/Debug/net8.0/app.pdb
+/Users/macbookpro/Desktop/app/obj/Debug/net8.0/app.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbookpro/Desktop/app/obj/Debug/net8.0/app.AssemblyInfoInputs.cache
+/Users/macbookpro/Desktop/app/obj/Debug/net8.0/app.AssemblyInfo.cs
+/Users/macbookpro/Desktop/app/obj/Debug/net8.0/app.csproj.CoreCompileInputs.cache
+/Users/macbookpro/Desktop/app/obj/Debug/net8.0/app.dll
+/Users/macbookpro/Desktop/app/obj/Debug/net8.0/refint/app.dll
+/Users/macbookpro/Desktop/app/obj/Debug/net8.0/app.pdb
+/Users/macbookpro/Desktop/app/obj/Debug/net8.0/app.genruntimeconfig.cache
+/Users/macbookpro/Desktop/app/obj/Debug/net8.0/ref/app.dll
+/Users/macbookpro/Desktop/app/obj/Debug/net8.0/app.sourcelink.json
+/Users/kbbl/Code/C# Practice/bin/Debug/net8.0/app
+/Users/kbbl/Code/C# Practice/bin/Debug/net8.0/app.deps.json
+/Users/kbbl/Code/C# Practice/bin/Debug/net8.0/app.runtimeconfig.json
+/Users/kbbl/Code/C# Practice/bin/Debug/net8.0/app.dll
+/Users/kbbl/Code/C# Practice/bin/Debug/net8.0/app.pdb
+/Users/kbbl/Code/C# Practice/obj/Debug/net8.0/app.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kbbl/Code/C# Practice/obj/Debug/net8.0/app.AssemblyInfoInputs.cache
+/Users/kbbl/Code/C# Practice/obj/Debug/net8.0/app.AssemblyInfo.cs
+/Users/kbbl/Code/C# Practice/obj/Debug/net8.0/app.csproj.CoreCompileInputs.cache
+/Users/kbbl/Code/C# Practice/obj/Debug/net8.0/app.dll
+/Users/kbbl/Code/C# Practice/obj/Debug/net8.0/refint/app.dll
+/Users/kbbl/Code/C# Practice/obj/Debug/net8.0/app.pdb
+/Users/kbbl/Code/C# Practice/obj/Debug/net8.0/app.genruntimeconfig.cache
+/Users/kbbl/Code/C# Practice/obj/Debug/net8.0/ref/app.dll
