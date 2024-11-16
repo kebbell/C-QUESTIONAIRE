@@ -11,11 +11,13 @@
 // double num2 = 434.11;
 // double answer = num1 + num2;
 
+// ANSWER
 // Console.WriteLine(answer);
 
 // 3
 // Write a C# Sharp program to print the result of dividing two numbers.
 
+// ANSWER
 // int num3 = 853;
 // int num4 = 32;
 // double answer2 = num3 / num4;
@@ -34,6 +36,7 @@
 // 12
 // 3
 
+// ANSWER
 // Console.WriteLine(-1 + 4 * 6);
 // Console.WriteLine(( 35+ 5 ) % 7);
 // Console.WriteLine( 14 + -4 * 6 / 11);
@@ -65,11 +68,12 @@
 // Expected Output:
 // 2 x 3 x 6 = 36
 
-int num7 = 2;
-int num8 = 3;
-int num9 = 6;
+// ANSWER
+// int num7 = 2;
+// int num8 = 3;
+// int num9 = 6;
 
-Console.WriteLine(num7 * num8 * num9);
+// Console.WriteLine(num7 * num8 * num9);
 
 
 // 7. Write a C# Sharp program to print on screen the output of adding, subtracting, multiplying and dividing two numbers entered by the user.
@@ -83,14 +87,15 @@ Console.WriteLine(num7 * num8 * num9);
 // 25 / 4 = 6
 // 25 mod 4 = 1
 
-int num10 = 25;
-int num11 = 4;
+// ANSWER
+// int num10 = 25;
+// int num11 = 4;
 
-Console.WriteLine(num10 + num11 + " = " + (num10 + num11));
-Console.WriteLine(num10 + " - " + num11 + " = " + (num10 - num11));
-Console.WriteLine(num10 + " x " + num11 + " = " + (num10 * num11));
-Console.WriteLine(num10 + " / " + num11 + " = " + (num10 / num11));
-Console.WriteLine(num10 + " mod " + num11 + " = " + (num10 % num11));
+// Console.WriteLine(num10 + num11 + " = " + (num10 + num11));
+// Console.WriteLine(num10 + " - " + num11 + " = " + (num10 - num11));
+// Console.WriteLine(num10 + " x " + num11 + " = " + (num10 * num11));
+// Console.WriteLine(num10 + " / " + num11 + " = " + (num10 / num11));
+// Console.WriteLine(num10 + " mod " + num11 + " = " + (num10 % num11));
 
 // 8. Write a C# Sharp program that prints the multiplication table of a number as input.
 // Test Data:
@@ -103,15 +108,31 @@ Console.WriteLine(num10 + " mod " + num11 + " = " + (num10 % num11));
 // ....
 // 5 * 10 = 50
 
-int num12 = 5;
-int num13 = 0;
+// ANSWER
+// int num12 = 5;
+// int num13 = 0;
 
-for (int i = 0; i <= 10; i++)
-{
-    Console.WriteLine(num12 + " * " + num13 + " = " + (num12 * num13));
-    num13++;
-}
+// for (int i = 0; i <= 10; i++)
+// {
+//     Console.WriteLine(num12 + " * " + num13 + " = " + (num12 * num13));
+//     num13++;
+// }
 
 
+// 9. Write a C# Sharp program that takes four numbers as input to calculate and print the average.
+// Test Data:
+// Enter the First number: 10
+// Enter the Second number: 15
+// Enter the third number: 20
+// Enter the four number: 30
 
+// Expected Output:
+// The average of 10 , 15 , 20 , 30 is: 18
+
+int num14 = 10;
+int num15 = 15;
+int num16 = 20;
+int num17 = 30;
+
+Console.WriteLine("The average of " + num14 + " , " + num15 + " , " + num16 + " , " + num17 + " is: " + ((num14 + num15 + num16 + num17) / 4));
 
