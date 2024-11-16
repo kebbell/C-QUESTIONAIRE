@@ -111,3 +111,7 @@ for (int i = 0; i <= 10; i++)
     Console.WriteLine(num12 + " * " + num13 + " = " + (num12 * num13));
     num13++;
 }
+
+
+
+

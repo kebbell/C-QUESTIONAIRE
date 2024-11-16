@@ -27,3 +27,4 @@
 /Users/kbbl/Code/C# Practice/obj/Debug/net8.0/app.pdb
 /Users/kbbl/Code/C# Practice/obj/Debug/net8.0/app.genruntimeconfig.cache
 /Users/kbbl/Code/C# Practice/obj/Debug/net8.0/ref/app.dll
+/Users/kbbl/Code/C# Practice/obj/Debug/net8.0/app.sourcelink.json
