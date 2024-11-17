@@ -220,3 +220,18 @@ string str = "w3resource";
 Console.WriteLine(str.Remove(3));
 Console.WriteLine(str.Remove(0, 3));
 Console.WriteLine(str.Remove(2, 1));
+
+// 16. Write a C# program to create a new string from a given string where the first and last characters change their positions.
+// Test Data:
+// w3resource
+// Python
+// Sample Output:
+// e3resourcw
+// nythoP
+// x
+
+string str2 = "w3resource";
+
+Console.WriteLine(str2[1] + str2[2] + str2[3] + str2[4] + str2[5] + str2[6] + str2[0] + str2[7]);
+Console.WriteLine(str2[6] + str2[7] + str2[0] + str2[1] + str2[2] + str2[3] + str2[4] + str2[5]);
+
