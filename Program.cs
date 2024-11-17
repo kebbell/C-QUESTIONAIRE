@@ -206,3 +206,12 @@ int num24 = 30;
 
 Console.WriteLine("Kelvin = " + (num24 + 273));
 Console.WriteLine("Fahrenheit = " + (num24 * 1.8 + 32));
+
+// 15. Write a C# program that removes a specified character from a non-empty string using the index of a character.
+// Test Data:
+// w3resource
+// Sample Output:
+// wresource
+// w3resourc
+// 3resource
+
