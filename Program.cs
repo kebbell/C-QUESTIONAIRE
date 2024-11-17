@@ -273,5 +273,4 @@ Console.WriteLine(str5.ToUpper());
 
 string str6 = "the quick brown fox";
 
-Console.WriteLine(str6.ToTitleCase());
-
+// Console.WriteLine(str6.ToTitleCase());
