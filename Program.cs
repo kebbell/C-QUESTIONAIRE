@@ -150,3 +150,5 @@ int num19 = 6;
 int num20 = 7;
 
 Console.WriteLine("Result of specified numbers " + num18 + ", " + num19 + " and " + num20 + ", (x+y).z is " + ((num18 + num19) * num20) + " and x.y + y.z is " + (num18 * num19 + num19 * num20));
+
+
