@@ -215,3 +215,8 @@ Console.WriteLine("Fahrenheit = " + (num24 * 1.8 + 32));
 // w3resourc
 // 3resource
 
+string str = "w3resource";
+
+Console.WriteLine(str.Remove(3));
+Console.WriteLine(str.Remove(0, 3));
+Console.WriteLine(str.Remove(2, 1));
