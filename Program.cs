@@ -195,3 +195,14 @@ Console.WriteLine(num23 + " " + num23);
 Console.WriteLine(num23 + " " + num23);
 Console.WriteLine(num23 + num23 + num23);
 
+// 14. Write a C# program to convert Celsius degrees to Kelvin and Fahrenheit.
+// Test Data:
+// Enter the amount of celsius: 30
+// Expected Output:
+// Kelvin = 303
+// Fahrenheit = 86
+
+int num24 = 30;
+
+Console.WriteLine("Kelvin = " + (num24 + 273));
+Console.WriteLine("Fahrenheit = " + (num24 * 1.8 + 32));
