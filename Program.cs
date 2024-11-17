@@ -169,3 +169,10 @@ Console.WriteLine("You look older than " + num21);
 // 25252525
 // 25 25 25 25
 // 25252525
+
+int num22 = 25;
+
+Console.WriteLine(num22 + " " + num22 + " " + num22 + " " + num22);
+Console.WriteLine(num22 + num22 + num22 + num22 + num22 + num22 + num22 + num22);
+Console.WriteLine(num22 + " " + num22 + " " + num22 + " " + num22);
+Console.WriteLine(num22 + num22 + num22 + num22 + num22 + num22 + num22 + num22);
