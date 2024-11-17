@@ -244,3 +244,34 @@ string str3 = "The quick brown fox jumps over the lazy dog.";
 
 Console.WriteLine(str3.Insert(0, "T"));
 Console.WriteLine(str3.Insert(str3.Length, "T"));
+
+// 18. Write a C# program to convert a given string into lowercase.
+// Test Data:
+// THE QUICK BROWN FOX
+// Expected Output:
+// the quick brown fox
+
+string str4 = "THE QUICK BROWN FOX";
+
+Console.WriteLine(str4.ToLower());
+
+// 19. Write a C# program to convert a given string into uppercase.
+// Test Data:    
+// the quick brown fox
+// Expected Output:
+// THE QUICK BROWN FOX
+
+string str5 = "the quick brown fox";
+
+Console.WriteLine(str5.ToUpper());  
+
+// 20. Write a C# program to convert a given string into title case.
+// Test Data:
+// the quick brown fox
+// Expected Output:
+// The Quick Brown Fox
+
+string str6 = "the quick brown fox";
+
+Console.WriteLine(str6.ToTitleCase());
+
