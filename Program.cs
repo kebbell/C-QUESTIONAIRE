@@ -235,3 +235,12 @@ string str2 = "w3resource";
 Console.WriteLine(str2[1] + str2[2] + str2[3] + str2[4] + str2[5] + str2[6] + str2[0] + str2[7]);
 Console.WriteLine(str2[6] + str2[7] + str2[0] + str2[1] + str2[2] + str2[3] + str2[4] + str2[5]);
 
+// 17. Write a C# program to create a string from a given string (length 1 or more) with the first character added at the front and back.
+// Sample Output:
+// Input a string : The quick brown fox jumps over the lazy dog.
+// TThe quick brown fox jumps over the lazy dog.T
+
+string str3 = "The quick brown fox jumps over the lazy dog.";
+
+Console.WriteLine(str3.Insert(0, "T"));
+Console.WriteLine(str3.Insert(str3.Length, "T"));
