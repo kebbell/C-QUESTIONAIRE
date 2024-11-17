@@ -136,3 +136,17 @@ int num17 = 30;
 
 Console.WriteLine("The average of " + num14 + " , " + num15 + " , " + num16 + " , " + num17 + " is: " + ((num14 + num15 + num16 + num17) / 4));
 
+// 10. Write a C# Sharp program that takes three numbers (x,y,z) as input and outputs (x+y).z and x.y + y.z.
+// Test Data:
+// Enter first number - 5
+// Enter second number - 6
+// Enter third number - 7
+
+// Expected Output:
+// Result of specified numbers 5, 6 and 7, (x+y).z is 77 and x.y + y.z is 72
+
+int num18 = 5;
+int num19 = 6;
+int num20 = 7;
+
+Console.WriteLine("Result of specified numbers " + num18 + ", " + num19 + " and " + num20 + ", (x+y).z is " + ((num18 + num19) * num20) + " and x.y + y.z is " + (num18 * num19 + num19 * num20));
