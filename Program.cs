@@ -151,4 +151,12 @@ int num20 = 7;
 
 Console.WriteLine("Result of specified numbers " + num18 + ", " + num19 + " and " + num20 + ", (x+y).z is " + ((num18 + num19) * num20) + " and x.y + y.z is " + (num18 * num19 + num19 * num20));
 
+// 11. Write a C# Sharp program that takes an age (for example 20) as input and prints something like "You look older than 20".
+// Test Data:
+// Enter your age - 25
+// Expected Output:
+// You look older than 25
 
+int num21 = 25;
+
+Console.WriteLine("You look older than " + num21);
