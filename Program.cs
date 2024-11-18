@@ -263,12 +263,15 @@ Console.WriteLine((num25 < 0 && num26 > 0) || (num25 > 0 && num26 < 0));
 
 // 19. Write a C# program to compute the sum of two given integers. If two values are the same, return the triple of their sum.
 
-int num27 = 2;
-int num28 = 2;
+int num27 = 21;
+int num28 = 21;
 
 Console.WriteLine((num27 == num28) ? (num27 + num28) * 3 : num27 + num28);
 
 
 // 20. Write a C# program to get the absolute value of the difference between two given numbers. Return double the absolute value of the difference if the first number is greater than the second number.
 
+int num29 = 24;
+int num30 = 24;
 
+Console.WriteLine((num29 > num30) ? (num29 - num30) * 2 : num29 - num30);
