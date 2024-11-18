@@ -240,6 +240,9 @@ Console.WriteLine(str2[6] + str2[7] + str2[0] + str2[1] + str2[2] + str2[3] + st
 // Input a string : The quick brown fox jumps over the lazy dog.
 // TThe quick brown fox jumps over the lazy dog.T
 
+string str3 = "The quick brown fox jumps over the lazy dog.";
+
+Console.WriteLine(str3[0] + str3 + str3[str3.Length - 1]);
 
 
 // 18. Write a C# program to check a pair of integers and return true if one is negative and one is positive.
