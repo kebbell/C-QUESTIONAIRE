@@ -254,6 +254,10 @@ Console.WriteLine(str3[0] + str3 + str3[str3.Length - 1]);
 // Check if one is negative and one is positive:
 // True
 
+int num25 = -5;
+int num26 = 25;
+
+Console.WriteLine((num25 < 0 && num26 > 0) || (num25 > 0 && num26 < 0));
 
 
 
