@@ -240,37 +240,24 @@ Console.WriteLine(str2[6] + str2[7] + str2[0] + str2[1] + str2[2] + str2[3] + st
 // Input a string : The quick brown fox jumps over the lazy dog.
 // TThe quick brown fox jumps over the lazy dog.T
 
-string str3 = "The quick brown fox jumps over the lazy dog.";
 
-Console.WriteLine(str3.Insert(0, "T"));
-Console.WriteLine(str3.Insert(str3.Length, "T"));
 
-// 18. Write a C# program to convert a given string into lowercase.
-// Test Data:
-// THE QUICK BROWN FOX
-// Expected Output:
-// the quick brown fox
+// 18. Write a C# program to check a pair of integers and return true if one is negative and one is positive.
+// Sample Output:
+// Input first integer:
+// -5
+// Input second integer:
+// 25
+// Check if one is negative and one is positive:
+// True
 
-string str4 = "THE QUICK BROWN FOX";
 
-Console.WriteLine(str4.ToLower());
 
-// 19. Write a C# program to convert a given string into uppercase.
-// Test Data:    
-// the quick brown fox
-// Expected Output:
-// THE QUICK BROWN FOX
 
-string str5 = "the quick brown fox";
+// 19. Write a C# program to compute the sum of two given integers. If two values are the same, return the triple of their sum.
 
-Console.WriteLine(str5.ToUpper());  
 
-// 20. Write a C# program to convert a given string into title case.
-// Test Data:
-// the quick brown fox
-// Expected Output:
-// The Quick Brown Fox
 
-string str6 = "the quick brown fox";
+// 20. Write a C# program to get the absolute value of the difference between two given numbers. Return double the absolute value of the difference if the first number is greater than the second number.
 
-// Console.WriteLine(str6.ToTitleCase());
+
