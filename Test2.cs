@@ -20,14 +20,14 @@ int num26 = 25;
 Console.WriteLine(Math.Abs(100 - num26) <= 20 || Math.Abs(200 - num26) <= 20);
 
 
-
 // 23. Write a C# program to convert a given string into lowercase.
 // Sample Output:
 // write a c# sharp program to display the following pattern using the alphabet.
 // Click me to see the solution
 
+string num27 = "write a c# sharp program to display the following pattern using the alphabet.";
 
-
+Console.WriteLine(num27.ToLower());
 
 // 24. Write a C# program to find the longest word in a string.
 // Test Data: Write a C# Sharp Program to display the following pattern using the alphabet.
