@@ -35,6 +35,9 @@ Console.WriteLine(num27.ToLower());
 // following
 // Click me to see the solution
 
+string num28 = "Write a C# Sharp Program to display the following pattern using the alphabet.";
+
+Console.WriteLine(num28.Split(' ')[0]);
 
 
 // 25. Write a C# program to print odd numbers from 1 to 99. Prints one number per line.
