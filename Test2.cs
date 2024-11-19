@@ -66,6 +66,24 @@ for (int i = 1; i <= 99; i += 2)
 // 824693
 // Click me to see the solution
 
+int sum = 0;
+for (int i = 2; i <= 500; i++)
+{
+    bool isPrime = true;
+    for (int j = 2; j < i; j++)
+    {
+        if (i % j == 0)
+        {
+            isPrime = false;
+            break;
+        }
+    }
+    if (isPrime)
+    {
+        sum += i;
+    }
+}
+Console.WriteLine(sum);
 
 
 // 27. Write a C# program and compute the sum of an integer's digits.
