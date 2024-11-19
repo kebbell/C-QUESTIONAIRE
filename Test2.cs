@@ -54,6 +54,10 @@ Console.WriteLine(num28.Split(' ')[0]);
 // 99
 // Click me to see the solution
 
+for (int i = 1; i <= 99; i += 2)
+{
+    Console.WriteLine(i);
+}
 
 
 // 26. Write a C# program to compute the sum of the first 500 prime numbers.
