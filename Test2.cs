@@ -15,6 +15,9 @@ Console.WriteLine(num24 + num25 == 20 || num24 == 20 || num25 == 20);
 // False
 // Click me to see the solution
 
+int num26 = 25;
+
+Console.WriteLine(Math.Abs(100 - num26) <= 20 || Math.Abs(200 - num26) <= 20);
 
 
 
