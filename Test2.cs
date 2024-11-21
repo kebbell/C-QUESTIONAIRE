@@ -114,11 +114,14 @@ Array.Reverse(words);
 Console.WriteLine(string.Join(" ", words));
 
 
-
 // 29. Write a C# program to find the size of a specified file in bytes.
 // Sample Output:
 // Size of a file: 31
 // Click me to see the solution
+
+string path = @"C:\Users\...\Test.txt";
+FileInfo file = new FileInfo(path);
+Console.WriteLine(file.Length);
 
 
 
