@@ -92,6 +92,14 @@ Console.WriteLine(sum);
 // Sum of the digits of the said integer: 3
 // Click me to see the solution
 
+int num29 = 12;
+int sum2 = 0;
+while (num29 > 0)
+{
+    sum2 += num29 % 10;
+    num29 /= 10;
+}
+Console.WriteLine(sum2);
 
 
 // 28. Write a C# program to reverse the words of a sentence.
@@ -99,6 +107,11 @@ Console.WriteLine(sum);
 // Original String: Display the pattern like pyramid using the alphabet.
 // Reverse String: alphabet. the using pyramid like pattern the Display
 // Click me to see the solution
+
+string str = "Display the pattern like pyramid using the alphabet.";
+string[] words = str.Split(' ');
+Array.Reverse(words);
+Console.WriteLine(string.Join(" ", words));
 
 
 
