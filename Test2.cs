@@ -136,8 +136,6 @@ string hex = "4B0";
 int dec = Convert.ToInt32(hex, 16);
 Console.WriteLine(dec);
 
-
-
 // 31. Write a C# program to multiply the corresponding elements of two integer arrays.
 // Sample Output:
 // Array1: [1, 3, -5, 4]
@@ -145,6 +143,14 @@ Console.WriteLine(dec);
 // Multiply corresponding elements of two arrays:
 // 1 12 25 -8
 // Click me to see the solution
+
+int[] arr1 = { 1, 3, -5, 4 };
+int[] arr2 = { 1, 4, -5, -2 };
+
+for (int i = 0; i < arr1.Length; i++)
+{
+    Console.Write(arr1[i] * arr2[i] + " ");
+}
 
 
 
