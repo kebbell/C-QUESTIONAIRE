@@ -132,6 +132,10 @@ Console.WriteLine(file.Length);
 // Decimal number: 1200
 // Click me to see the solution
 
+string hex = "4B0";
+int dec = Convert.ToInt32(hex, 16);
+Console.WriteLine(dec);
+
 
 
 // 31. Write a C# program to multiply the corresponding elements of two integer arrays.
