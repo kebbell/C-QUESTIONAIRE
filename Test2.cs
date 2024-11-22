@@ -236,6 +236,16 @@ else
 // True
 // Click me to see the solution
 
+int num34 = -5;
+int num35 = 8;
+if (num34 >= -10 && num34 <= 10 && num35 >= -10 && num35 <= 10)
+{
+    Console.WriteLine("True");
+}
+else
+{
+    Console.WriteLine("False");
+}   
 
 
 // 37. Write a C# program to check if "HP" appears at the second position in a string and return the string without "HP".
@@ -244,6 +254,15 @@ else
 // P Tutorial
 // Click me to see the solution
 
+string str4 = "PHP Tutorial";
+if (str4.Contains("HP", 1))
+{
+    Console.WriteLine(str4.Remove(1, 2));
+}
+else
+{
+    Console.WriteLine(str4);
+}
 
 
 // 38. Write a C# program to get a string of two characters from a given string. The first and second characters of the given string must be "P" and "H", so PHP will be "PH".
@@ -252,6 +271,15 @@ else
 // PH
 // Click me to see the solution
 
+string str5 = "PHP";
+if (str5[0] == 'P' && str5[1] == 'H')
+{
+    Console.WriteLine(str5.Substring(0, 2));
+}
+else
+{
+    Console.WriteLine(str5);
+}
 
 
 // 39. Write a C# program to find the largest and lowest values from three integer values.
