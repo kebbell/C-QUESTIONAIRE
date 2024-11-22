@@ -160,6 +160,15 @@ for (int i = 0; i < arr1.Length; i++)
 // dog.dog.dog.dog.
 // Click me to see the solution
 
+string str2 = "The quick brown fox jumps over the lazy dog.";
+if (str2.Length >= 4)
+{
+    Console.WriteLine(str2.Substring(str2.Length - 4));
+}
+else
+{
+    Console.WriteLine(str2);
+}
 
 
 // 33. Write a C# program to check if a given positive number is a multiple of 3 or 7.
