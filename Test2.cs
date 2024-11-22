@@ -255,7 +255,7 @@ else
 // Click me to see the solution
 
 string str4 = "PHP Tutorial";
-if (str4.Contains("HP", 1))
+if (str4.Length >= 3 && str4.Substring(1, 2) == "HP")
 {
     Console.WriteLine(str4.Remove(1, 2));
 }
@@ -272,7 +272,7 @@ else
 // Click me to see the solution
 
 string str5 = "PHP";
-if (str5[0] == 'P' && str5[1] == 'H')
+if (str5.Length >= 2 && str5.Substring(0, 1) == "P" && str5.Substring(1, 1) == "H")
 {
     Console.WriteLine(str5.Substring(0, 2));
 }
