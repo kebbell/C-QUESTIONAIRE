@@ -295,6 +295,24 @@ else
 // Lowest of three: 15
 // Click me to see the solution
 
+int num36 = 15;
+int num37 = 25;
+int num38 = 30;
+if (num36 >= num37 && num36 >= num38)
+{
+    Console.WriteLine("Largest of three: " + num36);
+    Console.WriteLine("Lowest of three: " + num38);
+}
+else if (num37 >= num36 && num37 >= num38)
+{
+    Console.WriteLine("Largest of three: " + num37);
+    Console.WriteLine("Lowest of three: " + num36);
+}
+else if (num38 >= num36 && num38 >= num37)
+{
+    Console.WriteLine("Largest of three: " + num38);
+    Console.WriteLine("Lowest of three: " + num37);
+}
 
 
 // 40. Write a C# program that checks the nearest value of 20 of two given integers and return 0 if two numbers are same.
