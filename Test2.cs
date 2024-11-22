@@ -199,6 +199,15 @@ else
 // True
 // Click me to see the solution
 
+string str3 = "Hello how are you?";
+if (str3.StartsWith("Hello"))
+{
+    Console.WriteLine("True");
+}
+else
+{
+    Console.WriteLine("False");
+}
 
 
 // 35. Write a C# program to check two given numbers where one is less than 100 and the other is greater than 200.
