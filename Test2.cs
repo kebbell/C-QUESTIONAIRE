@@ -325,6 +325,20 @@ else if (num38 >= num36 && num38 >= num37)
 // 15
 // Click me to see the solution
 
+int num39 = 15;
+int num40 = 12;
+if (Math.Abs(num39 - 20) < Math.Abs(num40 - 20))
+{
+    Console.WriteLine(num39);
+}
+else if (Math.Abs(num39 - 20) > Math.Abs(num40 - 20))
+{
+    Console.WriteLine(num40);
+}
+else
+{
+    Console.WriteLine(0);
+}
 
 
 // 41. Write a C# program to check if a given string contains the 'w' character between 1 and 3 times.
