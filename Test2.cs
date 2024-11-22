@@ -178,6 +178,16 @@ else
 // True
 // Click me to see the solution
 
+int num31 = 15;
+if (num31 % 3 == 0 || num31 % 7 == 0)
+{
+    Console.WriteLine("True");
+}
+else
+{
+    Console.WriteLine("False");
+}
+
 
 
 // 34. Write a C# program to check if a string starts with a specified word.
