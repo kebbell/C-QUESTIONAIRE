@@ -217,6 +217,16 @@ else
 // True
 // Click me to see the solution
 
+int num32 = 75;
+int num33 = 250;
+if (num32 < 100 && num33 > 200)
+{
+    Console.WriteLine("True");
+}
+else
+{
+    Console.WriteLine("False");
+}
 
 
 // 36. Write a C# program to check if an integer (from the two given integers) is in the range -10 to 10.
