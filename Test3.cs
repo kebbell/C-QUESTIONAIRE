@@ -78,6 +78,18 @@ for (int i = 0; i < str4.Length; i += 2)
 // Number of 5 present in the said array: 2
 // Click me to see the solution
 
+int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+int num = 5;
+int count1 = 0;
+for (int i = 0; i < arr.Length; i++)
+{
+    if (arr[i] == num)
+    {
+        count++;
+    }
+}
+Console.WriteLine("Number of " + num + " present in the said array: " + count);
+
 // 46. Write a C# program to check if a number appears as the first or last element of an array of integers. The array length is 1 or more.
 // Test Data:
 // Input an integer: 25
