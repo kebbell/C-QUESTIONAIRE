@@ -48,6 +48,16 @@ else
 // False
 // Click me to see the solution
 
+string str3 = "www";
+if (str3.StartsWith("w") && str3.Substring(1, 2) == "ww")
+{
+    Console.WriteLine("True");
+}
+else
+{
+    Console.WriteLine("False");
+}
+
 // 44. Write a C# program to create a string of every other character (odd position) from the first position of a given string.
 // Test Data:
 // Input a string : w3resource
