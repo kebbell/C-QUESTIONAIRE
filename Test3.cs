@@ -65,6 +65,12 @@ else
 // wrsuc
 // Click me to see the solution
 
+string str4 = "w3resource";
+for (int i = 0; i < str4.Length; i += 2)
+{
+    Console.Write(str4[i]);
+}
+
 // 45. Write a C# program to count a specified number in a given array of integers.
 // Test Data:
 // Input an integer: 5
