@@ -130,6 +130,16 @@ Console.WriteLine("Sum: " + sum);
 // True
 // Click me to see the solution
 
+int[] arr3 = { 1, 2, 2, 3, 3, 4, 5, 6, 5, 7, 7, 7, 8, 8, 1 };
+if (arr3[0] == arr3[arr3.Length - 1])
+{
+    Console.WriteLine("True");
+}
+else
+{
+    Console.WriteLine("False");
+}
+
 // 49. Write a C# program to check if the first or the last element of the two arrays (length 1 or more) are equal.
 // Test Data:
 // Array1: [1, 2, 2, 3, 3, 4, 5, 6, 5, 7, 7, 7, 8, 8, 1]
