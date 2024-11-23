@@ -97,12 +97,31 @@ Console.WriteLine("Number of " + num + " present in the said array: " + count1);
 // False
 // Click me to see the solution
 
+int[] arr1 = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+int num1 = 25;
+if (arr1[0] == num1 || arr1[arr1.Length - 1] == num1)
+{
+    Console.WriteLine("True");
+}
+else
+{
+    Console.WriteLine("False");
+}
+
 // 47. Write a C# program to compute the sum of all the elements of an array of integers.
 // Test Data:
 // Array1: [1, 2, 2, 3, 3, 4, 5, 6, 5, 7, 7, 7, 8, 8, 1]
 // Sample Output
 // Sum: 69
 // Click me to see the solution
+
+int[] arr2 = { 1, 2, 2, 3, 3, 4, 5, 6, 5, 7, 7, 7, 8, 8, 1 };
+int sum = 0;
+for (int i = 0; i < arr2.Length; i++)
+{
+    sum += arr2[i];
+}
+Console.WriteLine("Sum: " + sum);
 
 // 48. Write a C# program that checks if the first element and the last element of an array of integers are equal. The array length is 1 or more.
 // Test Data:
