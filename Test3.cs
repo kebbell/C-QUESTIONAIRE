@@ -85,10 +85,10 @@ for (int i = 0; i < arr.Length; i++)
 {
     if (arr[i] == num)
     {
-        count++;
+        count1++;
     }
 }
-Console.WriteLine("Number of " + num + " present in the said array: " + count);
+Console.WriteLine("Number of " + num + " present in the said array: " + count1);
 
 // 46. Write a C# program to check if a number appears as the first or last element of an array of integers. The array length is 1 or more.
 // Test Data:
