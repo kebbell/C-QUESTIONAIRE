@@ -166,6 +166,13 @@ else
 // After rotating array becomes: [2, 8, 1]
 // Click me to see the solution
 
+int[] arr6 = { 1, 2, 8 };
+int temp = arr6[0];
+arr6[0] = arr6[1];
+arr6[1] = arr6[2];
+arr6[2] = temp;
+Console.WriteLine("After rotating array becomes: " + arr6[0] + ", " + arr6[1] + ", " + arr6[2]);
+
 // 51. Write a C# program to get the largest value between the first and last element of an array (length 3) of integers.
 // Test Data:
 // Array1: [1, 2, 5, 7, 8]
