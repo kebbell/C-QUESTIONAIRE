@@ -179,6 +179,17 @@ Console.WriteLine("After rotating array becomes: " + arr6[0] + ", " + arr6[1] + 
 // Highest value between first and last values of the said array: 8
 // Click me to see the solution
 
+int[] arr7 = { 1, 2, 5, 7, 8 };
+int max = arr7[0];
+for (int i = 1; i < arr7.Length; i++)
+{
+    if (arr7[i] > max)
+    {
+        max = arr7[i];
+    }
+}
+Console.WriteLine("Highest value between first and last values of the said array: " + max);
+
 // 52. Write a C# program to create a new array of length containing the middle elements of three arrays (each length 3) of integers.
 // Test Data:
 // Array1: [1, 2, 5]
