@@ -149,6 +149,17 @@ else
 // True
 // Click me to see the solution
 
+int[] arr4 = { 1, 2, 2, 3, 3, 4, 5, 6, 5, 7, 7, 7, 8, 8, 1 };
+int[] arr5 = { 1, 2, 2, 3, 3, 4, 5, 6, 5, 7, 7, 7, 8, 8, 5 };
+if (arr4[0] == arr5[0] || arr4[arr4.Length - 1] == arr5[arr5.Length - 1])
+{
+    Console.WriteLine("True");
+}
+else
+{
+    Console.WriteLine("False");
+}
+
 // 50. Write a C# program to rotate an array (length 3) of integers in the left direction.
 // Test Data:
 // Array1: [1, 2, 8]
