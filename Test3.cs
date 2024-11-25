@@ -235,6 +235,18 @@ Console.WriteLine("Century of " + year + " is " + century);
 // 55. Write a C# program to find the pair of adjacent elements that has the largest product of the given array.
 // Click me to see the solution
 
+int[] arr13 = { 1, 2, 3, 4, 5 };
+int maxProduct = arr13[0] * arr13[1];
+for (int i = 1; i < arr13.Length - 1; i++)
+{
+    int product = arr13[i] * arr13[i + 1];
+    if (product > maxProduct)
+    {
+        maxProduct = product;
+    }
+}
+Console.WriteLine("Pair of adjacent elements that has the largest product of the given array: " + maxProduct);
+
 // 56. Write a C# program to check if a given string is a palindrome or not.
 // Sample Example:
 // For 'aaa' the output should be true
