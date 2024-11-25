@@ -268,6 +268,18 @@ Console.WriteLine("For '" + str5 + "' the output should be " + isPalindrome);
 // 57. Write a C# program to find the pair of adjacent elements that has the highest product of an array of integers.
 // Click me to see the solution
 
+int[] arr14 = { 1, 2, 3, 4, 5 };
+int maxProduct2 = arr14[0] * arr14[1];
+for (int i = 1; i < arr14.Length - 1; i++)
+{
+    int product = arr14[i] * arr14[i + 1];
+    if (product > maxProduct2)
+    {
+        maxProduct2 = product;
+    }
+}
+Console.WriteLine("Pair of adjacent elements that has the highest product of an array of integers: " + maxProduct2);
+
 
 
 // 58. Write a C# program that accepts a list of integers and checks how many integers are needed to complete the range.
