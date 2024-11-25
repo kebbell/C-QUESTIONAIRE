@@ -198,6 +198,15 @@ Console.WriteLine("Highest value between first and last values of the said array
 // New array: [2, 3, 0]
 // Click me to see the solution
 
+int[] arr8 = { 1, 2, 5 };
+int[] arr9 = { 0, 3, 8 };
+int[] arr10 = { -1, 0, 2 };
+int[] arr11 = new int[3];
+arr11[0] = arr8[1];
+arr11[1] = arr9[1];
+arr11[2] = arr10[1];
+Console.WriteLine("New array: " + arr11[0] + ", " + arr11[1] + ", " + arr11[2]);
+
 // 53. Write a C# program to check if an array contains an odd number.
 // Test Data:
 // Original array: [2, 4, 7, 8, 6]
