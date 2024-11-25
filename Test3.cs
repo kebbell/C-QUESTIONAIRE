@@ -213,8 +213,24 @@ Console.WriteLine("New array: " + arr11[0] + ", " + arr11[1] + ", " + arr11[2]);
 // Check if an array contains an odd number? True
 // Click me to see the solution
 
+int[] arr12 = { 2, 4, 7, 8, 6 };
+bool isOdd = false;
+for (int i = 0; i < arr12.Length; i++)
+{
+    if (arr12[i] % 2 != 0)
+    {
+        isOdd = true;
+        break;
+    }
+}
+Console.WriteLine("Check if an array contains an odd number? " + isOdd);
+
 // 54. Write a C# program to get the century of a year.
 // Click me to see the solution
+
+int year = 2023;
+int century = year / 100 + 1;
+Console.WriteLine("Century of " + year + " is " + century);
 
 // 55. Write a C# program to find the pair of adjacent elements that has the largest product of the given array.
 // Click me to see the solution
