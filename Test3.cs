@@ -253,6 +253,18 @@ Console.WriteLine("Pair of adjacent elements that has the largest product of the
 // For 'abcd' the output should be false
 // Click me to see the solution
 
+string str5 = "aaa";
+bool isPalindrome = true;
+for (int i = 0; i < str5.Length / 2; i++)
+{
+    if (str5[i] != str5[str5.Length - 1 - i])
+    {
+        isPalindrome = false;
+        break;
+    }
+}
+Console.WriteLine("For '" + str5 + "' the output should be " + isPalindrome);
+
 // 57. Write a C# program to find the pair of adjacent elements that has the highest product of an array of integers.
 // Click me to see the solution
 
