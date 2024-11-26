@@ -13,6 +13,10 @@ for (int i = 0; i < arr8.Length; i++)
     }
 }
 Array.Sort(arr9);
+for (int i = 0; i < arr9.Length; i++)
+{
+    Console.Write(arr9[i] + " ");
+}
 
 // 62. Write a C# program to reverse the strings contained in each pair of matching parentheses in a given string. It should also remove the parentheses from the given string.
 // Click me to see the solution
