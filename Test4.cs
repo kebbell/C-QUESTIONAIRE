@@ -43,6 +43,19 @@ Console.WriteLine(str2);
 // 63. Write a C# program to check if a given number is present in an array of numbers.
 // Click me to see the solution
 
+int[] arr10 = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+int num1 = 5;
+bool isPresent = false;
+for (int i = 0; i < arr10.Length; i++)
+{
+    if (arr10[i] == num1)
+    {
+        isPresent = true;
+        break;
+    }
+}
+Console.WriteLine("Is " + num1 + " present in the array? " + isPresent);
+
 // 64. Write a C# Sharp program to get the file name (including extension) from a given path.
 // Click me to see the solution
 
