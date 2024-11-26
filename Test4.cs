@@ -77,6 +77,13 @@ Console.WriteLine("Product: " + product);
 // 66. Write a C# Sharp program to find the minimum value from two numbers given to you, represented as a string.
 // Click me to see the solution
 
+string num2 = "10";
+string num3 = "20";
+int num4 = int.Parse(num2);
+int num5 = int.Parse(num3);
+int min = Math.Min(num4, num5);
+Console.WriteLine("Minimum value: " + min);
+
 // 67. Write a C# Sharp program to create a coded string from a given string, using a specified formula.
 // Replace all 'P' with '9', 'T' with '0', 'S' with '1', 'H' with '6' and 'A' with '8'.
 // Sample Output:
