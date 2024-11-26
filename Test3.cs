@@ -286,6 +286,19 @@ Console.WriteLine("Pair of adjacent elements that has the highest product of an 
 // Sample Example [1, 3, 4, 7, 9], between 1-9 -> 2, 5, 6, 8 are not present in the list. So output will be 4.
 // Click me to see the solution
 
+int[] arr15 = { 1, 3, 4, 7, 9 };
+int min = 1;
+int max1 = 9;
+int count2 = 0;
+for (int i = 0; i < arr15.Length; i++)
+{
+    if (arr15[i] < min || arr15[i] > max1)
+    {
+        count2++;
+    }
+}
+Console.WriteLine("Between " + min + "-" + max + " -> " + count);
+
 
 
 // 59. Write a C# program to check whether it is possible to create a strictly increasing sequence from a given sequence of integers as an array.
