@@ -328,3 +328,17 @@ Console.WriteLine("It is possible to create a strictly increasing sequence from 
 // [X, X, X, X]]
 // Therefore sum will be: 2 + 3 + 2 + 6 + 1 = 14
 // Click me to see the solution
+
+int[,] matrix = { { 0, 2, 3, 2 }, { 0, 6, 0, 1 }, { 4, 0, 3, 0 } };
+int sum2 = 0;
+for (int i = 0; i < matrix.GetLength(0); i++)
+{
+    for (int j = 0; j < matrix.GetLength(1); j++)
+    {
+        if (matrix[i, j] != 0)
+        {
+            sum2 += matrix[i, j];
+        }
+    }
+}
+Console.WriteLine("Eligible integers which will be participated to calculate the sum - " + sum);
