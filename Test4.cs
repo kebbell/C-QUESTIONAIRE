@@ -21,6 +21,25 @@ for (int i = 0; i < arr9.Length; i++)
 // 62. Write a C# program to reverse the strings contained in each pair of matching parentheses in a given string. It should also remove the parentheses from the given string.
 // Click me to see the solution
 
+string str1 = "Hello (W3resource) World";
+string str2 = "";
+for (int i = 0; i < str1.Length; i++)
+{
+    if (str1[i] == '(')
+    {
+        str2 += " ";
+    }
+    else if (str1[i] == ')')
+    {
+        str2 += " ";
+    }
+    else
+    {
+        str2 += str1[i];
+    }
+}
+Console.WriteLine(str2);
+
 // 63. Write a C# program to check if a given number is present in an array of numbers.
 // Click me to see the solution
 
