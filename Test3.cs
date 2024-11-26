@@ -304,7 +304,17 @@ Console.WriteLine("Between " + min + "-" + max + " -> " + count);
 // 59. Write a C# program to check whether it is possible to create a strictly increasing sequence from a given sequence of integers as an array.
 // Click me to see the solution
 
-
+int[] arr16 = { 1, 2, 3, 4, 5 };
+bool isIncreasing = true;
+for (int i = 1; i < arr16.Length; i++)
+{
+    if (arr16[i] <= arr16[i - 1])
+    {
+        isIncreasing = false;
+        break;
+    }
+}
+Console.WriteLine("It is possible to create a strictly increasing sequence from a given sequence of integers as an array: " + isIncreasing);
 
 
 // 60. Write a C# program to calculate the sum of all integers in a rectangular matrix. However, exclude those integers located below an integer of value 0.
