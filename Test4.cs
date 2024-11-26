@@ -59,8 +59,20 @@ Console.WriteLine("Is " + num1 + " present in the array? " + isPresent);
 // 64. Write a C# Sharp program to get the file name (including extension) from a given path.
 // Click me to see the solution
 
+string path = "C:\\Users\\user\\Desktop\\test.txt";
+string fileName = Path.GetFileName(path);
+Console.WriteLine("File name: " + fileName);
+
 // 65. Write a C# Sharp program to multiply all elements of a given array of numbers by array length.
 // Click me to see the solution
+
+int[] arr11 = { 1, 2, 3, 4, 5 };
+int product = 1;
+for (int i = 0; i < arr11.Length; i++)
+{
+    product *= arr11[i];
+}
+Console.WriteLine("Product: " + product);
 
 // 66. Write a C# Sharp program to find the minimum value from two numbers given to you, represented as a string.
 // Click me to see the solution
