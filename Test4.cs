@@ -320,6 +320,15 @@ Console.WriteLine("Sum of squares of elements of the said array: " + sum7);
 // Return value and type: 122, System.String
 // Click me to see the solution
 
+string str32 = "50";
+int int1 = int.Parse(str32);
+Console.WriteLine("Original value and type: " + str32 + ", " + str32.GetType());
+Console.WriteLine("Convert string to integer:");
+Console.WriteLine("Return value and type: " + int1 + ", " + int1.GetType());
+int int2 = 122;
+Console.WriteLine("Original value and type: " + int2 + ", " + int2.GetType());
+Console.WriteLine("Convert integer to string:");
+Console.WriteLine("Return value and type: " + int2.ToString() + ", " + int2.GetType());
 
 
 // 80. Write a C# Sharp program to convert all the values of a given array of mixed values to string values.
