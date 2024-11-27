@@ -91,6 +91,37 @@ Console.WriteLine("Minimum value: " + min);
 // J8V81CRI90
 // Click me to see the solution
 
+string str21 = "PHP";
+string codedStr = "";
+for (int i = 0; i < str21.Length; i++)
+{
+    if (str21[i] == 'P')
+    {
+        codedStr += "9";
+    }
+    else if (str21[i] == 'T')
+    {
+        codedStr += "0";
+    }
+    else if (str21[i] == 'S')
+    {
+        codedStr += "1";
+    }
+    else if (str21[i] == 'H')
+    {
+        codedStr += "6";
+    }
+    else if (str21[i] == 'A')
+    {
+        codedStr += "8";
+    }
+    else
+    {
+        codedStr += str21[i];
+    }
+}
+Console.WriteLine(codedStr);
+
 // 68. Write a C# Sharp program to count a specified character (both cases) in a given string.
 // Click me to see the solution
 
