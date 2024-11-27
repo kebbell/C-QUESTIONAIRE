@@ -125,6 +125,18 @@ Console.WriteLine(codedStr);
 // 68. Write a C# Sharp program to count a specified character (both cases) in a given string.
 // Click me to see the solution
 
+string str22 = "w3resource";
+char ch = 'e';
+int count1 = 0;
+for (int i = 0; i < str22.Length; i++)
+{
+    if (str22[i] == ch || str22[i] == char.ToUpper(ch))
+    {
+        count1++;
+    }
+}
+Console.WriteLine("Count of " + ch + ": " + count1);
+
 // 69. Write a C# Sharp program to check if a given string contains only lowercase or uppercase characters.
 // Click me to see the solution
 
