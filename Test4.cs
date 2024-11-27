@@ -246,6 +246,11 @@ Console.WriteLine("Convert the letters of the said string into alphabetical orde
 // Convert the letters of the said string into alphabetical order: Even length
 // Click me to see the solution
 
+string str27 = "PHP";
+bool isOdd = str27.Length % 2 != 0;
+Console.WriteLine("Original string: " + str27);
+Console.WriteLine("Convert the letters of the said string into alphabetical order: " + (isOdd ? "Odd length" : "Even length"));
+
 // 75. Write a C# Sharp program that takes a positive number and returns the nth odd number.
 // Sample Output:
 // 1st odd number: 1
