@@ -227,6 +227,15 @@ Console.WriteLine("Check the average value of the said array is a whole number o
 // Convert the letters of the said string into alphabetical order: hnopty
 // Click me to see the solution
 
+string str26 = "PHP";
+string sortedStr = "";
+for (int i = 0; i < str26.Length; i++)
+{
+    sortedStr += char.ToLower(str26[i]);
+}
+Console.WriteLine("Original string: " + str26);
+Console.WriteLine("Convert the letters of the said string into alphabetical order: " + sortedStr);
+
 // 74. Write a C# Sharp program to check the length of a given string is odd or even. Return 'Odd length' if the string length is odd otherwise 'Even length'.
 // Sample Output:
 // Original string: PHP
