@@ -167,6 +167,10 @@ Console.WriteLine("Check if the string contains only lowercase or uppercase char
 // After removing first and last elements: avaScrip
 // Click me to see the solution
 
+string str24 = "PHP";
+string newStr = str24.Substring(1, str24.Length - 2);
+Console.WriteLine("Original string: " + str24);
+Console.WriteLine("After removing first and last elements: " + newStr);
 
 
 // 71. Write a C# Sharp program to check if a given string contains two similar consecutive letters.
@@ -180,6 +184,19 @@ Console.WriteLine("Check if the string contains only lowercase or uppercase char
 // Original string: PPHP
 // Test for consecutive similar letters! True
 // Click me to see the solution
+
+string str25 = "PHP";
+bool isSimilar = false;
+for (int i = 0; i < str25.Length - 1; i++)
+{
+    if (str25[i] == str25[i + 1])
+    {
+        isSimilar = true;
+        break;
+    }
+}
+Console.WriteLine("Original string: " + str25);
+Console.WriteLine("Test for consecutive similar letters! " + isSimilar);
 
 // 72. Write a C# Sharp program to check whether the average value of the elements of a given array of numbers is a whole number or not.
 // Sample Output:
