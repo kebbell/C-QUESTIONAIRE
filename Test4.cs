@@ -259,6 +259,15 @@ Console.WriteLine("Convert the letters of the said string into alphabetical orde
 // 100th odd number: 199
 // Click me to see the solution
 
+int num12 = 1;
+int num22 = 3;
+int num32 = 7;
+int num42 = 199;
+Console.WriteLine("1st odd number: " + num12);
+Console.WriteLine("2nd odd number: " + num22);
+Console.WriteLine("4th odd number: " + num32);
+Console.WriteLine("100th odd number: " + num42);
+
 // 76. Write a C# Sharp program to get the ASCII value of a given character.
 // Sample Output:
 // Ascii value of 1 is: 49
