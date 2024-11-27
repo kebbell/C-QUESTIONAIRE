@@ -276,6 +276,9 @@ Console.WriteLine("100th odd number: " + num42);
 // Ascii value of # is: 35
 // Click me to see the solution
 
+char char1 = '1';
+Console.WriteLine("Ascii value of " + char1 + " is: " + (int)char1);
+
 // 77. Write a C# Sharp program to check whether a word is plural or not.
 // Sample Output:
 // Is 'Exercise' is plural? False
