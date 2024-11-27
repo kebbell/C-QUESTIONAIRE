@@ -140,6 +140,23 @@ Console.WriteLine("Count of " + ch + ": " + count1);
 // 69. Write a C# Sharp program to check if a given string contains only lowercase or uppercase characters.
 // Click me to see the solution
 
+string str23 = "w3resource";
+bool isLowercase = true;
+bool isUppercase = true;
+for (int i = 0; i < str23.Length; i++)
+{
+    if (char.IsLower(str23[i]))
+    {
+        isLowercase = false;
+    }
+    else if (char.IsUpper(str23[i]))
+    {
+        isUppercase = false;
+    }
+}
+Console.WriteLine("Check if the string contains only lowercase or uppercase characters: " + (isLowercase && isUppercase));
+
+
 // 70. Write a C# Sharp program to remove the first and last elements from a given string.
 // Sample Output:
 // Original string: PHP
