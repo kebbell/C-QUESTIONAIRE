@@ -302,6 +302,14 @@ Console.WriteLine("Is '" + str31 + "' is plural? " + (str31.EndsWith("s") ? "Tru
 // Sum of squares of elements of the said array: 29
 // Click me to see the solution
 
+int[] arr81 = { 1, 2, 3, 4, 5 };
+int sum7 = 0;
+for (int i = 0; i < arr81.Length; i++)
+{
+    sum += arr81[i] * arr81[i];
+}
+Console.WriteLine("Sum of squares of elements of the said array: " + sum7);
+
 // 79. Write a C# Sharp program to convert an integer to a string and a string to an integer.
 // Sample Output:
 // Original value and type: 50, System.String
@@ -311,6 +319,8 @@ Console.WriteLine("Is '" + str31 + "' is plural? " + (str31.EndsWith("s") ? "Tru
 // Convert integer to string:
 // Return value and type: 122, System.String
 // Click me to see the solution
+
+
 
 // 80. Write a C# Sharp program to convert all the values of a given array of mixed values to string values.
 // Sample Output:
