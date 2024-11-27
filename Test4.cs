@@ -206,6 +206,17 @@ Console.WriteLine("Test for consecutive similar letters! " + isSimilar);
 // Check the average value of the said array is a whole number or not: False
 // Click me to see the solution
 
+int[] nums = { 1, 2, 3, 5, 4, 2, 3, 4 };
+int sum = 0;
+for (int i = 0; i < nums.Length; i++)
+{
+    sum += nums[i];
+}
+int avg = sum / nums.Length;
+Console.WriteLine("nums = { " + string.Join(", ", nums) + " }");
+Console.WriteLine("Check the average value of the said array is a whole number or not: " + (avg % 1 == 0));
+
+
 // 73. Write a C# Sharp program to convert the letters of a given string (same case-upper/lower) into alphabetical order.
 // Sample Output:
 // Original string: PHP
