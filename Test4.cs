@@ -167,6 +167,8 @@ Console.WriteLine("Check if the string contains only lowercase or uppercase char
 // After removing first and last elements: avaScrip
 // Click me to see the solution
 
+
+
 // 71. Write a C# Sharp program to check if a given string contains two similar consecutive letters.
 // Sample Output:
 // Original string: PHP
