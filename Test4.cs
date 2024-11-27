@@ -287,6 +287,15 @@ Console.WriteLine("Ascii value of " + char1 + " is: " + (int)char1);
 // Is 'Book' is plural? False
 // Click me to see the solution
 
+string str28 = "Exercise";
+string str29 = "Exercises";
+string str30 = "Books";
+string str31 = "Book";
+Console.WriteLine("Is '" + str28 + "' is plural? " + (str28.EndsWith("s") ? "True" : "False"));
+Console.WriteLine("Is '" + str29 + "' is plural? " + (str29.EndsWith("s") ? "True" : "False"));
+Console.WriteLine("Is '" + str30 + "' is plural? " + (str30.EndsWith("s") ? "True" : "False"));
+Console.WriteLine("Is '" + str31 + "' is plural? " + (str31.EndsWith("s") ? "True" : "False"));
+
 // 78. Write a C# Sharp program to find the sum of squares of elements in a given array of integers.
 // Sample Output:
 // Sum of squares of elements of the said array: 14
