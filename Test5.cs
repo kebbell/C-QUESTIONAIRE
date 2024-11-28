@@ -4,6 +4,12 @@
 // Check whether the said value is greater than its swap value: True
 // Click me to see the solution
 
+int num = Convert.ToInt32(Console.ReadLine());
+int num1 = num / 10;
+int num2 = num % 10;
+int num3 = num1 * 10 + num2;
+Console.WriteLine("Check whether the said value is greater than its swap value: " + (num > num3));
+
 // 82. Write a C# Sharp program to remove all non-letter characters from a given string.
 // From Wikipedia,
 // A letter is a segmental symbol of a phonemic writing system. The inventory of all letters forms the alphabet. Letters broadly correspond to phonemes in the spoken form of the language, although there is rarely a consistent, exact correspondence between letters and phonemes
