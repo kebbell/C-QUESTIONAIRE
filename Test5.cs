@@ -84,6 +84,37 @@ for (int i = 0; i < arr4.Length; i++)
 // After removing all the vowels from the said string: JvScrpt
 // Click me to see the solution
 
+string str1 = "Python";
+string str11 = "C Sharp";
+string str21 = "JavaScript";
+char[] arr1 = str.ToCharArray();
+char[] arr11 = str1.ToCharArray();
+char[] arr21 = str2.ToCharArray();
+for (int i = 0; i < arr1.Length; i++)
+{
+    if (arr1[i] != 'a' && arr1[i] != 'e' && arr1[i] != 'i' && arr1[i] != 'o' && arr1[i] != 'u')
+    {
+        Console.Write(arr1[i]);
+    }
+}
+Console.WriteLine();
+for (int i = 0; i < arr11.Length; i++)
+{
+    if (arr11[i] != 'a' && arr11[i] != 'e' && arr11[i] != 'i' && arr11[i] != 'o' && arr11[i] != 'u')
+    {
+        Console.Write(arr11[i]);
+    }
+}
+Console.WriteLine();
+for (int i = 0; i < arr21.Length; i++)
+{
+    if (arr21[i] != 'a' && arr21[i] != 'e' && arr21[i] != 'i' && arr21[i] != 'o' && arr21[i] != 'u')
+    {
+        Console.Write(arr21[i]);
+    }
+}
+
+
 // 84. Write a C# Sharp program to get the index number of all lower case letters in a given string.
 // Sample Output:
 // Orginal string: Python
