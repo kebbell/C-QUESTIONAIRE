@@ -84,7 +84,7 @@ for (int i = 0; i < arr4.Length; i++)
 // After removing all the vowels from the said string: JvScrpt
 // Click me to see the solution
 
-string str1 = "Python";
+string str0 = "Python";
 string str11 = "C Sharp";
 string str21 = "JavaScript";
 char[] arr1 = str.ToCharArray();
