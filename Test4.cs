@@ -347,3 +347,13 @@ Console.WriteLine("Return value and type: " + int2.ToString() + ", " + int2.GetT
 // Value-> 112.22 :: Type-> System.String
 // Click me to see the solution
 
+object[] arr82 = { 25, "Anna", false, DateTime.Now, 112.22 };
+for (int i = 0; i < arr82.Length; i++)
+{
+    Console.WriteLine("Value-> " + arr82[i] + " :: Type-> " + arr82[i].GetType());
+}
+for (int i = 0; i < arr82.Length; i++)
+{
+    arr82[i] = arr82[i].ToString();
+    Console.WriteLine("Value-> " + arr82[i] + " :: Type-> " + arr82[i].GetType());
+}
