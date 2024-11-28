@@ -84,35 +84,41 @@ for (int i = 0; i < arr4.Length; i++)
 // After removing all the vowels from the said string: JvScrpt
 // Click me to see the solution
 
-string str0 = "Python";
-string str11 = "C Sharp";
-string str21 = "JavaScript";
-char[] arr1 = str.ToCharArray();
-char[] arr11 = str1.ToCharArray();
-char[] arr21 = str2.ToCharArray();
-for (int i = 0; i < arr1.Length; i++)
+string str22 = "Python";
+string str23 = "C Sharp";
+string str24 = "JavaScript";
+// string str25 = "Python";
+// string str26 = "JavaScript";
+string newStr = "";
+string newStr1 = "";
+string newStr2 = "";
+for (int i = 0; i < str22.Length; i++)
 {
-    if (arr1[i] != 'a' && arr1[i] != 'e' && arr1[i] != 'i' && arr1[i] != 'o' && arr1[i] != 'u')
+    if (str22[i] != 'a' && str22[i] != 'e' && str22[i] != 'i' && str22[i] != 'o' && str22[i] != 'u' && str22[i] != 'A' && str22[i] != 'E' && str22[i] != 'I' && str22[i] != 'O' && str22[i] != 'U')
     {
-        Console.Write(arr1[i]);
+        newStr += str22[i];
     }
 }
-Console.WriteLine();
-for (int i = 0; i < arr11.Length; i++)
+for (int i = 0; i < str23.Length; i++)
 {
-    if (arr11[i] != 'a' && arr11[i] != 'e' && arr11[i] != 'i' && arr11[i] != 'o' && arr11[i] != 'u')
+    if (str23[i] != 'a' && str23[i] != 'e' && str23[i] != 'i' && str23[i] != 'o' && str23[i] != 'u' && str23[i] != 'A' && str23[i] != 'E' && str23[i] != 'I' && str23[i] != 'O' && str23[i] != 'U')
     {
-        Console.Write(arr11[i]);
+        newStr1 += str23[i];
     }
 }
-Console.WriteLine();
-for (int i = 0; i < arr21.Length; i++)
+for (int i = 0; i < str24.Length; i++)
 {
-    if (arr21[i] != 'a' && arr21[i] != 'e' && arr21[i] != 'i' && arr21[i] != 'o' && arr21[i] != 'u')
+    if (str24[i] != 'a' && str24[i] != 'e' && str24[i] != 'i' && str24[i] != 'o' && str24[i] != 'u' && str24[i] != 'A' && str24[i] != 'E' && str24[i] != 'I' && str24[i] != 'O' && str24[i] != 'U')
     {
-        Console.Write(arr21[i]);
+        newStr2 += str24[i];
     }
 }
+Console.WriteLine("Orginal string: " + str22);
+Console.WriteLine("After removing all the vowels from the said string: " + newStr);
+Console.WriteLine("Orginal string: " + str23);
+Console.WriteLine("After removing all the vowels from the said string: " + newStr1);
+Console.WriteLine("Orginal string: " + str24);
+Console.WriteLine("After removing all the vowels from the said string: " + newStr2);   
 
 
 // 84. Write a C# Sharp program to get the index number of all lower case letters in a given string.
