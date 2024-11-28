@@ -22,6 +22,58 @@ Console.WriteLine("Check whether the said value is greater than its swap value: 
 // Remove all characters from the said string which are non-letters: sdfdsjlljdslfnoswjeusdfds
 // Click me to see the solution
 
+string str = "Py@th12on";
+string str1 = "Python 3.0";
+string str2 = "2^sdfds*^*^jlljdslfnoswje34u230sdfds984";  
+string str3 = "Python 3.0";
+string str4 = "2^sdfds*^*^jlljdslfnoswje34u230sdfds984";
+char[] arr = str.ToCharArray();
+char[] arr1 = str1.ToCharArray();
+char[] arr2 = str2.ToCharArray();
+char[] arr3 = str3.ToCharArray();
+char[] arr4 = str4.ToCharArray();
+for (int i = 0; i < arr.Length; i++)
+{
+    if (char.IsLetter(arr[i]))
+    {
+        Console.Write(arr[i]);
+    }
+}
+Console.WriteLine();
+for (int i = 0; i < arr1.Length; i++)
+{
+    if (char.IsLetter(arr1[i]))
+    {
+        Console.Write(arr1[i]);
+    }
+}
+Console.WriteLine();
+for (int i = 0; i < arr2.Length; i++)
+{
+    if (char.IsLetter(arr2[i]))
+    {
+        Console.Write(arr2[i]);
+    }
+}
+Console.WriteLine();    
+for (int i = 0; i < arr3.Length; i++)
+{
+    if (char.IsLetter(arr3[i]))
+    {
+        Console.Write(arr3[i]);
+    }
+}
+Console.WriteLine();
+for (int i = 0; i < arr4.Length; i++)
+{
+    if (char.IsLetter(arr4[i]))
+    {
+        Console.Write(arr4[i]);
+    }  
+}
+
+
+
 // 83. Write a C# Sharp program to remove all vowels from a given string.
 // Sample Output:
 // Orginal string: Python
