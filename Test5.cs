@@ -121,137 +121,205 @@
 // Console.WriteLine("After removing all the vowels from the said string: " + newStr2);   
 
 
-// 84. Write a C# Sharp program to get the index number of all lower case letters in a given string.
-// Sample Output:
-// Orginal string: Python
-// Indices of all lower case letters of the said string:
-// 1 2 3 4 5
-// Orginal string: JavaScript
-// Indices of all lower case letters of the said string:
-// 1 2 3 5 6 7 8 9
-// Click me to see the solution
+// // 84. Write a C# Sharp program to get the index number of all lower case letters in a given string.
+// // Sample Output:
+// // Orginal string: Python
+// // Indices of all lower case letters of the said string:
+// // 1 2 3 4 5
+// // Orginal string: JavaScript
+// // Indices of all lower case letters of the said string:
+// // 1 2 3 5 6 7 8 9
+// // Click me to see the solution
 
-string str27 = "Python";
-string str28 = "JavaScript";
-for (int i = 0; i < str27.Length; i++)
-{
-    if (char.IsLower(str27[i]))
-    {
-        Console.Write(i + " ");
-    }
-}
-Console.WriteLine();
-for (int i = 0; i < str28.Length; i++)
-{
-    if (char.IsLower(str28[i]))
-    {
-        Console.Write(i + " ");
-    }
-}   
+// string str27 = "Python";
+// string str28 = "JavaScript";
+// for (int i = 0; i < str27.Length; i++)
+// {
+//     if (char.IsLower(str27[i]))
+//     {
+//         Console.Write(i + " ");
+//     }
+// }
+// Console.WriteLine();
+// for (int i = 0; i < str28.Length; i++)
+// {
+//     if (char.IsLower(str28[i]))
+//     {
+//         Console.Write(i + " ");
+//     }
+// }   
 
-// 85. Write a C# Sharp program to find the cumulative sum of an array of numbers.
-// A cumulative sum is a sequence of partial sums of a given sequence. For example, the cumulative sums of the sequence {x, y, z,...}, are x , x+y , x+y+z
-// Sample Output:
-// Orginal Array elements:
-// 1 3 4 5 6 7
-// Cumulative sum of the said array elements:
-// 1 4 8 13 19 26
-// Orginal Array elements:
-// 1.2 -3 4.1 6 -5.47
-// Cumulative sum of the said array elements:
-// 1.2 -1.8 2.3 8.3 2.83
-// Click me to see the solution
+// // 85. Write a C# Sharp program to find the cumulative sum of an array of numbers.
+// // A cumulative sum is a sequence of partial sums of a given sequence. For example, the cumulative sums of the sequence {x, y, z,...}, are x , x+y , x+y+z
+// // Sample Output:
+// // Orginal Array elements:
+// // 1 3 4 5 6 7
+// // Cumulative sum of the said array elements:
+// // 1 4 8 13 19 26
+// // Orginal Array elements:
+// // 1.2 -3 4.1 6 -5.47
+// // Cumulative sum of the said array elements:
+// // 1.2 -1.8 2.3 8.3 2.83
+// // Click me to see the solution
 
-int[] nums = { 1, 3, 4, 5, 6, 7 };
-int sum = 0;
-for (int i = 0; i < nums.Length; i++)
-{
-    sum += nums[i];
-    Console.Write(sum + " ");
-}
-Console.WriteLine();
-double[] nums1 = { 1.2, -3, 4.1, 6, -5.47 };
-double sum1 = 0;
-for (int i = 0; i < nums1.Length; i++)
-{
-    sum1 += nums1[i];
-    Console.Write(sum1 + " ");
-}
+// int[] nums = { 1, 3, 4, 5, 6, 7 };
+// int sum = 0;
+// for (int i = 0; i < nums.Length; i++)
+// {
+//     sum += nums[i];
+//     Console.Write(sum + " ");
+// }
+// Console.WriteLine();
+// double[] nums1 = { 1.2, -3, 4.1, 6, -5.47 };
+// double sum1 = 0;
+// for (int i = 0; i < nums1.Length; i++)
+// {
+//     sum1 += nums1[i];
+//     Console.Write(sum1 + " ");
+// }
 
-// 86. Write a C# Sharp program to get the number of letters and digits in a given string.
-// Sample Output:
-// Original string:: Python 3.0
-// Number of letters: 6 Number of digits: 2
-// Original string:: dsfkaso230samdm2423sa
-// Number of letters: 14 Number of digits: 7
-// Click me to see the solution
+// // 86. Write a C# Sharp program to get the number of letters and digits in a given string.
+// // Sample Output:
+// // Original string:: Python 3.0
+// // Number of letters: 6 Number of digits: 2
+// // Original string:: dsfkaso230samdm2423sa
+// // Number of letters: 14 Number of digits: 7
+// // Click me to see the solution
 
-string str29 = "Python 3.0";
-int num = 0;
-int num1 = 0;
-for (int i = 0; i < str29.Length; i++)
-{
-    if (char.IsLetter(str29[i]))
-    {
-        num++;
-    }
-    else if (char.IsDigit(str29[i]))
-    {
-        num1++;
-    }
-}
-Console.WriteLine("Original string:: " + str29);
-Console.WriteLine("Number of letters: " + num + " Number of digits: " + num1);
-string str30 = "dsfkaso230samdm2423sa";
-int num2 = 0;
-int num3 = 0;
-for (int i = 0; i < str30.Length; i++)
-{
-    if (char.IsLetter(str30[i]))
-    {
-        num2++;
-    }
-    else if (char.IsDigit(str30[i]))
-    {
-        num3++;
-    }
-}
-Console.WriteLine("Original string:: " + str30);
-Console.WriteLine("Number of letters: " + num2 + " Number of digits: " + num3); 
-
-
-// 87. Write a C# Sharp program to reverse a Boolean value.
-// Sample Output:
-// Original value: False
-// Reverse value: True
-// Original value: True
-// Reverse value: False
-// Click me to see the solution
+// string str29 = "Python 3.0";
+// int num = 0;
+// int num1 = 0;
+// for (int i = 0; i < str29.Length; i++)
+// {
+//     if (char.IsLetter(str29[i]))
+//     {
+//         num++;
+//     }
+//     else if (char.IsDigit(str29[i]))
+//     {
+//         num1++;
+//     }
+// }
+// Console.WriteLine("Original string:: " + str29);
+// Console.WriteLine("Number of letters: " + num + " Number of digits: " + num1);
+// string str30 = "dsfkaso230samdm2423sa";
+// int num2 = 0;
+// int num3 = 0;
+// for (int i = 0; i < str30.Length; i++)
+// {
+//     if (char.IsLetter(str30[i]))
+//     {
+//         num2++;
+//     }
+//     else if (char.IsDigit(str30[i]))
+//     {
+//         num3++;
+//     }
+// }
+// Console.WriteLine("Original string:: " + str30);
+// Console.WriteLine("Number of letters: " + num2 + " Number of digits: " + num3); 
 
 
+// // 87. Write a C# Sharp program to reverse a Boolean value.
+// // Sample Output:
+// // Original value: False
+// // Reverse value: True
+// // Original value: True
+// // Reverse value: False
+// // Click me to see the solution
 
-// 88. Write a C# Sharp program to find the sum of the interior angles (in degrees) of a given polygon. Input the number of straight lines.
-// From Wikipedia,
-// In geometry, a polygon is a plane figure that is described by a finite number of straight line segments connected to form a closed polygonal chain or polygonal circuit. The solid plane region, the bounding circuit, or the two together, may be called a Polygon.
-// Sample Output:
-// Input number of straight lines of the polygon:
-// Sum of the interior angles (in degrees) of the said polygon: -360
-// Click me to see the solution
+// bool value = true;
+// bool value1 = false;
+// Console.WriteLine("Original value: " + value);
+// Console.WriteLine("Reverse value: " + !value);
+// Console.WriteLine("Original value: " + value1);
+// Console.WriteLine("Reverse value: " + !value1);
 
-// 89. Write a C# Sharp program to count positive and negative numbers in a given array of integers.
-// Sample Output:
-// Original Array elements:
-// 10 -11 12 -13 14 -18 19 -20
-// Number of positive numbers: 4
-// Number of negative numbers: 4
-// Original Array elements:
-// -4 -3 -2 0 3 5 6 2 6
-// Number of positive numbers: 5
-// Number of negative numbers: 3
-// Original Array elements:
-// Number of positive numbers: 0
-// Number of negative numbers: 0
-// Click me to see the solution
+
+// // 88. Write a C# Sharp program to find the sum of the interior angles (in degrees) of a given polygon. Input the number of straight lines.
+// // From Wikipedia,
+// // In geometry, a polygon is a plane figure that is described by a finite number of straight line segments connected to form a closed polygonal chain or polygonal circuit. The solid plane region, the bounding circuit, or the two together, may be called a Polygon.
+// // Sample Output:
+// // Input number of straight lines of the polygon:
+// // Sum of the interior angles (in degrees) of the said polygon: -360
+// // Click me to see the solution
+
+// int num11 = Convert.ToInt32(Console.ReadLine());
+// int sum41 = 0;
+// for (int i = 1; i <= num11; i++)
+// {
+//     sum41 += 180 * (num11 - 2);
+// }
+// Console.WriteLine("Sum of the interior angles (in degrees) of the said polygon: " + sum);
+
+// // 89. Write a C# Sharp program to count positive and negative numbers in a given array of integers.
+// // Sample Output:
+// // Original Array elements:
+// // 10 -11 12 -13 14 -18 19 -20
+// // Number of positive numbers: 4
+// // Number of negative numbers: 4
+// // Original Array elements:
+// // -4 -3 -2 0 3 5 6 2 6
+// // Number of positive numbers: 5
+// // Number of negative numbers: 3
+// // Original Array elements:
+// // Number of positive numbers: 0
+// // Number of negative numbers: 0
+// // Click me to see the solution
+
+// int[] nums2 = { 10, -11, 12, -13, 14, -18, 19, -20 };
+// int num12 = 0;
+// int num22 = 0;
+// for (int i = 0; i < nums2.Length; i++)
+// {
+//     if (nums2[i] > 0)
+//     {
+//         num12++;
+//     }
+//     else if (nums2[i] < 0)
+//     {
+//         num22++;
+//     }
+// }
+// Console.WriteLine("Original Array elements:");
+// for (int i = 0; i < nums2.Length; i++)
+// {
+//     Console.Write(nums2[i] + " ");
+// }
+// Console.WriteLine();
+// Console.WriteLine("Number of positive numbers: " + num12);
+// Console.WriteLine("Number of negative numbers: " + num22);
+// int[] nums3 = { -4, -3, -2, 0, 3, 5, 6, 2, 6 };
+// int num13 = 0;
+// int num23 = 0;
+// for (int i = 0; i < nums3.Length; i++)
+// {
+//     if (nums3[i] > 0)
+//     {
+//         num13++;
+//     }
+//     else if (nums3[i] < 0)
+//     {
+//         num23++;
+//     }
+// }
+// Console.WriteLine("Original Array elements:");
+// for (int i = 0; i < nums3.Length; i++)
+// {
+//     Console.Write(nums3[i] + " ");
+// }
+// Console.WriteLine();
+// Console.WriteLine("Number of positive numbers: " + num13);
+// Console.WriteLine("Number of negative numbers: " + num23);
+// int[] nums4 = { };
+// Console.WriteLine("Original Array elements:");
+// for (int i = 0; i < nums4.Length; i++)
+// {
+//     Console.Write(nums4[i] + " ");
+// }
+// Console.WriteLine();
+// Console.WriteLine("Number of positive numbers: " + num13);
+// Console.WriteLine("Number of negative numbers: " + num23);
 
 // 90. Write a C# Sharp program to count the number of ones and zeros in the binary representation of a given integer.
 // Sample Output:
@@ -264,6 +332,43 @@ Console.WriteLine("Number of letters: " + num2 + " Number of digits: " + num3);
 // Number of ones: 5
 // Number of zeros: 6
 // Click me to see the solution
+
+int num14 = 12;
+int num24 = 1234;
+int num34 = 0;
+int num44 = 0;
+while (num14 > 0)
+{
+    if (num14 % 2 == 1)
+    {
+        num34++;
+    }
+    else
+    {
+        num44++;
+    }
+    num14 /= 2;
+}
+Console.WriteLine("Original number: " + num14);
+Console.WriteLine("Number of ones and zeros in the binary representation of the said number:");
+Console.WriteLine("Number of ones: " + num34);
+Console.WriteLine("Number of zeros: " + num44);
+while (num24 > 0)
+{
+    if (num24 % 2 == 1)
+    {
+        num34++;
+    }
+    else
+    {
+        num44++;
+    }
+    num24 /= 2;
+}
+Console.WriteLine("Original number: " + num24);
+Console.WriteLine("Number of ones and zeros in the binary representation of the said number:");
+Console.WriteLine("Number of ones: " + num34);
+Console.WriteLine("Number of zeros: " + num44);
 
 // 91. Write a C# Sharp program to remove all values except integer values from a given array of mixed values.
 // Sample Output:
