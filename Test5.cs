@@ -162,6 +162,22 @@ for (int i = 0; i < str28.Length; i++)
 // 1.2 -1.8 2.3 8.3 2.83
 // Click me to see the solution
 
+int[] nums = { 1, 3, 4, 5, 6, 7 };
+int sum = 0;
+for (int i = 0; i < nums.Length; i++)
+{
+    sum += nums[i];
+    Console.Write(sum + " ");
+}
+Console.WriteLine();
+double[] nums1 = { 1.2, -3, 4.1, 6, -5.47 };
+double sum1 = 0;
+for (int i = 0; i < nums1.Length; i++)
+{
+    sum1 += nums1[i];
+    Console.Write(sum1 + " ");
+}
+
 // 86. Write a C# Sharp program to get the number of letters and digits in a given string.
 // Sample Output:
 // Original string:: Python 3.0
