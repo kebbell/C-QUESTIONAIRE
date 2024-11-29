@@ -131,6 +131,24 @@ Console.WriteLine("After removing all the vowels from the said string: " + newSt
 // 1 2 3 5 6 7 8 9
 // Click me to see the solution
 
+string str27 = "Python";
+string str28 = "JavaScript";
+for (int i = 0; i < str27.Length; i++)
+{
+    if (char.IsLower(str27[i]))
+    {
+        Console.Write(i + " ");
+    }
+}
+Console.WriteLine();
+for (int i = 0; i < str28.Length; i++)
+{
+    if (char.IsLower(str28[i]))
+    {
+        Console.Write(i + " ");
+    }
+}   
+
 // 85. Write a C# Sharp program to find the cumulative sum of an array of numbers.
 // A cumulative sum is a sequence of partial sums of a given sequence. For example, the cumulative sums of the sequence {x, y, z,...}, are x , x+y , x+y+z
 // Sample Output:
