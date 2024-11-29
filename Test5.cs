@@ -1,124 +1,124 @@
-// 81. Write a C# Sharp program to swap a two-digit number and check whether the given number is greater than its swap value.
-// Sample Output:
-// Input an integer value:
-// Check whether the said value is greater than its swap value: True
-// Click me to see the solution
+// // 81. Write a C# Sharp program to swap a two-digit number and check whether the given number is greater than its swap value.
+// // Sample Output:
+// // Input an integer value:
+// // Check whether the said value is greater than its swap value: True
+// // Click me to see the solution
 
-int num = Convert.ToInt32(Console.ReadLine());
-int num1 = num / 10;
-int num2 = num % 10;
-int num3 = num1 * 10 + num2;
-Console.WriteLine("Check whether the said value is greater than its swap value: " + (num > num3));
+// int num = Convert.ToInt32(Console.ReadLine());
+// int num1 = num / 10;
+// int num2 = num % 10;
+// int num3 = num1 * 10 + num2;
+// Console.WriteLine("Check whether the said value is greater than its swap value: " + (num > num3));
 
-// 82. Write a C# Sharp program to remove all non-letter characters from a given string.
-// From Wikipedia,
-// A letter is a segmental symbol of a phonemic writing system. The inventory of all letters forms the alphabet. Letters broadly correspond to phonemes in the spoken form of the language, although there is rarely a consistent, exact correspondence between letters and phonemes
-// Sample Output:
-// Orginal string: Py@th12on
-// Remove all characters from the said string which are non-letters: Python
-// Orginal string: Python 3.0
-// Remove all characters from the said string which are non-letters: Python
-// Orginal string: 2^sdfds*^*^jlljdslfnoswje34u230sdfds984
-// Remove all characters from the said string which are non-letters: sdfdsjlljdslfnoswjeusdfds
-// Click me to see the solution
+// // 82. Write a C# Sharp program to remove all non-letter characters from a given string.
+// // From Wikipedia,
+// // A letter is a segmental symbol of a phonemic writing system. The inventory of all letters forms the alphabet. Letters broadly correspond to phonemes in the spoken form of the language, although there is rarely a consistent, exact correspondence between letters and phonemes
+// // Sample Output:
+// // Orginal string: Py@th12on
+// // Remove all characters from the said string which are non-letters: Python
+// // Orginal string: Python 3.0
+// // Remove all characters from the said string which are non-letters: Python
+// // Orginal string: 2^sdfds*^*^jlljdslfnoswje34u230sdfds984
+// // Remove all characters from the said string which are non-letters: sdfdsjlljdslfnoswjeusdfds
+// // Click me to see the solution
 
-string str = "Py@th12on";
-string str1 = "Python 3.0";
-string str2 = "2^sdfds*^*^jlljdslfnoswje34u230sdfds984";  
-string str3 = "Python 3.0";
-string str4 = "2^sdfds*^*^jlljdslfnoswje34u230sdfds984";
-char[] arr = str.ToCharArray();
-char[] arr1 = str1.ToCharArray();
-char[] arr2 = str2.ToCharArray();
-char[] arr3 = str3.ToCharArray();
-char[] arr4 = str4.ToCharArray();
-for (int i = 0; i < arr.Length; i++)
-{
-    if (char.IsLetter(arr[i]))
-    {
-        Console.Write(arr[i]);
-    }
-}
-Console.WriteLine();
-for (int i = 0; i < arr1.Length; i++)
-{
-    if (char.IsLetter(arr1[i]))
-    {
-        Console.Write(arr1[i]);
-    }
-}
-Console.WriteLine();
-for (int i = 0; i < arr2.Length; i++)
-{
-    if (char.IsLetter(arr2[i]))
-    {
-        Console.Write(arr2[i]);
-    }
-}
-Console.WriteLine();    
-for (int i = 0; i < arr3.Length; i++)
-{
-    if (char.IsLetter(arr3[i]))
-    {
-        Console.Write(arr3[i]);
-    }
-}
-Console.WriteLine();
-for (int i = 0; i < arr4.Length; i++)
-{
-    if (char.IsLetter(arr4[i]))
-    {
-        Console.Write(arr4[i]);
-    }  
-}
+// string str = "Py@th12on";
+// string str1 = "Python 3.0";
+// string str2 = "2^sdfds*^*^jlljdslfnoswje34u230sdfds984";  
+// string str3 = "Python 3.0";
+// string str4 = "2^sdfds*^*^jlljdslfnoswje34u230sdfds984";
+// char[] arr = str.ToCharArray();
+// char[] arr1 = str1.ToCharArray();
+// char[] arr2 = str2.ToCharArray();
+// char[] arr3 = str3.ToCharArray();
+// char[] arr4 = str4.ToCharArray();
+// for (int i = 0; i < arr.Length; i++)
+// {
+//     if (char.IsLetter(arr[i]))
+//     {
+//         Console.Write(arr[i]);
+//     }
+// }
+// Console.WriteLine();
+// for (int i = 0; i < arr1.Length; i++)
+// {
+//     if (char.IsLetter(arr1[i]))
+//     {
+//         Console.Write(arr1[i]);
+//     }
+// }
+// Console.WriteLine();
+// for (int i = 0; i < arr2.Length; i++)
+// {
+//     if (char.IsLetter(arr2[i]))
+//     {
+//         Console.Write(arr2[i]);
+//     }
+// }
+// Console.WriteLine();    
+// for (int i = 0; i < arr3.Length; i++)
+// {
+//     if (char.IsLetter(arr3[i]))
+//     {
+//         Console.Write(arr3[i]);
+//     }
+// }
+// Console.WriteLine();
+// for (int i = 0; i < arr4.Length; i++)
+// {
+//     if (char.IsLetter(arr4[i]))
+//     {
+//         Console.Write(arr4[i]);
+//     }  
+// }
 
 
 
-// 83. Write a C# Sharp program to remove all vowels from a given string.
-// Sample Output:
-// Orginal string: Python
-// After removing all the vowels from the said string: Pythn
-// Orginal string: C Sharp
-// After removing all the vowels from the said string: C Shrp
-// Orginal string: JavaScript
-// After removing all the vowels from the said string: JvScrpt
-// Click me to see the solution
+// // 83. Write a C# Sharp program to remove all vowels from a given string.
+// // Sample Output:
+// // Orginal string: Python
+// // After removing all the vowels from the said string: Pythn
+// // Orginal string: C Sharp
+// // After removing all the vowels from the said string: C Shrp
+// // Orginal string: JavaScript
+// // After removing all the vowels from the said string: JvScrpt
+// // Click me to see the solution
 
-string str22 = "Python";
-string str23 = "C Sharp";
-string str24 = "JavaScript";
-// string str25 = "Python";
-// string str26 = "JavaScript";
-string newStr = "";
-string newStr1 = "";
-string newStr2 = "";
-for (int i = 0; i < str22.Length; i++)
-{
-    if (str22[i] != 'a' && str22[i] != 'e' && str22[i] != 'i' && str22[i] != 'o' && str22[i] != 'u' && str22[i] != 'A' && str22[i] != 'E' && str22[i] != 'I' && str22[i] != 'O' && str22[i] != 'U')
-    {
-        newStr += str22[i];
-    }
-}
-for (int i = 0; i < str23.Length; i++)
-{
-    if (str23[i] != 'a' && str23[i] != 'e' && str23[i] != 'i' && str23[i] != 'o' && str23[i] != 'u' && str23[i] != 'A' && str23[i] != 'E' && str23[i] != 'I' && str23[i] != 'O' && str23[i] != 'U')
-    {
-        newStr1 += str23[i];
-    }
-}
-for (int i = 0; i < str24.Length; i++)
-{
-    if (str24[i] != 'a' && str24[i] != 'e' && str24[i] != 'i' && str24[i] != 'o' && str24[i] != 'u' && str24[i] != 'A' && str24[i] != 'E' && str24[i] != 'I' && str24[i] != 'O' && str24[i] != 'U')
-    {
-        newStr2 += str24[i];
-    }
-}
-Console.WriteLine("Orginal string: " + str22);
-Console.WriteLine("After removing all the vowels from the said string: " + newStr);
-Console.WriteLine("Orginal string: " + str23);
-Console.WriteLine("After removing all the vowels from the said string: " + newStr1);
-Console.WriteLine("Orginal string: " + str24);
-Console.WriteLine("After removing all the vowels from the said string: " + newStr2);   
+// string str22 = "Python";
+// string str23 = "C Sharp";
+// string str24 = "JavaScript";
+// // string str25 = "Python";
+// // string str26 = "JavaScript";
+// string newStr = "";
+// string newStr1 = "";
+// string newStr2 = "";
+// for (int i = 0; i < str22.Length; i++)
+// {
+//     if (str22[i] != 'a' && str22[i] != 'e' && str22[i] != 'i' && str22[i] != 'o' && str22[i] != 'u' && str22[i] != 'A' && str22[i] != 'E' && str22[i] != 'I' && str22[i] != 'O' && str22[i] != 'U')
+//     {
+//         newStr += str22[i];
+//     }
+// }
+// for (int i = 0; i < str23.Length; i++)
+// {
+//     if (str23[i] != 'a' && str23[i] != 'e' && str23[i] != 'i' && str23[i] != 'o' && str23[i] != 'u' && str23[i] != 'A' && str23[i] != 'E' && str23[i] != 'I' && str23[i] != 'O' && str23[i] != 'U')
+//     {
+//         newStr1 += str23[i];
+//     }
+// }
+// for (int i = 0; i < str24.Length; i++)
+// {
+//     if (str24[i] != 'a' && str24[i] != 'e' && str24[i] != 'i' && str24[i] != 'o' && str24[i] != 'u' && str24[i] != 'A' && str24[i] != 'E' && str24[i] != 'I' && str24[i] != 'O' && str24[i] != 'U')
+//     {
+//         newStr2 += str24[i];
+//     }
+// }
+// Console.WriteLine("Orginal string: " + str22);
+// Console.WriteLine("After removing all the vowels from the said string: " + newStr);
+// Console.WriteLine("Orginal string: " + str23);
+// Console.WriteLine("After removing all the vowels from the said string: " + newStr1);
+// Console.WriteLine("Orginal string: " + str24);
+// Console.WriteLine("After removing all the vowels from the said string: " + newStr2);   
 
 
 // 84. Write a C# Sharp program to get the index number of all lower case letters in a given string.
@@ -186,6 +186,40 @@ for (int i = 0; i < nums1.Length; i++)
 // Number of letters: 14 Number of digits: 7
 // Click me to see the solution
 
+string str29 = "Python 3.0";
+int num = 0;
+int num1 = 0;
+for (int i = 0; i < str29.Length; i++)
+{
+    if (char.IsLetter(str29[i]))
+    {
+        num++;
+    }
+    else if (char.IsDigit(str29[i]))
+    {
+        num1++;
+    }
+}
+Console.WriteLine("Original string:: " + str29);
+Console.WriteLine("Number of letters: " + num + " Number of digits: " + num1);
+string str30 = "dsfkaso230samdm2423sa";
+int num2 = 0;
+int num3 = 0;
+for (int i = 0; i < str30.Length; i++)
+{
+    if (char.IsLetter(str30[i]))
+    {
+        num2++;
+    }
+    else if (char.IsDigit(str30[i]))
+    {
+        num3++;
+    }
+}
+Console.WriteLine("Original string:: " + str30);
+Console.WriteLine("Number of letters: " + num2 + " Number of digits: " + num3); 
+
+
 // 87. Write a C# Sharp program to reverse a Boolean value.
 // Sample Output:
 // Original value: False
@@ -193,6 +227,8 @@ for (int i = 0; i < nums1.Length; i++)
 // Original value: True
 // Reverse value: False
 // Click me to see the solution
+
+
 
 // 88. Write a C# Sharp program to find the sum of the interior angles (in degrees) of a given polygon. Input the number of straight lines.
 // From Wikipedia,
