@@ -376,7 +376,28 @@ Console.WriteLine("Number of zeros: " + num44);
 // 25 Anna False 4/24/2021 11:43:11 AM -112 -34.67
 // After removing all the values except integer values from the said array of mixed values: 25 -112
 // Click me to see the solution
-
+object[] nums5 = { 25, "Anna", false, "4/24/2021", "11:43:11 AM", -112, -34.67 };
+int[] nums6 = new int[nums5.Length];
+int num15 = 0;
+for (int i = 0; i < nums5.Length; i++)
+{
+    if (nums5[i] is int)
+    {
+        nums6[num15] = (int)nums5[i];
+        num15++;
+    }
+}
+Console.WriteLine("Original array elements:");
+for (int i = 0; i < nums5.Length; i++)
+{
+    Console.Write(nums5[i] + " ");
+}
+Console.WriteLine();
+Console.WriteLine("After removing all the values except integer values from the said array of mixed values:");
+for (int i = 0; i < num15; i++)
+{
+    Console.Write(nums6[i] + " ");
+}
 
 
 // 92. Write a C# Sharp program to find the next prime number of a given number. If the given number is a prime number, return the number.
