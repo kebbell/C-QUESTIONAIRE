@@ -586,6 +586,32 @@ bool IsValid(string str)
 // ("2342342") -> False
 // Click me to see the solution
 
+string str12 = "aaa";
+string str13 = "abcd";
+string str14 = "3333";
+string str15 = "2342342";
+Console.WriteLine("Original string: " + str12);
+Console.WriteLine("All characters are the same: " + AreAllCharactersTheSame(str12));
+Console.WriteLine("Original string: " + str13);
+Console.WriteLine("All characters are the same: " + AreAllCharactersTheSame(str13));
+Console.WriteLine("Original string: " + str14);
+Console.WriteLine("All characters are the same: " + AreAllCharactersTheSame(str14));
+Console.WriteLine("Original string: " + str15);
+Console.WriteLine("All characters are the same: " + AreAllCharactersTheSame(str15));
+
+bool AreAllCharactersTheSame(string str)
+{
+    char firstChar = str[0];
+    for (int i = 1; i < str.Length; i++)
+    {
+        if (str[i] != firstChar)
+        {
+            return false;
+        }
+    }
+    return true;
+}
+
 // 97. Write a C# Sharp program to check if a given string (floating point and negative numbers included) is numeric or not. Return True if the string is numeric, otherwise false.
 // Sample Data:
 // ("123") -> True
