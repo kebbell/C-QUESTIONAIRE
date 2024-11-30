@@ -414,6 +414,39 @@ for (int i = 0; i < num15; i++)
 // Next prime number/Current prime number: 4441
 // Click me to see the solution
 
+int num16 = 120;
+int num26 = 321;
+int num36 = 43;
+int num46 = 4433;
+Console.WriteLine("Original number: " + num16);
+Console.WriteLine("Next prime number/Current prime number: " + NextPrime(num16));
+Console.WriteLine("Original number: " + num26);
+Console.WriteLine("Next prime number/Current prime number: " + NextPrime(num26));
+Console.WriteLine("Original number: " + num36);
+Console.WriteLine("Next prime number/Current prime number: " + NextPrime(num36));
+Console.WriteLine("Original number: " + num46);
+Console.WriteLine("Next prime number/Current prime number: " + NextPrime(num46));
+
+int NextPrime(int num)
+{
+    for (int i = num + 1; ; i++)
+    {
+        bool isPrime = true;
+        for (int j = 2; j < i; j++)
+        {
+            if (i % j == 0)
+            {
+                isPrime = false;
+                break;
+            }
+        }
+        if (isPrime)
+        {
+            return i;
+        }
+    }
+}
+
 // 93. Write a C# Sharp program to calculate the square root of a given number. Return the integer part of the result instead of using any built-in functions.
 // Sample Data:
 // (120) -> 10
