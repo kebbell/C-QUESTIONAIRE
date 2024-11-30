@@ -454,6 +454,26 @@ int NextPrime(int num)
 // (335) -> 18
 // Click me to see the solution
 
+int num17 = 120;
+int num27 = 225;
+int num37 = 335;
+Console.WriteLine("Original number: " + num17);
+Console.WriteLine("Square root: " + SquareRoot(num17));
+Console.WriteLine("Original number: " + num27);
+Console.WriteLine("Square root: " + SquareRoot(num27));
+Console.WriteLine("Original number: " + num37);
+Console.WriteLine("Square root: " + SquareRoot(num37));
+
+int SquareRoot(int num)
+{
+    int root = 1;
+    while (root * root < num)
+    {
+        root++;
+    }
+    return root;
+}
+
 // 94. Write a C# program that finds the longest common prefix from an array of strings.
 // Sample Data:
 // ({ "Padas", "Packed", "Pace", "Pacha" }) -> "Pa"
