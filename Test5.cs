@@ -529,6 +529,55 @@ string LongestCommonPrefix(string[] str)
 // ("[<>()[]{}]”) -> True
 // Click me to see the solution
 
+string str8 = "<>";
+string str9 = "<>()[]{}";
+string str10 = "(<>";
+string str11 = "[<>()[]{}]";
+Console.WriteLine("Original string: " + str8);
+Console.WriteLine("Valid or not: " + IsValid(str8));
+Console.WriteLine("Original string: " + str9);
+Console.WriteLine("Valid or not: " + IsValid(str9));
+Console.WriteLine("Original string: " + str10);
+Console.WriteLine("Valid or not: " + IsValid(str10));
+Console.WriteLine("Original string: " + str11);
+Console.WriteLine("Valid or not: " + IsValid(str11));
+
+bool IsValid(string str)
+{
+    Stack<char> stack = new Stack<char>();
+    foreach (char c in str)
+    {
+        if (c == '(' || c == '[' || c == '{')
+        {
+            stack.Push(c);
+        }
+        else if (c == ')' || c == ']' || c == '}')
+        {
+            if (stack.Count == 0 || stack.Pop() != GetMatchingBracket(c))
+            {
+                return false;
+            }
+        }
+    }    
+    return stack.Count == 0;
+
+    char GetMatchingBracket(char c)
+    {
+        if (c == ')')
+        {
+            return '(';
+        }
+        else if (c == ']')
+        {
+            return '[';
+        }
+        else
+        {
+            return '{';
+        }
+    }
+}
+
 // 96. Write a C# Sharp program to check whether all characters in a string are the same. Return true if all the characters in the string are the same, otherwise false.
 // Sample Data:
 // ("aaa") -> True
