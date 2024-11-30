@@ -481,6 +481,44 @@ int SquareRoot(int num)
 // ({ "Bort", "Whang", "Yarder", "Zoonic" }) -> ""
 // Click me to see the solution
 
+string[] str5 = { "Padas", "Packed", "Pace", "Pacha" };
+string[] str6 = { "Jacket", "Joint", "Junky", "Jet" };
+string[] str7 = { "Bort", "Whang", "Yarder", "Zoonic" };
+Console.WriteLine("Original array elements:");
+for (int i = 0; i < str5.Length; i++)
+{
+    Console.Write(str5[i] + " ");
+}
+Console.WriteLine();
+Console.WriteLine("Longest common prefix: " + LongestCommonPrefix(str5));
+Console.WriteLine("Original array elements:");
+for (int i = 0; i < str6.Length; i++)
+{
+    Console.Write(str6[i] + " ");
+}
+Console.WriteLine();
+Console.WriteLine("Longest common prefix: " + LongestCommonPrefix(str6));
+Console.WriteLine("Original array elements:");
+for (int i = 0; i < str7.Length; i++)
+{
+    Console.Write(str7[i] + " ");
+}
+Console.WriteLine();
+Console.WriteLine("Longest common prefix: " + LongestCommonPrefix(str7));
+
+string LongestCommonPrefix(string[] str)
+{
+    string prefix = str[0];
+    for (int i = 1; i < str.Length; i++)
+    {
+        while (str[i].IndexOf(prefix) != 0)
+        {
+            prefix = prefix.Substring(0, prefix.Length - 1);
+        }
+    }
+    return prefix;
+}
+
 // 95. Write a C# programme to check the said string is valid or not. The input string will be valid when open brackets and closed brackets are same type of brackets.
 // Or
 // open brackets will be closed in proper order.
