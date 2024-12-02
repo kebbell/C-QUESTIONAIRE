@@ -740,3 +740,9 @@ int num58 = 10;
 Console.WriteLine("(" + str18 + ", " + str19 + ") -> " + AreEqual(str18, str19));
 Console.WriteLine("(" + bool1 + ", " + bool2 + ") -> " + AreEqual(bool1, bool2));
 Console.WriteLine("(" + bool1 + ", " + str19 + ") -> " + AreEqual(bool1, str19));
+Console.WriteLine("(" + num57 + ", " + num58 + ") -> " + AreEqual(num57, num58));
+
+bool AreEqual(object obj1, object obj2)
+{
+    return obj1.Equals(obj2);
+}   
