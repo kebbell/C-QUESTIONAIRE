@@ -690,6 +690,39 @@ int NextPrime(int num)
 // 2, 3, 5, 7, 13, 17, 19, 23, 29, 37, 47, 59, 67, 79,
 // Click me to see the solution
 
+int num53 = 2;
+int num54 = 3;
+int num55 = 5;
+int num56 = 7;
+Console.WriteLine("Original number: " + num53);
+Console.WriteLine("Next prime number/Current prime number: " + PreviousPrime(num53));
+Console.WriteLine("Original number: " + num54);
+Console.WriteLine("Next prime number/Current prime number: " + PreviousPrime(num54));
+Console.WriteLine("Original number: " + num55);
+Console.WriteLine("Next prime number/Current prime number: " + PreviousPrime(num55));
+Console.WriteLine("Original number: " + num56);
+Console.WriteLine("Next prime number/Current prime number: " + PreviousPrime(num56));
+
+int PreviousPrime(int num)
+{
+    for (int i = num - 1; ; i--)
+    {
+        bool isPrime = true;
+        for (int j = 2; j < i; j++)
+        {
+            if (i % j == 0)
+            {
+                isPrime = false;
+                break;
+            }
+        }
+        if (isPrime)
+        {
+            return i;
+        }
+    }
+}
+
 // 100. Write a C# Sharp program to check the equality comparison (value and type) of two parameters. Return true if they are equal otherwise false.
 // Sample Data:
 // ("AAA", "BBB") -> False
