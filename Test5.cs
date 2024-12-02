@@ -620,6 +620,32 @@ bool AreAllCharactersTheSame(string str)
 // ("234234d2") -> False
 // Click me to see the solution
 
+int num47 = 123;
+double num48 = 123.33;
+string str16 = "33/33";
+string str17 = "234234d2";
+Console.WriteLine("Original string: " + num47);
+Console.WriteLine("Numeric or not: " + IsNumeric(num47));
+Console.WriteLine("Original string: " + num48);
+Console.WriteLine("Numeric or not: " + IsNumeric(num48));
+Console.WriteLine("Original string: " + str16);
+Console.WriteLine("Numeric or not: " + IsNumeric(str16));
+Console.WriteLine("Original string: " + str17); 
+Console.WriteLine("Numeric or not: " + IsNumeric(str17));    
+
+bool IsNumeric(object obj)
+{
+    try
+    {
+        double num = Convert.ToDouble(obj);
+        return true;
+    }
+    catch (FormatException)
+    {
+        return false;
+    }   
+}
+
 // 98. Write a C# Sharp program to create and display all prime numbers in strictly descending decimal digit order.
 // Sample Data:
 // 2, 3, 5, 7, 31, 41, 43, 53, 61, 71, 73, 83, 97, 421, 431.....
