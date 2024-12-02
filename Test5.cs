@@ -730,3 +730,13 @@ int PreviousPrime(int num)
 // (true, "true") -> False
 // (10, 10) -> True
 // Click me to see the solution
+
+string str18 = "AAA";
+string str19 = "BBB";
+bool bool1 = true;
+bool bool2 = false;
+int num57 = 10;
+int num58 = 10;
+Console.WriteLine("(" + str18 + ", " + str19 + ") -> " + AreEqual(str18, str19));
+Console.WriteLine("(" + bool1 + ", " + bool2 + ") -> " + AreEqual(bool1, bool2));
+Console.WriteLine("(" + bool1 + ", " + str19 + ") -> " + AreEqual(bool1, str19));
