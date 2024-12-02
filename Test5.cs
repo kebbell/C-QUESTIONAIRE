@@ -321,262 +321,262 @@
 // Console.WriteLine("Number of positive numbers: " + num13);
 // Console.WriteLine("Number of negative numbers: " + num23);
 
-// 90. Write a C# Sharp program to count the number of ones and zeros in the binary representation of a given integer.
-// Sample Output:
-// Original number: 12
-// Number of ones and zeros in the binary representation of the said number:
-// Number of ones: 2
-// Number of zeros: 2
-// Original number: 1234
-// Number of ones and zeros in the binary representation of the said number:
-// Number of ones: 5
-// Number of zeros: 6
-// Click me to see the solution
+// // 90. Write a C# Sharp program to count the number of ones and zeros in the binary representation of a given integer.
+// // Sample Output:
+// // Original number: 12
+// // Number of ones and zeros in the binary representation of the said number:
+// // Number of ones: 2
+// // Number of zeros: 2
+// // Original number: 1234
+// // Number of ones and zeros in the binary representation of the said number:
+// // Number of ones: 5
+// // Number of zeros: 6
+// // Click me to see the solution
 
-int num14 = 12;
-int num24 = 1234;
-int num34 = 0;
-int num44 = 0;
-while (num14 > 0)
-{
-    if (num14 % 2 == 1)
-    {
-        num34++;
-    }
-    else
-    {
-        num44++;
-    }
-    num14 /= 2;
-}
-Console.WriteLine("Original number: " + num14);
-Console.WriteLine("Number of ones and zeros in the binary representation of the said number:");
-Console.WriteLine("Number of ones: " + num34);
-Console.WriteLine("Number of zeros: " + num44);
-while (num24 > 0)
-{
-    if (num24 % 2 == 1)
-    {
-        num34++;
-    }
-    else
-    {
-        num44++;
-    }
-    num24 /= 2;
-}
-Console.WriteLine("Original number: " + num24);
-Console.WriteLine("Number of ones and zeros in the binary representation of the said number:");
-Console.WriteLine("Number of ones: " + num34);
-Console.WriteLine("Number of zeros: " + num44);
+// int num14 = 12;
+// int num24 = 1234;
+// int num34 = 0;
+// int num44 = 0;
+// while (num14 > 0)
+// {
+//     if (num14 % 2 == 1)
+//     {
+//         num34++;
+//     }
+//     else
+//     {
+//         num44++;
+//     }
+//     num14 /= 2;
+// }
+// Console.WriteLine("Original number: " + num14);
+// Console.WriteLine("Number of ones and zeros in the binary representation of the said number:");
+// Console.WriteLine("Number of ones: " + num34);
+// Console.WriteLine("Number of zeros: " + num44);
+// while (num24 > 0)
+// {
+//     if (num24 % 2 == 1)
+//     {
+//         num34++;
+//     }
+//     else
+//     {
+//         num44++;
+//     }
+//     num24 /= 2;
+// }
+// Console.WriteLine("Original number: " + num24);
+// Console.WriteLine("Number of ones and zeros in the binary representation of the said number:");
+// Console.WriteLine("Number of ones: " + num34);
+// Console.WriteLine("Number of zeros: " + num44);
 
-// 91. Write a C# Sharp program to remove all values except integer values from a given array of mixed values.
-// Sample Output:
-// Original array elements:
-// 25 Anna False 4/24/2021 11:43:11 AM -112 -34.67
-// After removing all the values except integer values from the said array of mixed values: 25 -112
-// Click me to see the solution
-object[] nums5 = { 25, "Anna", false, "4/24/2021", "11:43:11 AM", -112, -34.67 };
-int[] nums6 = new int[nums5.Length];
-int num15 = 0;
-for (int i = 0; i < nums5.Length; i++)
-{
-    if (nums5[i] is int)
-    {
-        nums6[num15] = (int)nums5[i];
-        num15++;
-    }
-}
-Console.WriteLine("Original array elements:");
-for (int i = 0; i < nums5.Length; i++)
-{
-    Console.Write(nums5[i] + " ");
-}
-Console.WriteLine();
-Console.WriteLine("After removing all the values except integer values from the said array of mixed values:");
-for (int i = 0; i < num15; i++)
-{
-    Console.Write(nums6[i] + " ");
-}
+// // 91. Write a C# Sharp program to remove all values except integer values from a given array of mixed values.
+// // Sample Output:
+// // Original array elements:
+// // 25 Anna False 4/24/2021 11:43:11 AM -112 -34.67
+// // After removing all the values except integer values from the said array of mixed values: 25 -112
+// // Click me to see the solution
+// object[] nums5 = { 25, "Anna", false, "4/24/2021", "11:43:11 AM", -112, -34.67 };
+// int[] nums6 = new int[nums5.Length];
+// int num15 = 0;
+// for (int i = 0; i < nums5.Length; i++)
+// {
+//     if (nums5[i] is int)
+//     {
+//         nums6[num15] = (int)nums5[i];
+//         num15++;
+//     }
+// }
+// Console.WriteLine("Original array elements:");
+// for (int i = 0; i < nums5.Length; i++)
+// {
+//     Console.Write(nums5[i] + " ");
+// }
+// Console.WriteLine();
+// Console.WriteLine("After removing all the values except integer values from the said array of mixed values:");
+// for (int i = 0; i < num15; i++)
+// {
+//     Console.Write(nums6[i] + " ");
+// }
 
 
-// 92. Write a C# Sharp program to find the next prime number of a given number. If the given number is a prime number, return the number.
-// From Wikipedia,
-// A prime number (or a prime) is a natural number greater than 1 that is not a product of two smaller natural numbers. A natural number greater than 1 that is not prime is called a composite number. For example, 5 is prime because the only ways of writing it as a product, 1 × 5 or 5 × 1, involve 5 itself. However, 4 is composite because it is a product (2 × 2) in which both numbers are smaller than 4. Primes are central in number theory because of the fundamental theorem of arithmetic: every natural number greater than 1 is either a prime itself or can be factorized as a product of primes that is unique up to their order.
-// Sample Output:
-// Original number: 120
-// Next prime number/Current prime number: 127
-// Original number: 321
-// Next prime number/Current prime number: 331
-// Original number: 43
-// Next prime number/Current prime number: 43
-// Original number: 4433
-// Next prime number/Current prime number: 4441
-// Click me to see the solution
+// // 92. Write a C# Sharp program to find the next prime number of a given number. If the given number is a prime number, return the number.
+// // From Wikipedia,
+// // A prime number (or a prime) is a natural number greater than 1 that is not a product of two smaller natural numbers. A natural number greater than 1 that is not prime is called a composite number. For example, 5 is prime because the only ways of writing it as a product, 1 × 5 or 5 × 1, involve 5 itself. However, 4 is composite because it is a product (2 × 2) in which both numbers are smaller than 4. Primes are central in number theory because of the fundamental theorem of arithmetic: every natural number greater than 1 is either a prime itself or can be factorized as a product of primes that is unique up to their order.
+// // Sample Output:
+// // Original number: 120
+// // Next prime number/Current prime number: 127
+// // Original number: 321
+// // Next prime number/Current prime number: 331
+// // Original number: 43
+// // Next prime number/Current prime number: 43
+// // Original number: 4433
+// // Next prime number/Current prime number: 4441
+// // Click me to see the solution
 
-int num16 = 120;
-int num26 = 321;
-int num36 = 43;
-int num46 = 4433;
-Console.WriteLine("Original number: " + num16);
-Console.WriteLine("Next prime number/Current prime number: " + NextPrime(num16));
-Console.WriteLine("Original number: " + num26);
-Console.WriteLine("Next prime number/Current prime number: " + NextPrime(num26));
-Console.WriteLine("Original number: " + num36);
-Console.WriteLine("Next prime number/Current prime number: " + NextPrime(num36));
-Console.WriteLine("Original number: " + num46);
-Console.WriteLine("Next prime number/Current prime number: " + NextPrime(num46));
+// int num16 = 120;
+// int num26 = 321;
+// int num36 = 43;
+// int num46 = 4433;
+// Console.WriteLine("Original number: " + num16);
+// Console.WriteLine("Next prime number/Current prime number: " + NextPrime(num16));
+// Console.WriteLine("Original number: " + num26);
+// Console.WriteLine("Next prime number/Current prime number: " + NextPrime(num26));
+// Console.WriteLine("Original number: " + num36);
+// Console.WriteLine("Next prime number/Current prime number: " + NextPrime(num36));
+// Console.WriteLine("Original number: " + num46);
+// Console.WriteLine("Next prime number/Current prime number: " + NextPrime(num46));
 
-int NextPrime(int num)
-{
-    for (int i = num + 1; ; i++)
-    {
-        bool isPrime = true;
-        for (int j = 2; j < i; j++)
-        {
-            if (i % j == 0)
-            {
-                isPrime = false;
-                break;
-            }
-        }
-        if (isPrime)
-        {
-            return i;
-        }
-    }
-}
+// int NextPrime(int num)
+// {
+//     for (int i = num + 1; ; i++)
+//     {
+//         bool isPrime = true;
+//         for (int j = 2; j < i; j++)
+//         {
+//             if (i % j == 0)
+//             {
+//                 isPrime = false;
+//                 break;
+//             }
+//         }
+//         if (isPrime)
+//         {
+//             return i;
+//         }
+//     }
+// }
 
-// 93. Write a C# Sharp program to calculate the square root of a given number. Return the integer part of the result instead of using any built-in functions.
-// Sample Data:
-// (120) -> 10
-// (225) -> 15
-// (335) -> 18
-// Click me to see the solution
+// // 93. Write a C# Sharp program to calculate the square root of a given number. Return the integer part of the result instead of using any built-in functions.
+// // Sample Data:
+// // (120) -> 10
+// // (225) -> 15
+// // (335) -> 18
+// // Click me to see the solution
 
-int num17 = 120;
-int num27 = 225;
-int num37 = 335;
-Console.WriteLine("Original number: " + num17);
-Console.WriteLine("Square root: " + SquareRoot(num17));
-Console.WriteLine("Original number: " + num27);
-Console.WriteLine("Square root: " + SquareRoot(num27));
-Console.WriteLine("Original number: " + num37);
-Console.WriteLine("Square root: " + SquareRoot(num37));
+// int num17 = 120;
+// int num27 = 225;
+// int num37 = 335;
+// Console.WriteLine("Original number: " + num17);
+// Console.WriteLine("Square root: " + SquareRoot(num17));
+// Console.WriteLine("Original number: " + num27);
+// Console.WriteLine("Square root: " + SquareRoot(num27));
+// Console.WriteLine("Original number: " + num37);
+// Console.WriteLine("Square root: " + SquareRoot(num37));
 
-int SquareRoot(int num)
-{
-    int root = 1;
-    while (root * root < num)
-    {
-        root++;
-    }
-    return root;
-}
+// int SquareRoot(int num)
+// {
+//     int root = 1;
+//     while (root * root < num)
+//     {
+//         root++;
+//     }
+//     return root;
+// }
 
-// 94. Write a C# program that finds the longest common prefix from an array of strings.
-// Sample Data:
-// ({ "Padas", "Packed", "Pace", "Pacha" }) -> "Pa"
-// ({ "Jacket", "Joint", "Junky", "Jet" }) -> "J"
-// ({ "Bort", "Whang", "Yarder", "Zoonic" }) -> ""
-// Click me to see the solution
+// // 94. Write a C# program that finds the longest common prefix from an array of strings.
+// // Sample Data:
+// // ({ "Padas", "Packed", "Pace", "Pacha" }) -> "Pa"
+// // ({ "Jacket", "Joint", "Junky", "Jet" }) -> "J"
+// // ({ "Bort", "Whang", "Yarder", "Zoonic" }) -> ""
+// // Click me to see the solution
 
-string[] str5 = { "Padas", "Packed", "Pace", "Pacha" };
-string[] str6 = { "Jacket", "Joint", "Junky", "Jet" };
-string[] str7 = { "Bort", "Whang", "Yarder", "Zoonic" };
-Console.WriteLine("Original array elements:");
-for (int i = 0; i < str5.Length; i++)
-{
-    Console.Write(str5[i] + " ");
-}
-Console.WriteLine();
-Console.WriteLine("Longest common prefix: " + LongestCommonPrefix(str5));
-Console.WriteLine("Original array elements:");
-for (int i = 0; i < str6.Length; i++)
-{
-    Console.Write(str6[i] + " ");
-}
-Console.WriteLine();
-Console.WriteLine("Longest common prefix: " + LongestCommonPrefix(str6));
-Console.WriteLine("Original array elements:");
-for (int i = 0; i < str7.Length; i++)
-{
-    Console.Write(str7[i] + " ");
-}
-Console.WriteLine();
-Console.WriteLine("Longest common prefix: " + LongestCommonPrefix(str7));
+// string[] str5 = { "Padas", "Packed", "Pace", "Pacha" };
+// string[] str6 = { "Jacket", "Joint", "Junky", "Jet" };
+// string[] str7 = { "Bort", "Whang", "Yarder", "Zoonic" };
+// Console.WriteLine("Original array elements:");
+// for (int i = 0; i < str5.Length; i++)
+// {
+//     Console.Write(str5[i] + " ");
+// }
+// Console.WriteLine();
+// Console.WriteLine("Longest common prefix: " + LongestCommonPrefix(str5));
+// Console.WriteLine("Original array elements:");
+// for (int i = 0; i < str6.Length; i++)
+// {
+//     Console.Write(str6[i] + " ");
+// }
+// Console.WriteLine();
+// Console.WriteLine("Longest common prefix: " + LongestCommonPrefix(str6));
+// Console.WriteLine("Original array elements:");
+// for (int i = 0; i < str7.Length; i++)
+// {
+//     Console.Write(str7[i] + " ");
+// }
+// Console.WriteLine();
+// Console.WriteLine("Longest common prefix: " + LongestCommonPrefix(str7));
 
-string LongestCommonPrefix(string[] str)
-{
-    string prefix = str[0];
-    for (int i = 1; i < str.Length; i++)
-    {
-        while (str[i].IndexOf(prefix) != 0)
-        {
-            prefix = prefix.Substring(0, prefix.Length - 1);
-        }
-    }
-    return prefix;
-}
+// string LongestCommonPrefix(string[] str)
+// {
+//     string prefix = str[0];
+//     for (int i = 1; i < str.Length; i++)
+//     {
+//         while (str[i].IndexOf(prefix) != 0)
+//         {
+//             prefix = prefix.Substring(0, prefix.Length - 1);
+//         }
+//     }
+//     return prefix;
+// }
 
-// 95. Write a C# programme to check the said string is valid or not. The input string will be valid when open brackets and closed brackets are same type of brackets.
-// Or
-// open brackets will be closed in proper order.
-// Sample Data:
-// ( "<>") -> True
-// ("<>()[]{}”) -> True
-// ("(<>”) -> False
-// ("[<>()[]{}]”) -> True
-// Click me to see the solution
+// // 95. Write a C# programme to check the said string is valid or not. The input string will be valid when open brackets and closed brackets are same type of brackets.
+// // Or
+// // open brackets will be closed in proper order.
+// // Sample Data:
+// // ( "<>") -> True
+// // ("<>()[]{}”) -> True
+// // ("(<>”) -> False
+// // ("[<>()[]{}]”) -> True
+// // Click me to see the solution
 
-string str8 = "<>";
-string str9 = "<>()[]{}";
-string str10 = "(<>";
-string str11 = "[<>()[]{}]";
-Console.WriteLine("Original string: " + str8);
-Console.WriteLine("Valid or not: " + IsValid(str8));
-Console.WriteLine("Original string: " + str9);
-Console.WriteLine("Valid or not: " + IsValid(str9));
-Console.WriteLine("Original string: " + str10);
-Console.WriteLine("Valid or not: " + IsValid(str10));
-Console.WriteLine("Original string: " + str11);
-Console.WriteLine("Valid or not: " + IsValid(str11));
+// string str8 = "<>";
+// string str9 = "<>()[]{}";
+// string str10 = "(<>";
+// string str11 = "[<>()[]{}]";
+// Console.WriteLine("Original string: " + str8);
+// Console.WriteLine("Valid or not: " + IsValid(str8));
+// Console.WriteLine("Original string: " + str9);
+// Console.WriteLine("Valid or not: " + IsValid(str9));
+// Console.WriteLine("Original string: " + str10);
+// Console.WriteLine("Valid or not: " + IsValid(str10));
+// Console.WriteLine("Original string: " + str11);
+// Console.WriteLine("Valid or not: " + IsValid(str11));
 
-bool IsValid(string str)
-{
-    Stack<char> stack = new Stack<char>();
-    foreach (char c in str)
-    {
-        if (c == '(' || c == '[' || c == '{')
-        {
-            stack.Push(c);
-        }
-        else if (c == ')' || c == ']' || c == '}')
-        {
-            if (stack.Count == 0 || stack.Pop() != GetMatchingBracket(c))
-            {
-                return false;
-            }
-        }
-    }    
-    return stack.Count == 0;
+// bool IsValid(string str)
+// {
+//     Stack<char> stack = new Stack<char>();
+//     foreach (char c in str)
+//     {
+//         if (c == '(' || c == '[' || c == '{')
+//         {
+//             stack.Push(c);
+//         }
+//         else if (c == ')' || c == ']' || c == '}')
+//         {
+//             if (stack.Count == 0 || stack.Pop() != GetMatchingBracket(c))
+//             {
+//                 return false;
+//             }
+//         }
+//     }    
+//     return stack.Count == 0;
 
-    char GetMatchingBracket(char c)
-    {
-        if (c == ')')
-        {
-            return '(';
-        }
-        else if (c == ']')
-        {
-            return '[';
-        }
-        else
-        {
-            return '{';
-        }
-    }
-}
+//     char GetMatchingBracket(char c)
+//     {
+//         if (c == ')')
+//         {
+//             return '(';
+//         }
+//         else if (c == ']')
+//         {
+//             return '[';
+//         }
+//         else
+//         {
+//             return '{';
+//         }
+//     }
+// }
 
 // 96. Write a C# Sharp program to check whether all characters in a string are the same. Return true if all the characters in the string are the same, otherwise false.
 // Sample Data:
@@ -650,6 +650,40 @@ bool IsNumeric(object obj)
 // Sample Data:
 // 2, 3, 5, 7, 31, 41, 43, 53, 61, 71, 73, 83, 97, 421, 431.....
 // Click me to see the solution
+
+int num49 = 421;
+int num50 = 431;
+int num51 = 433;
+int num52 = 443;
+Console.WriteLine("Original number: " + num49);
+Console.WriteLine("Next prime number/Current prime number: " + NextPrime(num49));
+Console.WriteLine("Original number: " + num50);
+Console.WriteLine("Next prime number/Current prime number: " + NextPrime(num50));
+Console.WriteLine("Original number: " + num51);
+Console.WriteLine("Next prime number/Current prime number: " + NextPrime(num51));
+Console.WriteLine("Original number: " + num52);
+Console.WriteLine("Next prime number/Current prime number: " + NextPrime(num52));
+
+int NextPrime(int num)
+{
+    for (int i = num + 1; ; i++)
+    {
+        bool isPrime = true;
+        for (int j = 2; j < i; j++)
+        {
+            if (i % j == 0)
+            {
+                isPrime = false;
+                break;
+            }
+        }
+        if (isPrime)
+        {
+            return i;
+        }
+    }
+}
+
 
 // 99. Write a C# Sharp program to create and display all prime numbers in strict ascending decimal digit order.
 // Sample Data:
