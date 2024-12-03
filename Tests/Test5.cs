@@ -578,263 +578,262 @@
 //     }
 // }
 
-// 96. Write a C# Sharp program to check whether all characters in a string are the same. Return true if all the characters in the string are the same, otherwise false.
-// Sample Data:
-// ("aaa") -> True
-// ("abcd") -> False
-// ("3333") -> True
-// ("2342342") -> False
-// Click me to see the solution
+// // 96. Write a C# Sharp program to check whether all characters in a string are the same. Return true if all the characters in the string are the same, otherwise false.
+// // Sample Data:
+// // ("aaa") -> True
+// // ("abcd") -> False
+// // ("3333") -> True
+// // ("2342342") -> False
+// // Click me to see the solution
 
-string str12 = "aaa";
-string str13 = "abcd";
-string str14 = "3333";
-string str15 = "2342342";
-Console.WriteLine("Original string: " + str12);
-Console.WriteLine("All characters are the same: " + AreAllCharactersTheSame(str12));
-Console.WriteLine("Original string: " + str13);
-Console.WriteLine("All characters are the same: " + AreAllCharactersTheSame(str13));
-Console.WriteLine("Original string: " + str14);
-Console.WriteLine("All characters are the same: " + AreAllCharactersTheSame(str14));
-Console.WriteLine("Original string: " + str15);
-Console.WriteLine("All characters are the same: " + AreAllCharactersTheSame(str15));
+// string str12 = "aaa";
+// string str13 = "abcd";
+// string str14 = "3333";
+// string str15 = "2342342";
+// Console.WriteLine("Original string: " + str12);
+// Console.WriteLine("All characters are the same: " + AreAllCharactersTheSame(str12));
+// Console.WriteLine("Original string: " + str13);
+// Console.WriteLine("All characters are the same: " + AreAllCharactersTheSame(str13));
+// Console.WriteLine("Original string: " + str14);
+// Console.WriteLine("All characters are the same: " + AreAllCharactersTheSame(str14));
+// Console.WriteLine("Original string: " + str15);
+// Console.WriteLine("All characters are the same: " + AreAllCharactersTheSame(str15));
 
-bool AreAllCharactersTheSame(string str)
-{
-    char firstChar = str[0];
-    for (int i = 1; i < str.Length; i++)
-    {
-        if (str[i] != firstChar)
-        {
-            return false;
-        }
-    }
-    return true;
-}
+// bool AreAllCharactersTheSame(string str)
+// {
+//     char firstChar = str[0];
+//     for (int i = 1; i < str.Length; i++)
+//     {
+//         if (str[i] != firstChar)
+//         {
+//             return false;
+//         }
+//     }
+//     return true;
+// }
 
-// 97. Write a C# Sharp program to check if a given string (floating point and negative numbers included) is numeric or not. Return True if the string is numeric, otherwise false.
-// Sample Data:
-// ("123") -> True
-// ("123.33") -> True
-// ("33/33") -> False
-// ("234234d2") -> False
-// Click me to see the solution
+// // 97. Write a C# Sharp program to check if a given string (floating point and negative numbers included) is numeric or not. Return True if the string is numeric, otherwise false.
+// // Sample Data:
+// // ("123") -> True
+// // ("123.33") -> True
+// // ("33/33") -> False
+// // ("234234d2") -> False
+// // Click me to see the solution
 
-int num47 = 123;
-double num48 = 123.33;
-string str16 = "33/33";
-string str17 = "234234d2";
-Console.WriteLine("Original string: " + num47);
-Console.WriteLine("Numeric or not: " + IsNumeric(num47));
-Console.WriteLine("Original string: " + num48);
-Console.WriteLine("Numeric or not: " + IsNumeric(num48));
-Console.WriteLine("Original string: " + str16);
-Console.WriteLine("Numeric or not: " + IsNumeric(str16));
-Console.WriteLine("Original string: " + str17); 
-Console.WriteLine("Numeric or not: " + IsNumeric(str17));    
+// int num47 = 123;
+// double num48 = 123.33;
+// string str16 = "33/33";
+// string str17 = "234234d2";
+// Console.WriteLine("Original string: " + num47);
+// Console.WriteLine("Numeric or not: " + IsNumeric(num47));
+// Console.WriteLine("Original string: " + num48);
+// Console.WriteLine("Numeric or not: " + IsNumeric(num48));
+// Console.WriteLine("Original string: " + str16);
+// Console.WriteLine("Numeric or not: " + IsNumeric(str16));
+// Console.WriteLine("Original string: " + str17); 
+// Console.WriteLine("Numeric or not: " + IsNumeric(str17));    
 
-bool IsNumeric(object obj)
-{
-    try
-    {
-        double num = Convert.ToDouble(obj);
-        return true;
-    }
-    catch (FormatException)
-    {
-        return false;
-    }   
-}
+// bool IsNumeric(object obj)
+// {
+//     try
+//     {
+//         double num = Convert.ToDouble(obj);
+//         return true;
+//     }
+//     catch (FormatException)
+//     {
+//         return false;
+//     }   
+// }
 
-// 98. Write a C# Sharp program to create and display all prime numbers in strictly descending decimal digit order.
-// Sample Data:
-// 2, 3, 5, 7, 31, 41, 43, 53, 61, 71, 73, 83, 97, 421, 431.....
-// Click me to see the solution
+// // 98. Write a C# Sharp program to create and display all prime numbers in strictly descending decimal digit order.
+// // Sample Data:
+// // 2, 3, 5, 7, 31, 41, 43, 53, 61, 71, 73, 83, 97, 421, 431.....
+// // Click me to see the solution
 
-int num49 = 421;
-int num50 = 431;
-int num51 = 433;
-int num52 = 443;
-Console.WriteLine("Original number: " + num49);
-Console.WriteLine("Next prime number/Current prime number: " + NextPrime(num49));
-Console.WriteLine("Original number: " + num50);
-Console.WriteLine("Next prime number/Current prime number: " + NextPrime(num50));
-Console.WriteLine("Original number: " + num51);
-Console.WriteLine("Next prime number/Current prime number: " + NextPrime(num51));
-Console.WriteLine("Original number: " + num52);
-Console.WriteLine("Next prime number/Current prime number: " + NextPrime(num52));
+// int num49 = 421;
+// int num50 = 431;
+// int num51 = 433;
+// int num52 = 443;
+// Console.WriteLine("Original number: " + num49);
+// Console.WriteLine("Next prime number/Current prime number: " + NextPrime(num49));
+// Console.WriteLine("Original number: " + num50);
+// Console.WriteLine("Next prime number/Current prime number: " + NextPrime(num50));
+// Console.WriteLine("Original number: " + num51);
+// Console.WriteLine("Next prime number/Current prime number: " + NextPrime(num51));
+// Console.WriteLine("Original number: " + num52);
+// Console.WriteLine("Next prime number/Current prime number: " + NextPrime(num52));
 
-int NextPrime(int num)
-{
-    for (int i = num + 1; ; i++)
-    {
-        bool isPrime = true;
-        for (int j = 2; j < i; j++)
-        {
-            if (i % j == 0)
-            {
-                isPrime = false;
-                break;
-            }
-        }
-        if (isPrime)
-        {
-            return i;
-        }
-    }
-}
-
-
-// 99. Write a C# Sharp program to create and display all prime numbers in strict ascending decimal digit order.
-// Sample Data:
-// 2, 3, 5, 7, 13, 17, 19, 23, 29, 37, 47, 59, 67, 79,
-// Click me to see the solution
-
-int num53 = 2;
-int num54 = 3;
-int num55 = 5;
-int num56 = 7;
-Console.WriteLine("Original number: " + num53);
-Console.WriteLine("Next prime number/Current prime number: " + PreviousPrime(num53));
-Console.WriteLine("Original number: " + num54);
-Console.WriteLine("Next prime number/Current prime number: " + PreviousPrime(num54));
-Console.WriteLine("Original number: " + num55);
-Console.WriteLine("Next prime number/Current prime number: " + PreviousPrime(num55));
-Console.WriteLine("Original number: " + num56);
-Console.WriteLine("Next prime number/Current prime number: " + PreviousPrime(num56));
-
-int PreviousPrime(int num)
-{
-    for (int i = num - 1; ; i--)
-    {
-        bool isPrime = true;
-        for (int j = 2; j < i; j++)
-        {
-            if (i % j == 0)
-            {
-                isPrime = false;
-                break;
-            }
-        }
-        if (isPrime)
-        {
-            return i;
-        }
-    }
-}
-
-// 100. Write a C# Sharp program to check the equality comparison (value and type) of two parameters. Return true if they are equal otherwise false.
-// Sample Data:
-// ("AAA", "BBB") -> False
-// (true, false) -> False
-// (true, "true") -> False
-// (10, 10) -> True
-// Click me to see the solution
-
-string str18 = "AAA";
-string str19 = "BBB";
-bool bool1 = true;
-bool bool2 = false;
-int num57 = 10;
-int num58 = 10;
-Console.WriteLine("(" + str18 + ", " + str19 + ") -> " + AreEqual(str18, str19));
-Console.WriteLine("(" + bool1 + ", " + bool2 + ") -> " + AreEqual(bool1, bool2));
-Console.WriteLine("(" + bool1 + ", " + str19 + ") -> " + AreEqual(bool1, str19));
-Console.WriteLine("(" + num57 + ", " + num58 + ") -> " + AreEqual(num57, num58));
-
-bool AreEqual(object obj1, object obj2)
-{
-    return obj1.Equals(obj2);
-}   
-
-// 101. Write a C# Sharp program to calculate the value of e.
-// Note: e is also known as Euler's number and Napier's constant
-// Sample Data:
-// e = 2.718281828459050
-// Click me to see the solution
-
-double num59 = 2.718281828459050;
-Console.WriteLine("e = " + num59);
-
-// 102. Write a C# Sharp program to create an identity matrix.
-// Sample Data:
-// Input a number: 3
-// 1 0 0
-// 0 1 0
-// 0 0 1
-// Click me to see the solution
-
-int num60 = 3;
-for (int i = 0; i < num60; i++)
-{
-    for (int j = 0; j < num60; j++)
-    {
-        if (i == j)
-        {
-            Console.Write("1 ");
-        }
-        else
-        {
-            Console.Write("0 ");
-        }
-    }
-    Console.WriteLine();
-}
-
-// 103. Write a C# Sharp program to sort characters in a given string (uppercase/lowercase letters and numbers). Return the newly sorted string.
-// Sample Data:
-// ("AAAbfed231") -> "AAAbdef123"
-// (" ") -> "Blank string!"
-// ("Python") -> "hnoPty"
-// ("W3resource") -> "ceeorrsuW3"
-// Click me to see the solution
-
-string str20 = "AAAbfed231";
-string str21 = " ";
-string str22 = "Python";
-string str23 = "W3resource";
-Console.WriteLine("(" + str20 + ") -> " + SortString(str20));
-Console.WriteLine("(" + str21 + ") -> " + SortString(str21));
-Console.WriteLine("(" + str22 + ") -> " + SortString(str22));
-Console.WriteLine("(" + str23 + ") -> " + SortString(str23));
-
-string SortString(string str)
-{
-    char[] chars = str.ToCharArray();
-    Array.Sort(chars);
-    return new string(chars);
-}   
+// int NextPrime(int num)
+// {
+//     for (int i = num + 1; ; i++)
+//     {
+//         bool isPrime = true;
+//         for (int j = 2; j < i; j++)
+//         {
+//             if (i % j == 0)
+//             {
+//                 isPrime = false;
+//                 break;
+//             }
+//         }
+//         if (isPrime)
+//         {
+//             return i;
+//         }
+//     }
+// }
 
 
-// 104. Write a C# Sharp program to compare the equality of three integers and calculate how many integers have the same value.
-// Sample Data:
-// (1,2, 3) -> 0
-// (1,3,3) -> 2
-// (3,3,3) -> 3
-// Click me to see the solution
+// // 99. Write a C# Sharp program to create and display all prime numbers in strict ascending decimal digit order.
+// // Sample Data:
+// // 2, 3, 5, 7, 13, 17, 19, 23, 29, 37, 47, 59, 67, 79,
+// // Click me to see the solution
 
-int num61 = 1;
-int num62 = 2;
-int num63 = 3;
-int num64 = 1;
-int num65 = 3;
-int num66 = 3;
-Console.WriteLine("(" + num61 + ", " + num62 + ", " + num63 + ") -> " + CompareIntegers(num61, num62, num63));
-Console.WriteLine("(" + num64 + ", " + num65 + ", " + num66 + ") -> " + CompareIntegers(num64, num65, num66));
-Console.WriteLine("(" + num61 + ", " + num65 + ", " + num66 + ") -> " + CompareIntegers(num61, num65, num66));
+// int num53 = 2;
+// int num54 = 3;
+// int num55 = 5;
+// int num56 = 7;
+// Console.WriteLine("Original number: " + num53);
+// Console.WriteLine("Next prime number/Current prime number: " + PreviousPrime(num53));
+// Console.WriteLine("Original number: " + num54);
+// Console.WriteLine("Next prime number/Current prime number: " + PreviousPrime(num54));
+// Console.WriteLine("Original number: " + num55);
+// Console.WriteLine("Next prime number/Current prime number: " + PreviousPrime(num55));
+// Console.WriteLine("Original number: " + num56);
+// Console.WriteLine("Next prime number/Current prime number: " + PreviousPrime(num56));
 
-int CompareIntegers(int num67, int num68, int num69)
-{
-    int count = 0;
-    if (num67 == num68 && num67 == num69)
-    {
-        count = 3;
-    }
-    else if (num67 == num68 || num67 == num69 || num68 == num69)
-    {
-        count = 2;
-    }
-    return count;
-}
+// int PreviousPrime(int num)
+// {
+//     for (int i = num - 1; ; i--)
+//     {
+//         bool isPrime = true;
+//         for (int j = 2; j < i; j++)
+//         {
+//             if (i % j == 0)
+//             {
+//                 isPrime = false;
+//                 break;
+//             }
+//         }
+//         if (isPrime)
+//         {
+//             return i;
+//         }
+//     }
+// }
 
-    
+// // 100. Write a C# Sharp program to check the equality comparison (value and type) of two parameters. Return true if they are equal otherwise false.
+// // Sample Data:
+// // ("AAA", "BBB") -> False
+// // (true, false) -> False
+// // (true, "true") -> False
+// // (10, 10) -> True
+// // Click me to see the solution
+
+// string str18 = "AAA";
+// string str19 = "BBB";
+// bool bool1 = true;
+// bool bool2 = false;
+// int num57 = 10;
+// int num58 = 10;
+// Console.WriteLine("(" + str18 + ", " + str19 + ") -> " + AreEqual(str18, str19));
+// Console.WriteLine("(" + bool1 + ", " + bool2 + ") -> " + AreEqual(bool1, bool2));
+// Console.WriteLine("(" + bool1 + ", " + str19 + ") -> " + AreEqual(bool1, str19));
+// Console.WriteLine("(" + num57 + ", " + num58 + ") -> " + AreEqual(num57, num58));
+
+// bool AreEqual(object obj1, object obj2)
+// {
+//     return obj1.Equals(obj2);
+// }   
+
+// // 101. Write a C# Sharp program to calculate the value of e.
+// // Note: e is also known as Euler's number and Napier's constant
+// // Sample Data:
+// // e = 2.718281828459050
+// // Click me to see the solution
+
+// double num59 = 2.718281828459050;
+// Console.WriteLine("e = " + num59);
+
+// // 102. Write a C# Sharp program to create an identity matrix.
+// // Sample Data:
+// // Input a number: 3
+// // 1 0 0
+// // 0 1 0
+// // 0 0 1
+// // Click me to see the solution
+
+// int num60 = 3;
+// for (int i = 0; i < num60; i++)
+// {
+//     for (int j = 0; j < num60; j++)
+//     {
+//         if (i == j)
+//         {
+//             Console.Write("1 ");
+//         }
+//         else
+//         {
+//             Console.Write("0 ");
+//         }
+//     }
+//     Console.WriteLine();
+// }
+
+// // 103. Write a C# Sharp program to sort characters in a given string (uppercase/lowercase letters and numbers). Return the newly sorted string.
+// // Sample Data:
+// // ("AAAbfed231") -> "AAAbdef123"
+// // (" ") -> "Blank string!"
+// // ("Python") -> "hnoPty"
+// // ("W3resource") -> "ceeorrsuW3"
+// // Click me to see the solution
+
+// string str20 = "AAAbfed231";
+// string str21 = " ";
+// string str22 = "Python";
+// string str23 = "W3resource";
+// Console.WriteLine("(" + str20 + ") -> " + SortString(str20));
+// Console.WriteLine("(" + str21 + ") -> " + SortString(str21));
+// Console.WriteLine("(" + str22 + ") -> " + SortString(str22));
+// Console.WriteLine("(" + str23 + ") -> " + SortString(str23));
+
+// string SortString(string str)
+// {
+//     char[] chars = str.ToCharArray();
+//     Array.Sort(chars);
+//     return new string(chars);
+// }   
+
+
+// // 104. Write a C# Sharp program to compare the equality of three integers and calculate how many integers have the same value.
+// // Sample Data:
+// // (1,2, 3) -> 0
+// // (1,3,3) -> 2
+// // (3,3,3) -> 3
+// // Click me to see the solution
+
+// int num61 = 1;
+// int num62 = 2;
+// int num63 = 3;
+// int num64 = 1;
+// int num65 = 3;
+// int num66 = 3;
+// Console.WriteLine("(" + num61 + ", " + num62 + ", " + num63 + ") -> " + CompareIntegers(num61, num62, num63));
+// Console.WriteLine("(" + num64 + ", " + num65 + ", " + num66 + ") -> " + CompareIntegers(num64, num65, num66));
+// Console.WriteLine("(" + num61 + ", " + num65 + ", " + num66 + ") -> " + CompareIntegers(num61, num65, num66));
+
+// int CompareIntegers(int num67, int num68, int num69)
+// {
+//     int count = 0;
+//     if (num67 == num68 && num67 == num69)
+//     {
+//         count = 3;
+//     }
+//     else if (num67 == num68 || num67 == num69 || num68 == num69)
+//     {
+//         count = 2;
+//     }
+//     return count;
+// }
+
