@@ -784,7 +784,33 @@ Sample Data:
 Click me to see the solution
 
 
+
+
+
+
+
+
+
+
+
+
+
 /////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+C# Sharp Basic Algorithm Exercises
+
 
 1. Write a C# Sharp program to compute the sum of the two numerical values. If the two values are the same, return triple their sum.
 
