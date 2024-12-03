@@ -812,3 +812,29 @@ string SortString(string str)
 // (1,3,3) -> 2
 // (3,3,3) -> 3
 // Click me to see the solution
+
+int num61 = 1;
+int num62 = 2;
+int num63 = 3;
+int num64 = 1;
+int num65 = 3;
+int num66 = 3;
+Console.WriteLine("(" + num61 + ", " + num62 + ", " + num63 + ") -> " + CompareIntegers(num61, num62, num63));
+Console.WriteLine("(" + num64 + ", " + num65 + ", " + num66 + ") -> " + CompareIntegers(num64, num65, num66));
+Console.WriteLine("(" + num61 + ", " + num65 + ", " + num66 + ") -> " + CompareIntegers(num61, num65, num66));
+
+int CompareIntegers(int num67, int num68, int num69)
+{
+    int count = 0;
+    if (num67 == num68 && num67 == num69)
+    {
+        count = 3;
+    }
+    else if (num67 == num68 || num67 == num69 || num68 == num69)
+    {
+        count = 2;
+    }
+    return count;
+}
+
+    
