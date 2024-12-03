@@ -753,6 +753,9 @@ bool AreEqual(object obj1, object obj2)
 // e = 2.718281828459050
 // Click me to see the solution
 
+double num59 = 2.718281828459050;
+Console.WriteLine("e = " + num59);
+
 // 102. Write a C# Sharp program to create an identity matrix.
 // Sample Data:
 // Input a number: 3
