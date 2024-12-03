@@ -764,6 +764,23 @@ Console.WriteLine("e = " + num59);
 // 0 0 1
 // Click me to see the solution
 
+int num60 = 3;
+for (int i = 0; i < num60; i++)
+{
+    for (int j = 0; j < num60; j++)
+    {
+        if (i == j)
+        {
+            Console.Write("1 ");
+        }
+        else
+        {
+            Console.Write("0 ");
+        }
+    }
+    Console.WriteLine();
+}
+
 // 103. Write a C# Sharp program to sort characters in a given string (uppercase/lowercase letters and numbers). Return the newly sorted string.
 // Sample Data:
 // ("AAAbfed231") -> "AAAbdef123"
@@ -771,6 +788,23 @@ Console.WriteLine("e = " + num59);
 // ("Python") -> "hnoPty"
 // ("W3resource") -> "ceeorrsuW3"
 // Click me to see the solution
+
+string str20 = "AAAbfed231";
+string str21 = " ";
+string str22 = "Python";
+string str23 = "W3resource";
+Console.WriteLine("(" + str20 + ") -> " + SortString(str20));
+Console.WriteLine("(" + str21 + ") -> " + SortString(str21));
+Console.WriteLine("(" + str22 + ") -> " + SortString(str22));
+Console.WriteLine("(" + str23 + ") -> " + SortString(str23));
+
+string SortString(string str)
+{
+    char[] chars = str.ToCharArray();
+    Array.Sort(chars);
+    return new string(chars);
+}   
+
 
 // 104. Write a C# Sharp program to compare the equality of three integers and calculate how many integers have the same value.
 // Sample Data:
