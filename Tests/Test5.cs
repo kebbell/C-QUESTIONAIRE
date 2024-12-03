@@ -746,3 +746,32 @@ bool AreEqual(object obj1, object obj2)
 {
     return obj1.Equals(obj2);
 }   
+
+// 101. Write a C# Sharp program to calculate the value of e.
+// Note: e is also known as Euler's number and Napier's constant
+// Sample Data:
+// e = 2.718281828459050
+// Click me to see the solution
+
+// 102. Write a C# Sharp program to create an identity matrix.
+// Sample Data:
+// Input a number: 3
+// 1 0 0
+// 0 1 0
+// 0 0 1
+// Click me to see the solution
+
+// 103. Write a C# Sharp program to sort characters in a given string (uppercase/lowercase letters and numbers). Return the newly sorted string.
+// Sample Data:
+// ("AAAbfed231") -> "AAAbdef123"
+// (" ") -> "Blank string!"
+// ("Python") -> "hnoPty"
+// ("W3resource") -> "ceeorrsuW3"
+// Click me to see the solution
+
+// 104. Write a C# Sharp program to compare the equality of three integers and calculate how many integers have the same value.
+// Sample Data:
+// (1,2, 3) -> 0
+// (1,3,3) -> 2
+// (3,3,3) -> 3
+// Click me to see the solution
