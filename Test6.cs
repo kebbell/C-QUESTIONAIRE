@@ -139,8 +139,8 @@ else
 // Click me to see the solution
 
 string str3 = "Python";
-string str4 = "o";
-string str5 = "4";
+// string str4 = "o";
+// string str5 = "4";
 if (str3.Length > 1)
 {
     Console.WriteLine(str3.Remove(1, 1));
@@ -153,29 +153,41 @@ else
 
 
 // 7. Write a C# Sharp program to exchange the first and last characters in a given string and return the new string.
-
 // Sample Input:
 // "abcd"
 // "a"
 // "xy"
 // Expected Output:
-
 // dbca
 // a
 // yx
 // Click me to see the solution
-// 8. Write a C# Sharp program to create a string which is 4 copies of the 2 front characters of a given string. If the given string length is less than 2 return the original string.
 
+string str6 = "abcd";
+// string str7 = "a";
+// string str8 = "xy";
+if (str6.Length > 1)
+{
+    Console.WriteLine(str6[str6.Length - 1] + str6.Substring(1, str6.Length - 2) + str6[0]);
+}
+else
+{
+    Console.WriteLine(str6);
+}
+
+// 8. Write a C# Sharp program to create a string which is 4 copies of the 2 front characters of a given string. If the given string length is less than 2 return the original string.
 // Sample Input:
 // "C Sharp"
 // "JS"
 // "a"
 // Expected Output:
-
 // C C C C 
 // JSJSJSJS
 // a
 // Click me to see the solution
+
+
+
 // 9. Write a C# Sharp program to create a string with the last char added at the front and back of a given string of length 1 or more.
 
 // Sample Input:
