@@ -186,20 +186,44 @@ else
 // a
 // Click me to see the solution
 
+string str9 = "C Sharp";
+// string str10 = "JS";
+// string str11 = "a";
+if (str9.Length > 1)
+{
+    Console.WriteLine(str9.Substring(0, 2) + " " + str9.Substring(0, 2) + " " + str9.Substring(0, 2) + " " + str9.Substring(0, 2));
+}
+else
+{
+    Console.WriteLine(str9);
+}
+
 
 
 // 9. Write a C# Sharp program to create a string with the last char added at the front and back of a given string of length 1 or more.
-
 // Sample Input:
 // "Red"
 // "Green"
 // "1"
 // Expected Output:
-
 // dRedd
 // nGreenn
 // 111
 // Click me to see the solution
+
+string str12 = "Red";
+// string str13 = "Green";
+// string str14 = "1";
+if (str12.Length > 1)
+{
+    Console.WriteLine(str12[str12.Length - 1] + str12 + str12[str12.Length - 1]);
+}
+else
+{
+    Console.WriteLine(str12);
+}
+
+
 // 10. Write a C# Sharp program to check if a given positive number is a multiple of 3 or 7.
 
 // Sample Input:
