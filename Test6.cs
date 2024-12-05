@@ -236,7 +236,18 @@ else
 // False
 // Click me to see the solution
 
-
+int num17 = 3;
+int num18 = 14;
+int num19 = 12;
+int num20 = 37;
+if (num17 % 3 == 0 || num17 % 7 == 0 || num18 % 3 == 0 || num18 % 7 == 0 || num19 % 3 == 0 || num19 % 7 == 0 || num20 % 3 == 0 || num20 % 7 == 0)
+{
+    Console.WriteLine("True");
+}
+else
+{
+    Console.WriteLine("False");
+}
 
 
 // 11. Write a C# Sharp program to create a string taking the first 3 characters of a given string. Return the string with the 3 characters added at both the front and back. If the given string length is less than 3, use whatever characters are there.
