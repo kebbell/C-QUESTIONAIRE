@@ -235,8 +235,11 @@ else
 // True
 // False
 // Click me to see the solution
-// 11. Write a C# Sharp program to create a string taking the first 3 characters of a given string. Return the string with the 3 characters added at both the front and back. If the given string length is less than 3, use whatever characters are there.
 
+
+
+
+// 11. Write a C# Sharp program to create a string taking the first 3 characters of a given string. Return the string with the 3 characters added at both the front and back. If the given string length is less than 3, use whatever characters are there.
 // Sample Input:
 // "Python"
 // "JS"
