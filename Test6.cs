@@ -223,16 +223,13 @@ else
     Console.WriteLine(str12);
 }
 
-
 // 10. Write a C# Sharp program to check if a given positive number is a multiple of 3 or 7.
-
 // Sample Input:
 // 3
 // 14
 // 12
 // 37
 // Expected Output:
-
 // True
 // True
 // True
