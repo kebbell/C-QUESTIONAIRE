@@ -280,13 +280,25 @@ else
 // "C#"
 // "C++"
 // Expected Output:
-
 // True
 // True
 // False
 // Click me to see the solution
-// 13. Write a C# Sharp program that checks whether one temperature is less than 0 and another is greater than 100.
 
+string str18 = "C# Sharp";
+// string str19 = "C#";
+// string str20 = "C++";
+if (str18.StartsWith("C#"))
+{
+    Console.WriteLine("True");
+}
+else
+{
+    Console.WriteLine("False");
+}
+
+
+// 13. Write a C# Sharp program that checks whether one temperature is less than 0 and another is greater than 100.
 // Sample Input:
 // 120, -1
 // -1, 120
