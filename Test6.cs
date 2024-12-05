@@ -256,13 +256,25 @@ else
 // "JS"
 // "Code"
 // Expected Output:
-
 // PytPythonPyt
 // JSJSJS
 // CodCodeCod
 // Click me to see the solution
-// 12. Write a C# Sharp program to check if a given string starts with 'C#' or not.
 
+string str15 = "Python";
+// string str16 = "JS";
+// string str17 = "Code";
+if (str15.Length > 2)
+{
+    Console.WriteLine(str15.Substring(0, 3) + str15 + str15.Substring(0, 3));
+}
+else
+{
+    Console.WriteLine(str15);
+}
+
+
+// 12. Write a C# Sharp program to check if a given string starts with 'C#' or not.
 // Sample Input:
 // "C# Sharp"
 // "C#"
