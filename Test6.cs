@@ -329,13 +329,27 @@ else
 // 250, 300
 // 105, 190
 // Expected Output:
-
 // True
 // False
 // True
 // Click me to see the solution
-// 15. Write a C# Sharp program to check whether three given integer values are in the range 20..50 inclusive. Return true if 1 or more of them are in the said range otherwise false.
 
+int num25 = 100;
+int num26 = 199;
+int num27 = 250;
+int num28 = 300;
+int num29 = 105;
+int num30 = 190;
+if (num25 >= 100 && num25 <= 200 || num26 >= 100 && num26 <= 200 || num27 >= 100 && num27 <= 200 || num28 >= 100 && num28 <= 200 || num29 >= 100 && num29 <= 200 || num30 >= 100 && num30 <= 200)
+{
+    Console.WriteLine("True");
+}
+else
+{
+    Console.WriteLine("False");
+}
+
+// 15. Write a C# Sharp program to check whether three given integer values are in the range 20..50 inclusive. Return true if 1 or more of them are in the said range otherwise false.
 // Sample Input:
 // 11, 20, 12
 // 30, 30, 17
