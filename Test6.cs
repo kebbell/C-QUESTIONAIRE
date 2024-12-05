@@ -56,6 +56,11 @@ else
 // 20, 30
 // 20, 25
 // Expected Output:
+// True
+// True
+// True
+// False
+// Click me to see the solution
 
 int num6 = 30;
 int num7 = 0;
@@ -74,46 +79,79 @@ else
     Console.WriteLine("False");
 }
 
-// True
-// True
-// True
-// False
-// Click me to see the solution
-// 4. Write a C# Sharp program to check a given integer and return true if it is within 10 of 100 or 200.
 
+// 4. Write a C# Sharp program to check a given integer and return true if it is within 10 of 100 or 200.
 // Sample Input:
 // 103
 // 90
 // 89
-
 // Expected Output:
-
 // True
 // True
 // False
 // Click me to see the solution
-// 5. Write a C# Sharp program to create a string where 'if' is added to the front of a given string. If the string already begins with 'if', return it unchanged.
 
+
+int num14 = 103;
+int num15 = 90;
+int num16 = 89;
+if (num14 > 90 && num14 < 110 || num15 > 190 && num15 < 210 || num16 > 190 && num16 < 210)
+{
+    Console.WriteLine("True");
+}
+else
+{
+    Console.WriteLine("False");
+}
+
+
+// 5. Write a C# Sharp program to create a string where 'if' is added to the front of a given string. If the string already begins with 'if', return it unchanged.
 // Sample Input:
 // "if else"
 // "else"
 // Expected Output:
-
 // if else
 // if else
 // Click me to see the solution
-// 6. Write a C# Sharp program to remove the character at a given position in the string. The given position will be in the range 0..(string length -1) inclusive.
 
+
+string str1 = "if else";
+string str2 = "else";
+if (str1.StartsWith("if"))
+{
+    Console.WriteLine(str1);
+}
+else
+{
+    Console.WriteLine("if " + str2);
+}
+
+
+// 6. Write a C# Sharp program to remove the character at a given position in the string. The given position will be in the range 0..(string length -1) inclusive.
 // Sample Input:
 // "Python", 1
 // "Python", o
 // "Python", 4
 // Expected Output:
-
 // Pthon
 // ython
 // Pythn
 // Click me to see the solution
+
+string str3 = "Python";
+string str4 = "o";
+string str5 = "4";
+if (str3.Length > 1)
+{
+    Console.WriteLine(str3.Remove(1, 1));
+}
+else
+{
+    Console.WriteLine(str3);
+}
+
+
+
 // 7. Write a C# Sharp program to exchange the first and last characters in a given string and return the new string.
 
 // Sample Input:
