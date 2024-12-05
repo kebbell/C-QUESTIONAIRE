@@ -10,6 +10,16 @@
 // 12   
 // Click me to see the solution
 
+int num1 = 1;
+int num2 = 2;
+if (num1 == num2)
+{
+    Console.WriteLine(num1 + num2 * 3);
+}
+else
+{
+    Console.WriteLine(num1 + num2);
+}
 
 
 
@@ -26,19 +36,43 @@
 // 0
 // Click me to see the solution
 
-
-
-
+int num3 = 53;
+// int num4 = 30;
+int num5 = 51;
+if (num3 > num5)
+{
+    Console.WriteLine((num3 - num5) * 3);
+}
+else
+{
+    Console.WriteLine(num3 - num5);
+}
 
 
 // 3. Write a C# Sharp program to check two given integers, and return true if one of them is 30 or if their sum is 30.
-
 // Sample Input:
 // 30, 0
 // 25, 5
 // 20, 30
 // 20, 25
 // Expected Output:
+
+int num6 = 30;
+int num7 = 0;
+int num8 = 25;
+int num9 = 5;
+int num10 = 20;
+int num11 = 30;
+int num12 = 20;
+int num13 = 25;
+if (num6 == 30 || num7 == 30 || num8 + num9 == 30 || num10 + num11 == 30 || num12 + num13 == 30)
+{
+    Console.WriteLine("True");
+}
+else
+{
+    Console.WriteLine("False");
+}
 
 // True
 // True
