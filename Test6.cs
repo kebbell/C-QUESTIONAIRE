@@ -309,6 +309,18 @@ else
 // False
 // Click me to see the solution
 
+int num21 = 120;
+int num22 = -1;
+int num23 = 120;
+int num24 = 2;
+if (num21 < 0 || num22 > 100 || num23 < 0 || num24 > 100)
+{
+    Console.WriteLine("True");
+}
+else
+{
+    Console.WriteLine("False");
+}
 
 
 // 14. Write a C# Sharp program to check two given integers whether either of them is in the range 100..200 inclusive.
