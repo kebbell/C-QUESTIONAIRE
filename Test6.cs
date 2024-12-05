@@ -356,66 +356,127 @@ else
 // 25, 35, 50
 // 15, 12, 8
 // Expected Output:
-
 // True
 // True
 // True
 // False
 // Click me to see the solution
-// 16. Write a C# Sharp program to check whether two given integer values are in the range 20..50 inclusive. Return true if one or other is in the range, otherwise false.
 
+string str21 = "11, 20, 12";
+string str22 = "30, 30, 17";
+string str23 = "25, 35, 50";
+string str24 = "15, 12, 8";
+if (str21.Contains(",") || str22.Contains(",") || str23.Contains(",") || str24.Contains(","))
+{
+    Console.WriteLine("True");
+}
+else
+{
+    Console.WriteLine("False");
+}
+
+// 16. Write a C# Sharp program to check whether two given integer values are in the range 20..50 inclusive. Return true if one or other is in the range, otherwise false.
 // Sample Input:
 // 20, 84
 // 14, 50
 // 11, 55
 // 25, 40
 // Expected Output:
-
 // True
 // True
 // False
 // True
 // Click me to see the solution
-// 17. Write a C# Sharp program to check if a string 'yt' appears at index 1 in a given string. If it appears return a string without 'yt' otherwise return the original string.
 
+string str25 = "20, 84";
+string str26 = "14, 50";
+string str27 = "11, 55";
+string str28 = "25, 40";
+if (str25.Contains(",") || str26.Contains(",") || str27.Contains(",") || str28.Contains(","))
+{
+    Console.WriteLine("True");
+}
+else
+{
+    Console.WriteLine("False");
+}
+
+
+// 17. Write a C# Sharp program to check if a string 'yt' appears at index 1 in a given string. If it appears return a string without 'yt' otherwise return the original string.
 // Sample Input:
 // "Python"
 // "ytade"
 // "jsues"
 // Expected Output:
-
 // Phon
 // ytade
 // jsues
 // Click me to see the solution
-// 18. Write a C# Sharp program to check the largest number among three given integers.
 
+string str29 = "Python";
+string str30 = "ytade";
+string str31 = "jsues";
+if (str29.Contains("yt") || str30.Contains("yt") || str31.Contains("yt"))
+{
+    Console.WriteLine(str29.Replace("yt", ""));
+    Console.WriteLine(str30.Replace("yt", ""));
+    Console.WriteLine(str31.Replace("yt", ""));
+}
+else
+{
+    Console.WriteLine(str29);
+    Console.WriteLine(str30);
+    Console.WriteLine(str31);
+}
+
+
+// 18. Write a C# Sharp program to check the largest number among three given integers.
 // Sample Input:
 // 1,2,3
 // 1,3,2
 // 1,1,1
 // 1,2,2
 // Expected Output:
-
 // 3
 // 3
 // 1
 // 2
 // Click me to see the solution
-// 19. Write a C# Sharp program to check which number is closest to 100 among two given integers. Return 0 if the two numbers are equal.
 
+string str32 = "1,2,3";
+string str33 = "1,3,2";
+string str34 = "1,1,1";
+string str35 = "1,2,2";
+if (str32.Contains(",") || str33.Contains(",") || str34.Contains(",") || str35.Contains(","))
+{
+    Console.WriteLine(str32.Split(",")[2]);
+    Console.WriteLine(str33.Split(",")[2]);
+    Console.WriteLine(str34.Split(",")[2]);
+    Console.WriteLine(str35.Split(",")[2]);
+}
+else
+{
+    Console.WriteLine(str32);
+    Console.WriteLine(str33);
+    Console.WriteLine(str34);
+    Console.WriteLine(str35);
+}
+
+
+// 19. Write a C# Sharp program to check which number is closest to 100 among two given integers. Return 0 if the two numbers are equal.
 // Sample Input:
 // 78, 95
 // 95, 95
 // 99, 70
 // Expected Output:
-
 // 95
 // 0
 // 99
 // Click me to see the solution
-// 20. Write a C# Sharp program to check whether two given integers are in the range 40..50 inclusive, or they are both in the range 50..60 inclusive.
 
+
+
+// 20. Write a C# Sharp program to check whether two given integers are in the range 40..50 inclusive, or they are both in the range 50..60 inclusive.
 // Sample Input:
 // 78, 95
 // 25, 35
