@@ -247,7 +247,6 @@ else
 }
 
 
-
 // 29. Write a C# Sharp program to create a string made of every other character starting with the first in a given string.
 // Sample Input:
 // "Python"
