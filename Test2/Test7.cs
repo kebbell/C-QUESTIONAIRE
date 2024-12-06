@@ -286,51 +286,54 @@ Console.WriteLine(result5);
 // "abc"
 // "a"
 // Expected Output:
-
 // aababcabcd
 // aababc
 // a
 // Click me to see the solution
-// 31. Write a C# Sharp program to count a substring of length 2 that appears in a given string. This substring appears as the last 2 characters of the string. Do not count the end substring.
 
+
+
+// 31. Write a C# Sharp program to count a substring of length 2 that appears in a given string. This substring appears as the last 2 characters of the string. Do not count the end substring.
 // Sample Input:
 // "abcdsab"
 // "abcdabab"
 // "abcabdabab"
 // "abcabd"
 // Expected Output:
-
 // 1
 // 2
 // 3
 // 0
 // Click me to see the solution
-// 32. Write a C# Sharp program to check if a specified number is present in a given array of integers.
 
+
+// 32. Write a C# Sharp program to check if a specified number is present in a given array of integers.
 // Sample Input:
 // {1,2,9,3}, 3
 // {1,2,2,3}, 2
 // {1,2,2,3}, 9
 // Expected Output:
-
 // True
 // True
 // False
 // Click me to see the solution
-// 33. Write a C# Sharp program to check if one of the first 4 elements in an array of integers is equal to a given element.
 
+
+
+// 33. Write a C# Sharp program to check if one of the first 4 elements in an array of integers is equal to a given element.
 // Sample Input:
 // {1,2,9,3}, 3
 // {1,2,3,4,5,6}, 2
 // {1,2,2,3}, 9
 // Expected Output:
-
 // True
 // True
 // False
 // Click me to see the solution
-// 34. Write a C# Sharp program to check whether the sequence of numbers 1, 2, 3 appears in a given array of integers somewhere.
 
+
+
+// 34. Write a C# Sharp program to check whether the sequence of numbers 1, 2, 3 appears in a given array of integers somewhere.
 // Sample Input:
 // {1,1,2,3,1}
 // {1,1,2,4,1}
