@@ -218,7 +218,33 @@ Console.WriteLine(count3);
 // True
 // Click me to see the solution
 
-
+string s6 = "caabb";
+string s7 = "babaaba";
+string s8 = "aaaaa";
+if (s6.IndexOf("a") == s6.IndexOf("a", s6.IndexOf("a") + 1))
+{
+    Console.WriteLine("True");
+}
+else
+{
+    Console.WriteLine("False");
+}
+if (s7.IndexOf("a") == s7.IndexOf("a", s7.IndexOf("a") + 1))
+{
+    Console.WriteLine("True");
+}
+else
+{
+    Console.WriteLine("False");
+}
+if (s8.IndexOf("a") == s8.IndexOf("a", s8.IndexOf("a") + 1))
+{
+    Console.WriteLine("True");
+}
+else
+{
+    Console.WriteLine("False");
+}
 
 
 
