@@ -1,5 +1,4 @@
 // 21. Write a C# Sharp program to find the largest value from two positive integer values in the range 20..30 inclusive. Return 0 if neither is in that range.
-
 // Sample Input:
 // 78, 95
 // 20, 30
@@ -11,6 +10,16 @@
 // 25
 // 28
 // Click me to see the solution
+
+int a = 78, b = 95;
+if (a > 20 && a < 30 && b > 20 && b < 30)
+{
+    Console.WriteLine(Math.Max(a, b));
+}
+else
+{
+    Console.WriteLine(0);
+}
 
 
 // 22. Write a C# Sharp program to check if a given string contains between 2 and 4 'z' characters.
