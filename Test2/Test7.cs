@@ -254,13 +254,34 @@ else
 // "PHP"
 // "JS"
 // Expected Output:
-
 // Pto
 // PP
 // J
 // Click me to see the solution
-// 30. Write a C# Sharp program to create a string like "aababcabcd" from a given string "abcd".
 
+string s9 = "Python";
+string s10 = "PHP";
+string s11 = "JS";
+string result3 = "";
+for (int i = 0; i < s9.Length; i += 2)
+{
+    result3 += s9[i];
+}
+Console.WriteLine(result3);
+string result4 = "";
+for (int i = 0; i < s10.Length; i += 2)
+{
+    result4 += s10[i];
+}
+Console.WriteLine(result4);
+string result5 = "";
+for (int i = 0; i < s11.Length; i += 2)
+{
+    result5 += s11[i];
+}
+Console.WriteLine(result5);
+
+// 30. Write a C# Sharp program to create a string like "aababcabcd" from a given string "abcd".
 // Sample Input:
 // "abcd"
 // "abc"
