@@ -88,6 +88,26 @@ else
 // PHP
 // Click me to see the solution
 
+string s1 = "Python";
+string s2 = "Javascript";
+string s3 = "js";
+string s4 = "PHP";
+int length = s1.Length;
+if (length < 3)
+{
+    Console.WriteLine(s1.ToUpper());
+    Console.WriteLine(s2.ToUpper());
+    Console.WriteLine(s3.ToUpper());
+    Console.WriteLine(s4.ToUpper());
+}
+else
+{
+    Console.WriteLine(s1.Substring(length - 3));
+    Console.WriteLine(s2.Substring(length - 3));
+    Console.WriteLine(s3.Substring(length - 3));
+    Console.WriteLine(s4.Substring(length - 3));
+}
+
 
 // 25. Write a C# Sharp program to create a string which is n (non-negative integer) copies of a given string.
 
