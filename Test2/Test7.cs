@@ -1,112 +1,112 @@
-// 21. Write a C# Sharp program to find the largest value from two positive integer values in the range 20..30 inclusive. Return 0 if neither is in that range.
-// Sample Input:
-// 78, 95
-// 20, 30
-// 21, 25
-// 28, 28
-// Expected Output:
-// 0
-// 30
-// 25
-// 28
-// Click me to see the solution
+// // 21. Write a C# Sharp program to find the largest value from two positive integer values in the range 20..30 inclusive. Return 0 if neither is in that range.
+// // Sample Input:
+// // 78, 95
+// // 20, 30
+// // 21, 25
+// // 28, 28
+// // Expected Output:
+// // 0
+// // 30
+// // 25
+// // 28
+// // Click me to see the solution
 
-using System.Diagnostics;
+// using System.Diagnostics;
 
-int a = 78, b = 95;
-if (a > 20 && a < 30 && b > 20 && b < 30)
-{
-    Console.WriteLine(Math.Max(a, b));
-}
-else
-{
-    Console.WriteLine(0);
-}
-
-
-// 22. Write a C# Sharp program to check if a given string contains between 2 and 4 'z' characters.
-// Sample Input:
-// "frizz"
-// "zane"
-// "Zazz"
-// "false"
-// "zzzz"
-// "ZZZZ"
-// Expected Output:
-// True
-// False
-// True
-// False
-// True
-// False
-// Click me to see the solution
-
-string s = "frizz";
-bool containsZ = s.Contains('z');
-bool containsZ2 = s.Contains('z') && s.Contains('z') && s.Contains('z');
-Console.WriteLine(containsZ);   
-Console.WriteLine(containsZ2);
-
-// 23. Write a C# Sharp program to check if two given non-negative integers have the same last digit.
-// Sample Input:
-// 123, 456
-// 12, 512
-// 7, 87
-// 12, 45
-// Expected Output:
-// False
-// True
-// True
-// False
-// Click me to see the solution
-
-int a1 = 123, b1 = 456;
-int a2 = 12, b2 = 512;
-int a3 = 7, b3 = 87;
-int a4 = 12, b4 = 45;
-if (a1 % 10 == b1 % 10 && a2 % 10 == b2 % 10 && a3 % 10 == b3 % 10 && a4 % 10 == b4 % 10)
-{
-    Console.WriteLine("True");
-}
-else
-{
-    Console.WriteLine("False");
-}
+// int a = 78, b = 95;
+// if (a > 20 && a < 30 && b > 20 && b < 30)
+// {
+//     Console.WriteLine(Math.Max(a, b));
+// }
+// else
+// {
+//     Console.WriteLine(0);
+// }
 
 
+// // 22. Write a C# Sharp program to check if a given string contains between 2 and 4 'z' characters.
+// // Sample Input:
+// // "frizz"
+// // "zane"
+// // "Zazz"
+// // "false"
+// // "zzzz"
+// // "ZZZZ"
+// // Expected Output:
+// // True
+// // False
+// // True
+// // False
+// // True
+// // False
+// // Click me to see the solution
 
-// 24. Write a C# Sharp program to convert the last 3 characters of a given string to uppercase. If the length of the string is less than 3, then uppercase all the characters.
-// Sample Input:
-// "Python"
-// "Javascript"
-// "js"
-// "PHP"
-// Expected Output:
-// PytHON
-// JavascrIPT
-// JS
-// PHP
-// Click me to see the solution
+// string s = "frizz";
+// bool containsZ = s.Contains('z');
+// bool containsZ2 = s.Contains('z') && s.Contains('z') && s.Contains('z');
+// Console.WriteLine(containsZ);   
+// Console.WriteLine(containsZ2);
 
-string s1 = "Python";
-string s2 = "Javascript";
-string s3 = "js";
-string s4 = "PHP";
-int length = s1.Length;
-if (length < 3)
-{
-    Console.WriteLine(s1.ToUpper());
-    Console.WriteLine(s2.ToUpper());
-    Console.WriteLine(s3.ToUpper());
-    Console.WriteLine(s4.ToUpper());
-}
-else
-{
-    Console.WriteLine(s1.Substring(length - 3));
-    Console.WriteLine(s2.Substring(length - 3));
-    Console.WriteLine(s3.Substring(length - 3));
-    Console.WriteLine(s4.Substring(length - 3));
-}
+// // 23. Write a C# Sharp program to check if two given non-negative integers have the same last digit.
+// // Sample Input:
+// // 123, 456
+// // 12, 512
+// // 7, 87
+// // 12, 45
+// // Expected Output:
+// // False
+// // True
+// // True
+// // False
+// // Click me to see the solution
+
+// int a1 = 123, b1 = 456;
+// int a2 = 12, b2 = 512;
+// int a3 = 7, b3 = 87;
+// int a4 = 12, b4 = 45;
+// if (a1 % 10 == b1 % 10 && a2 % 10 == b2 % 10 && a3 % 10 == b3 % 10 && a4 % 10 == b4 % 10)
+// {
+//     Console.WriteLine("True");
+// }
+// else
+// {
+//     Console.WriteLine("False");
+// }
+
+
+
+// // 24. Write a C# Sharp program to convert the last 3 characters of a given string to uppercase. If the length of the string is less than 3, then uppercase all the characters.
+// // Sample Input:
+// // "Python"
+// // "Javascript"
+// // "js"
+// // "PHP"
+// // Expected Output:
+// // PytHON
+// // JavascrIPT
+// // JS
+// // PHP
+// // Click me to see the solution
+
+// string s1 = "Python";
+// string s2 = "Javascript";
+// string s3 = "js";
+// string s4 = "PHP";
+// int length = s1.Length;
+// if (length < 3)
+// {
+//     Console.WriteLine(s1.ToUpper());
+//     Console.WriteLine(s2.ToUpper());
+//     Console.WriteLine(s3.ToUpper());
+//     Console.WriteLine(s4.ToUpper());
+// }
+// else
+// {
+//     Console.WriteLine(s1.Substring(length - 3));
+//     Console.WriteLine(s2.Substring(length - 3));
+//     Console.WriteLine(s3.Substring(length - 3));
+//     Console.WriteLine(s4.Substring(length - 3));
+// }
 
 
 // 25. Write a C# Sharp program to create a string which is n (non-negative integer) copies of a given string.
