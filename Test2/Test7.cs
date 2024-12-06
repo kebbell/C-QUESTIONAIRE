@@ -213,13 +213,16 @@ Console.WriteLine(count3);
 // "babaaba"
 // "aaaaa"
 // Expected Output:
-
 // True
 // False
 // True
 // Click me to see the solution
-// 29. Write a C# Sharp program to create a string made of every other character starting with the first in a given string.
 
+
+
+
+
+// 29. Write a C# Sharp program to create a string made of every other character starting with the first in a given string.
 // Sample Input:
 // "Python"
 // "PHP"
