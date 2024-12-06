@@ -141,6 +141,26 @@ Console.WriteLine(result);
 // JSJSJS
 // Click me to see the solution
 
+string s2 = "Python";
+int n2 = 2;
+string result2 = "";
+if (s2.Length < 3)
+{
+    for (int i = 0; i < n2; i++)
+    {
+        result2 += s2;
+    }
+    Console.WriteLine(result2);
+}
+else
+{
+    result2 = s2.Substring(0, 3);
+    for (int i = 0; i < n2 - 1; i++)
+    {
+        result2 += result2;
+    }
+    Console.WriteLine(result2);
+}
 
 
 
@@ -150,13 +170,44 @@ Console.WriteLine(result);
 // "jjkiaaasew"
 // "JSaaakoiaa"
 // Expected Output:
-
 // 2
 // 2
 // 3
 // Click me to see the solution
-// 28. Write a C# Sharp program to check if the first appearance of "a" in a given string is immediately followed by another "a".
 
+string s3 = "bbaaccaag";
+string s4 = "jjkiaaasew";
+string s5 = "JSaaakoiaa";
+int count = 0;
+int count2 = 0;
+int count3 = 0;
+for (int i = 0; i < s3.Length; i++)
+{
+    if (s3.Substring(i, 2) == "aa")
+    {
+        count++;
+    }
+}
+for (int i = 0; i < s4.Length; i++)
+{
+    if (s4.Substring(i, 3) == "aaa")
+    {
+        count2++;
+    }
+}
+for (int i = 0; i < s5.Length; i++)
+{
+    if (s5.Substring(i, 3) == "aaa")
+    {
+        count3++;
+    }
+}
+Console.WriteLine(count);
+Console.WriteLine(count2);
+Console.WriteLine(count3);  
+
+
+// 28. Write a C# Sharp program to check if the first appearance of "a" in a given string is immediately followed by another "a".
 // Sample Input:
 // "caabb"
 // "babaaba"
