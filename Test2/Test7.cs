@@ -11,6 +11,8 @@
 // 28
 // Click me to see the solution
 
+using System.Diagnostics;
+
 int a = 78, b = 95;
 if (a > 20 && a < 30 && b > 20 && b < 30)
 {
@@ -39,6 +41,11 @@ else
 // False
 // Click me to see the solution
 
+string s = "frizz";
+bool containsZ = s.Contains('z');
+bool containsZ2 = s.Contains('z') && s.Contains('z') && s.Contains('z');
+Console.WriteLine(containsZ);   
+Console.WriteLine(containsZ2);
 
 // 23. Write a C# Sharp program to check if two given non-negative integers have the same last digit.
 // Sample Input:
@@ -52,6 +59,19 @@ else
 // True
 // False
 // Click me to see the solution
+
+int a1 = 123, b1 = 456;
+int a2 = 12, b2 = 512;
+int a3 = 7, b3 = 87;
+int a4 = 12, b4 = 45;
+if (a1 % 10 == b1 % 10 && a2 % 10 == b2 % 10 && a3 % 10 == b3 % 10 && a4 % 10 == b4 % 10)
+{
+    Console.WriteLine("True");
+}
+else
+{
+    Console.WriteLine("False");
+}
 
 
 
