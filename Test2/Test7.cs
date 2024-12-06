@@ -110,31 +110,41 @@
 
 
 // 25. Write a C# Sharp program to create a string which is n (non-negative integer) copies of a given string.
-
 // Sample Input:
 // "JS", 2
 // "JS", 3
 // "JS", 1
 // Expected Output:
-
 // JSJS
 // JSJSJS
 // JS
 // Click me to see the solution
-// 26. Write a C# Sharp program to create a string that is n (non-negative integer) copies of the first 3 characters of a given string. If the given string is shorter than 3, return n copies of the string.
 
+string s1 = "JS";
+int n = 2;
+string result = "";
+for (int i = 0; i < n; i++)
+{
+    result += s1;
+}
+Console.WriteLine(result);
+
+
+// 26. Write a C# Sharp program to create a string that is n (non-negative integer) copies of the first 3 characters of a given string. If the given string is shorter than 3, return n copies of the string.
 // Sample Input:
 // "Python", 2
 // "Python", 3
 // "JS", 3
 // Expected Output:
-
 // PytPyt
 // PytPytPyt
 // JSJSJS
 // Click me to see the solution
-// 27. Write a C# Sharp program to count the string "aa" in a given string and assume "aaa" contains two "aa".
 
+
+
+
+// 27. Write a C# Sharp program to count the string "aa" in a given string and assume "aaa" contains two "aa".
 // Sample Input:
 // "bbaaccaag"
 // "jjkiaaasew"
