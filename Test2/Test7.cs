@@ -406,7 +406,6 @@ else
 }
 
 
-
 // 33. Write a C# Sharp program to check if one of the first 4 elements in an array of integers is equal to a given element.
 // Sample Input:
 // {1,2,9,3}, 3
@@ -417,6 +416,8 @@ else
 // True
 // False
 // Click me to see the solution
+
+
 
 
 
