@@ -385,6 +385,26 @@ Console.WriteLine(count);
 // False
 // Click me to see the solution
 
+int[] arr = { 1, 2, 9, 3 };
+int num = 3;
+bool flag = false;
+for (int i = 0; i < arr.Length; i++)
+{
+    if (arr[i] == num)
+    {
+        flag = true;
+        break;
+    }
+}
+if (flag)
+{
+    Console.WriteLine("True");
+}
+else
+{
+    Console.WriteLine("False");
+}
+
 
 
 // 33. Write a C# Sharp program to check if one of the first 4 elements in an array of integers is equal to a given element.
