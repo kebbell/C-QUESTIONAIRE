@@ -280,130 +280,130 @@
 // }
 // Console.WriteLine(result5);
 
-// 30. Write a C# Sharp program to create a string like "aababcabcd" from a given string "abcd".
-// Sample Input:
-// "abcd"
-// "abc"
-// "a"
-// Expected Output:
-// aababcabcd
-// aababc
-// a
-// Click me to see the solution
+// // 30. Write a C# Sharp program to create a string like "aababcabcd" from a given string "abcd".
+// // Sample Input:
+// // "abcd"
+// // "abc"
+// // "a"
+// // Expected Output:
+// // aababcabcd
+// // aababc
+// // a
+// // Click me to see the solution
 
-string str = "abcd";
-string result = "";
-for (int i = 0; i < str.Length; i++)
-{
-    result += str[i];
-    result += str[i];
-}
-Console.WriteLine(result);
-str = "abc";
-string result2 = "";
-for (int i = 0; i < str.Length; i++)
-{
-    result2 += str[i];
-    result2 += str[i];
-}
-Console.WriteLine(result2);
-str = "a";
-string result3 = "";
-for (int i = 0; i < str.Length; i++)
-{
-    result3 += str[i];
-    result3 += str[i];
-}
-Console.WriteLine(result3);
-
-
+// string str = "abcd";
+// string result = "";
+// for (int i = 0; i < str.Length; i++)
+// {
+//     result += str[i];
+//     result += str[i];
+// }
+// Console.WriteLine(result);
+// str = "abc";
+// string result2 = "";
+// for (int i = 0; i < str.Length; i++)
+// {
+//     result2 += str[i];
+//     result2 += str[i];
+// }
+// Console.WriteLine(result2);
+// str = "a";
+// string result3 = "";
+// for (int i = 0; i < str.Length; i++)
+// {
+//     result3 += str[i];
+//     result3 += str[i];
+// }
+// Console.WriteLine(result3);
 
 
-// 31. Write a C# Sharp program to count a substring of length 2 that appears in a given string. This substring appears as the last 2 characters of the string. Do not count the end substring.
-// Sample Input:
-// "abcdsab"
-// "abcdabab"
-// "abcabdabab"
-// "abcabd"
-// Expected Output:
-// 1
-// 2
-// 3
-// 0
-// Click me to see the solution
-
-string s12 = "abcdsab";
-string s13 = "abcdabab";
-string s14 = "abcabdabab";
-string s15 = "abcabd";
-int count = 0;
-for (int i = 0; i < s12.Length - 2; i++)
-{
-    if (s12.Substring(i, 2) == s12.Substring(i + 2, 2))
-    {
-        count++;
-    }
-}
-Console.WriteLine(count);
-count = 0;
-for (int i = 0; i < s13.Length - 2; i++)
-{
-    if (s13.Substring(i, 2) == s13.Substring(i + 2, 2))
-    {
-        count++;
-    }
-}
-Console.WriteLine(count);
-count = 0;
-for (int i = 0; i < s14.Length - 2; i++)
-{
-    if (s14.Substring(i, 2) == s14.Substring(i + 2, 2))
-    {
-        count++;
-    }
-}
-Console.WriteLine(count);
-count = 0;
-for (int i = 0; i < s15.Length - 2; i++)
-{
-    if (s15.Substring(i, 2) == s15.Substring(i + 2, 2))
-    {
-        count++;
-    }
-}
-Console.WriteLine(count);
 
 
-// 32. Write a C# Sharp program to check if a specified number is present in a given array of integers.
-// Sample Input:
-// {1,2,9,3}, 3
-// {1,2,2,3}, 2
-// {1,2,2,3}, 9
-// Expected Output:
-// True
-// True
-// False
-// Click me to see the solution
+// // 31. Write a C# Sharp program to count a substring of length 2 that appears in a given string. This substring appears as the last 2 characters of the string. Do not count the end substring.
+// // Sample Input:
+// // "abcdsab"
+// // "abcdabab"
+// // "abcabdabab"
+// // "abcabd"
+// // Expected Output:
+// // 1
+// // 2
+// // 3
+// // 0
+// // Click me to see the solution
 
-int[] arr = { 1, 2, 9, 3 };
-int num = 3;
-bool flag = false;
-for (int i = 0; i < arr.Length; i++)
-{
-    if (arr[i] == num)
-    {
-        flag = true;
-        break;
-    }
-}
-if (flag)
-{
-    Console.WriteLine("True");
-}
-else
-{
-    Console.WriteLine("False");
-}
+// string s12 = "abcdsab";
+// string s13 = "abcdabab";
+// string s14 = "abcabdabab";
+// string s15 = "abcabd";
+// int count = 0;
+// for (int i = 0; i < s12.Length - 2; i++)
+// {
+//     if (s12.Substring(i, 2) == s12.Substring(i + 2, 2))
+//     {
+//         count++;
+//     }
+// }
+// Console.WriteLine(count);
+// count = 0;
+// for (int i = 0; i < s13.Length - 2; i++)
+// {
+//     if (s13.Substring(i, 2) == s13.Substring(i + 2, 2))
+//     {
+//         count++;
+//     }
+// }
+// Console.WriteLine(count);
+// count = 0;
+// for (int i = 0; i < s14.Length - 2; i++)
+// {
+//     if (s14.Substring(i, 2) == s14.Substring(i + 2, 2))
+//     {
+//         count++;
+//     }
+// }
+// Console.WriteLine(count);
+// count = 0;
+// for (int i = 0; i < s15.Length - 2; i++)
+// {
+//     if (s15.Substring(i, 2) == s15.Substring(i + 2, 2))
+//     {
+//         count++;
+//     }
+// }
+// Console.WriteLine(count);
+
+
+// // 32. Write a C# Sharp program to check if a specified number is present in a given array of integers.
+// // Sample Input:
+// // {1,2,9,3}, 3
+// // {1,2,2,3}, 2
+// // {1,2,2,3}, 9
+// // Expected Output:
+// // True
+// // True
+// // False
+// // Click me to see the solution
+
+// int[] arr = { 1, 2, 9, 3 };
+// int num = 3;
+// bool flag = false;
+// for (int i = 0; i < arr.Length; i++)
+// {
+//     if (arr[i] == num)
+//     {
+//         flag = true;
+//         break;
+//     }
+// }
+// if (flag)
+// {
+//     Console.WriteLine("True");
+// }
+// else
+// {
+//     Console.WriteLine("False");
+// }
 
 
 // 33. Write a C# Sharp program to check if one of the first 4 elements in an array of integers is equal to a given element.
