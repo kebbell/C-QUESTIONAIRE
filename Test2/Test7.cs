@@ -406,113 +406,113 @@
 // }
 
 
-// 33. Write a C# Sharp program to check if one of the first 4 elements in an array of integers is equal to a given element.
-// Sample Input:
-// {1,2,9,3}, 3
-// {1,2,3,4,5,6}, 2
-// {1,2,2,3}, 9
-// Expected Output:
-// True
-// True
-// False
-// Click me to see the solution
+// // 33. Write a C# Sharp program to check if one of the first 4 elements in an array of integers is equal to a given element.
+// // Sample Input:
+// // {1,2,9,3}, 3
+// // {1,2,3,4,5,6}, 2
+// // {1,2,2,3}, 9
+// // Expected Output:
+// // True
+// // True
+// // False
+// // Click me to see the solution
 
-int[] arr2 = { 1, 2, 9, 3 };
-int num2 = 3;
-bool flag2 = false;
-for (int i = 0; i < 4; i++)
-{
-    if (arr2[i] == num2)
-    {
-        flag2 = true;
-        break;
-    }
-}
-if (flag2)
-{
-    Console.WriteLine("True");
-}
-else
-{
-    Console.WriteLine("False");
-}
-
-
-// 34. Write a C# Sharp program to check whether the sequence of numbers 1, 2, 3 appears in a given array of integers somewhere.
-// Sample Input:
-// {1,1,2,3,1}
-// {1,1,2,4,1}
-// {1,1,2,1,2,3}
-// Expected Output:
-// True
-// False
-// True
-// Click me to see the solution
-
-int[] arr3 = { 1, 1, 2, 3, 1 };
-bool flag3 = false;
-for (int i = 0; i < arr3.Length - 2; i++)
-{
-    if (arr3[i] == 1 && arr3[i + 1] == 2 && arr3[i + 2] == 3)
-    {
-        flag3 = true;
-        break;
-    }
-}
-if (flag3)
-{
-    Console.WriteLine("True");
-}
-else
-{
-    Console.WriteLine("False");
-}
+// int[] arr2 = { 1, 2, 9, 3 };
+// int num2 = 3;
+// bool flag2 = false;
+// for (int i = 0; i < 4; i++)
+// {
+//     if (arr2[i] == num2)
+//     {
+//         flag2 = true;
+//         break;
+//     }
+// }
+// if (flag2)
+// {
+//     Console.WriteLine("True");
+// }
+// else
+// {
+//     Console.WriteLine("False");
+// }
 
 
-// 35. Write a C# Sharp program to compare two given strings and return the number of positions where they contain the same length of 2 substrings.
-// Sample Input:
-// "abcdefgh", "abijsklm"
-// "abcde", "osuefrcd"
-// "pqrstuvwx", "pqkdiewx"
-// Expected Output:
-// 1
-// 1
-// 2
-// Click me to see the solution
+// // 34. Write a C# Sharp program to check whether the sequence of numbers 1, 2, 3 appears in a given array of integers somewhere.
+// // Sample Input:
+// // {1,1,2,3,1}
+// // {1,1,2,4,1}
+// // {1,1,2,1,2,3}
+// // Expected Output:
+// // True
+// // False
+// // True
+// // Click me to see the solution
 
-string s16 = "abcdefgh";
-string s17 = "abijsklm";
-int count4 = 0;
-for (int i = 0; i < s16.Length - 1; i++)
-{
-    if (s16.Substring(i, 2) == s17.Substring(i, 2))
-    {
-        count4++;
-    }
-}
-Console.WriteLine(count4);
-string s18 = "abcde";
-string s19 = "osuefrcd";
-int count5 = 0;
-for (int i = 0; i < s18.Length - 1; i++)
-{
-    if (s18.Substring(i, 2) == s19.Substring(i, 2))
-    {
-        count5++;
-    }
-}
-Console.WriteLine(count5);
-string s20 = "pqrstuvwx";
-string s21 = "pqkdiewx";
-int count6 = 0;
-for (int i = 0; i < s20.Length - 1; i++)
-{
-    if (s20.Substring(i, 2) == s21.Substring(i, 2))
-    {
-        count6++;
-    }
-}
-Console.WriteLine(count6);
+// int[] arr3 = { 1, 1, 2, 3, 1 };
+// bool flag3 = false;
+// for (int i = 0; i < arr3.Length - 2; i++)
+// {
+//     if (arr3[i] == 1 && arr3[i + 1] == 2 && arr3[i + 2] == 3)
+//     {
+//         flag3 = true;
+//         break;
+//     }
+// }
+// if (flag3)
+// {
+//     Console.WriteLine("True");
+// }
+// else
+// {
+//     Console.WriteLine("False");
+// }
+
+
+// // 35. Write a C# Sharp program to compare two given strings and return the number of positions where they contain the same length of 2 substrings.
+// // Sample Input:
+// // "abcdefgh", "abijsklm"
+// // "abcde", "osuefrcd"
+// // "pqrstuvwx", "pqkdiewx"
+// // Expected Output:
+// // 1
+// // 1
+// // 2
+// // Click me to see the solution
+
+// string s16 = "abcdefgh";
+// string s17 = "abijsklm";
+// int count4 = 0;
+// for (int i = 0; i < s16.Length - 1; i++)
+// {
+//     if (s16.Substring(i, 2) == s17.Substring(i, 2))
+//     {
+//         count4++;
+//     }
+// }
+// Console.WriteLine(count4);
+// string s18 = "abcde";
+// string s19 = "osuefrcd";
+// int count5 = 0;
+// for (int i = 0; i < s18.Length - 1; i++)
+// {
+//     if (s18.Substring(i, 2) == s19.Substring(i, 2))
+//     {
+//         count5++;
+//     }
+// }
+// Console.WriteLine(count5);
+// string s20 = "pqrstuvwx";
+// string s21 = "pqkdiewx";
+// int count6 = 0;
+// for (int i = 0; i < s20.Length - 1; i++)
+// {
+//     if (s20.Substring(i, 2) == s21.Substring(i, 2))
+//     {
+//         count6++;
+//     }
+// }
+// Console.WriteLine(count6);
 
 
 
