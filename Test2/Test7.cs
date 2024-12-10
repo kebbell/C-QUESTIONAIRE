@@ -527,6 +527,40 @@
 // xajhtrb
 // Click me to see the solution
 
+string s22 = "xxHxix";
+string s23 = "x";
+string result6 = "";
+for (int i = 0; i < s22.Length; i++)
+{
+    if (s22[i] != s23[0] && s22[i] != s23[s23.Length - 1])
+    {
+        result6 += s22[i];
+    }
+}
+Console.WriteLine(result6);
+string s24 = "abxdddca";
+string s25 = "a";
+string result7 = "";
+for (int i = 0; i < s24.Length; i++)
+{
+    if (s24[i] != s25[0] && s24[i] != s25[s25.Length - 1])
+    {
+        result7 += s24[i];
+    }
+}
+Console.WriteLine(result7);
+string s26 = "xabjbhtrb";
+string s27 = "b";
+string result8 = "";
+for (int i = 0; i < s26.Length; i++)
+{
+    if (s26[i] != s27[0] && s26[i] != s27[s27.Length - 1])
+    {
+        result8 += s26[i];
+    }
+}
+Console.WriteLine(result8);
+
 
 
 // 37. Write a C# Sharp program to create a string of characters at indexes 0,1, 4,5, 8,9 ... from a given string.
