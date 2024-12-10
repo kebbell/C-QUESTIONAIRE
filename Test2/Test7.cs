@@ -475,47 +475,52 @@ else
 // "abcde", "osuefrcd"
 // "pqrstuvwx", "pqkdiewx"
 // Expected Output:
-
 // 1
 // 1
 // 2
 // Click me to see the solution
-// 36. Write a C# Sharp program to create a string from a given string where a specified character is removed except for the beginning and ending positions.
 
+
+
+// 36. Write a C# Sharp program to create a string from a given string where a specified character is removed except for the beginning and ending positions.
 // Sample Input:
 // "xxHxix", "x"
 // "abxdddca", "a"
 // "xabjbhtrb", "b"
 // Expected Output:
-
 // xHix
 // abxdddca
 // xajhtrb
 // Click me to see the solution
-// 37. Write a C# Sharp program to create a string of characters at indexes 0,1, 4,5, 8,9 ... from a given string.
 
+
+
+// 37. Write a C# Sharp program to create a string of characters at indexes 0,1, 4,5, 8,9 ... from a given string.
 // Sample Input:
 // "Python"
 // "JavaScript"
 // "HTML"
 // Expected Output:
-
 // Pyon
 // JaScpt
 // HT
 // Click me to see the solution
-// 38. Write a C# Sharp program to count the number of two 5's next to each other in an array of integers. Count the situation where the second 5 is actually a 6.
 
+
+
+// 38. Write a C# Sharp program to count the number of two 5's next to each other in an array of integers. Count the situation where the second 5 is actually a 6.
 // Sample Input:
 // { 5, 5, 2 }
 // { 5, 5, 2, 5, 5 }
 // { 5, 6, 2, 9}
 // Expected Output:
-
 // 1
 // 2
 // 1
 // Click me to see the solution
+
+
+
 // 39. Write a C# Sharp program to check if a triple is present in an array of integers or not. If a value appears three times in a row in an array it is called a triple.
 
 // Sample Input:
