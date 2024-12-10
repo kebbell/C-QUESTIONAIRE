@@ -449,8 +449,24 @@ else
 // True
 // Click me to see the solution
 
-
-
+int[] arr3 = { 1, 1, 2, 3, 1 };
+bool flag3 = false;
+for (int i = 0; i < arr3.Length - 2; i++)
+{
+    if (arr3[i] == 1 && arr3[i + 1] == 2 && arr3[i + 2] == 3)
+    {
+        flag3 = true;
+        break;
+    }
+}
+if (flag3)
+{
+    Console.WriteLine("True");
+}
+else
+{
+    Console.WriteLine("False");
+}
 
 
 // 35. Write a C# Sharp program to compare two given strings and return the number of positions where they contain the same length of 2 substrings.
