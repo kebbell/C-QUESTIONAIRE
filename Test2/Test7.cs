@@ -417,8 +417,25 @@ else
 // False
 // Click me to see the solution
 
-
-
+int[] arr2 = { 1, 2, 9, 3 };
+int num2 = 3;
+bool flag2 = false;
+for (int i = 0; i < 4; i++)
+{
+    if (arr2[i] == num2)
+    {
+        flag2 = true;
+        break;
+    }
+}
+if (flag2)
+{
+    Console.WriteLine("True");
+}
+else
+{
+    Console.WriteLine("False");
+}
 
 
 // 34. Write a C# Sharp program to check whether the sequence of numbers 1, 2, 3 appears in a given array of integers somewhere.
