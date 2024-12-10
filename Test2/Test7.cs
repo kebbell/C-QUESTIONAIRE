@@ -448,8 +448,12 @@ else
 // False
 // True
 // Click me to see the solution
-// 35. Write a C# Sharp program to compare two given strings and return the number of positions where they contain the same length of 2 substrings.
 
+
+
+
+
+// 35. Write a C# Sharp program to compare two given strings and return the number of positions where they contain the same length of 2 substrings.
 // Sample Input:
 // "abcdefgh", "abijsklm"
 // "abcde", "osuefrcd"
