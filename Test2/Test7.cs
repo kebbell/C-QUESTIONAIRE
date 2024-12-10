@@ -207,78 +207,78 @@
 // Console.WriteLine(count3);  
 
 
-// 28. Write a C# Sharp program to check if the first appearance of "a" in a given string is immediately followed by another "a".
-// Sample Input:
-// "caabb"
-// "babaaba"
-// "aaaaa"
-// Expected Output:
-// True
-// False
-// True
-// Click me to see the solution
+// // 28. Write a C# Sharp program to check if the first appearance of "a" in a given string is immediately followed by another "a".
+// // Sample Input:
+// // "caabb"
+// // "babaaba"
+// // "aaaaa"
+// // Expected Output:
+// // True
+// // False
+// // True
+// // Click me to see the solution
 
-string s6 = "caabb";
-string s7 = "babaaba";
-string s8 = "aaaaa";
-if (s6.IndexOf("a") == s6.IndexOf("a", s6.IndexOf("a") + 1))
-{
-    Console.WriteLine("True");
-}
-else
-{
-    Console.WriteLine("False");
-}
-if (s7.IndexOf("a") == s7.IndexOf("a", s7.IndexOf("a") + 1))
-{
-    Console.WriteLine("True");
-}
-else
-{
-    Console.WriteLine("False");
-}
-if (s8.IndexOf("a") == s8.IndexOf("a", s8.IndexOf("a") + 1))
-{
-    Console.WriteLine("True");
-}
-else
-{
-    Console.WriteLine("False");
-}
+// string s6 = "caabb";
+// string s7 = "babaaba";
+// string s8 = "aaaaa";
+// if (s6.IndexOf("a") == s6.IndexOf("a", s6.IndexOf("a") + 1))
+// {
+//     Console.WriteLine("True");
+// }
+// else
+// {
+//     Console.WriteLine("False");
+// }
+// if (s7.IndexOf("a") == s7.IndexOf("a", s7.IndexOf("a") + 1))
+// {
+//     Console.WriteLine("True");
+// }
+// else
+// {
+//     Console.WriteLine("False");
+// }
+// if (s8.IndexOf("a") == s8.IndexOf("a", s8.IndexOf("a") + 1))
+// {
+//     Console.WriteLine("True");
+// }
+// else
+// {
+//     Console.WriteLine("False");
+// }
 
 
-// 29. Write a C# Sharp program to create a string made of every other character starting with the first in a given string.
-// Sample Input:
-// "Python"
-// "PHP"
-// "JS"
-// Expected Output:
-// Pto
-// PP
-// J
-// Click me to see the solution
+// // 29. Write a C# Sharp program to create a string made of every other character starting with the first in a given string.
+// // Sample Input:
+// // "Python"
+// // "PHP"
+// // "JS"
+// // Expected Output:
+// // Pto
+// // PP
+// // J
+// // Click me to see the solution
 
-string s9 = "Python";
-string s10 = "PHP";
-string s11 = "JS";
-string result3 = "";
-for (int i = 0; i < s9.Length; i += 2)
-{
-    result3 += s9[i];
-}
-Console.WriteLine(result3);
-string result4 = "";
-for (int i = 0; i < s10.Length; i += 2)
-{
-    result4 += s10[i];
-}
-Console.WriteLine(result4);
-string result5 = "";
-for (int i = 0; i < s11.Length; i += 2)
-{
-    result5 += s11[i];
-}
-Console.WriteLine(result5);
+// string s9 = "Python";
+// string s10 = "PHP";
+// string s11 = "JS";
+// string result3 = "";
+// for (int i = 0; i < s9.Length; i += 2)
+// {
+//     result3 += s9[i];
+// }
+// Console.WriteLine(result3);
+// string result4 = "";
+// for (int i = 0; i < s10.Length; i += 2)
+// {
+//     result4 += s10[i];
+// }
+// Console.WriteLine(result4);
+// string result5 = "";
+// for (int i = 0; i < s11.Length; i += 2)
+// {
+//     result5 += s11[i];
+// }
+// Console.WriteLine(result5);
 
 // 30. Write a C# Sharp program to create a string like "aababcabcd" from a given string "abcd".
 // Sample Input:
@@ -290,6 +290,32 @@ Console.WriteLine(result5);
 // aababc
 // a
 // Click me to see the solution
+
+string str = "abcd";
+string result = "";
+for (int i = 0; i < str.Length; i++)
+{
+    result += str[i];
+    result += str[i];
+}
+Console.WriteLine(result);
+str = "abc";
+string result2 = "";
+for (int i = 0; i < str.Length; i++)
+{
+    result2 += str[i];
+    result2 += str[i];
+}
+Console.WriteLine(result2);
+str = "a";
+string result3 = "";
+for (int i = 0; i < str.Length; i++)
+{
+    result3 += str[i];
+    result3 += str[i];
+}
+Console.WriteLine(result3);
+
 
 
 
@@ -305,6 +331,47 @@ Console.WriteLine(result5);
 // 3
 // 0
 // Click me to see the solution
+
+string s12 = "abcdsab";
+string s13 = "abcdabab";
+string s14 = "abcabdabab";
+string s15 = "abcabd";
+int count = 0;
+for (int i = 0; i < s12.Length - 2; i++)
+{
+    if (s12.Substring(i, 2) == s12.Substring(i + 2, 2))
+    {
+        count++;
+    }
+}
+Console.WriteLine(count);
+count = 0;
+for (int i = 0; i < s13.Length - 2; i++)
+{
+    if (s13.Substring(i, 2) == s13.Substring(i + 2, 2))
+    {
+        count++;
+    }
+}
+Console.WriteLine(count);
+count = 0;
+for (int i = 0; i < s14.Length - 2; i++)
+{
+    if (s14.Substring(i, 2) == s14.Substring(i + 2, 2))
+    {
+        count++;
+    }
+}
+Console.WriteLine(count);
+count = 0;
+for (int i = 0; i < s15.Length - 2; i++)
+{
+    if (s15.Substring(i, 2) == s15.Substring(i + 2, 2))
+    {
+        count++;
+    }
+}
+Console.WriteLine(count);
 
 
 // 32. Write a C# Sharp program to check if a specified number is present in a given array of integers.
