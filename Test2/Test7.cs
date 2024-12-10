@@ -480,6 +480,40 @@ else
 // 2
 // Click me to see the solution
 
+string s16 = "abcdefgh";
+string s17 = "abijsklm";
+int count4 = 0;
+for (int i = 0; i < s16.Length - 1; i++)
+{
+    if (s16.Substring(i, 2) == s17.Substring(i, 2))
+    {
+        count4++;
+    }
+}
+Console.WriteLine(count4);
+string s18 = "abcde";
+string s19 = "osuefrcd";
+int count5 = 0;
+for (int i = 0; i < s18.Length - 1; i++)
+{
+    if (s18.Substring(i, 2) == s19.Substring(i, 2))
+    {
+        count5++;
+    }
+}
+Console.WriteLine(count5);
+string s20 = "pqrstuvwx";
+string s21 = "pqkdiewx";
+int count6 = 0;
+for (int i = 0; i < s20.Length - 1; i++)
+{
+    if (s20.Substring(i, 2) == s21.Substring(i, 2))
+    {
+        count6++;
+    }
+}
+Console.WriteLine(count6);
+
 
 
 // 36. Write a C# Sharp program to create a string from a given string where a specified character is removed except for the beginning and ending positions.
