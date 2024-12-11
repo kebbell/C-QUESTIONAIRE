@@ -599,6 +599,50 @@
 // 1
 // Click me to see the solution
 
+int[] arr3 = { 5, 5, 2 };
+int count7 = 0;
+for (int i = 0; i < arr3.Length - 1; i++)
+{
+    if (arr3[i] == 5 && arr3[i + 1] == 5)
+    {
+        count7++;
+    }
+    else if (arr3[i] == 5 && arr3[i + 1] == 6)
+    {
+        count7++;
+    }
+}
+Console.WriteLine(count7);
+int[] arr4 = { 5, 5, 2, 5, 5 };
+int count8 = 0;
+for (int i = 0; i < arr4.Length - 1; i++)
+{
+    if (arr4[i] == 5 && arr4[i + 1] == 5)
+    {
+        count8++;
+    }
+    else if (arr4[i] == 5 && arr4[i + 1] == 6)
+    {        
+        count8++;        
+    }
+}
+Console.WriteLine(count8);
+int[] arr5 = { 5, 6, 2, 9 };
+int count9 = 0;
+for (int i = 0; i < arr5.Length - 1; i++)
+{
+    if (arr5[i] == 5 && arr5[i + 1] == 5)
+    {
+        count9++;
+    }
+    else if (arr5[i] == 5 && arr5[i + 1] == 6)
+    {
+        count9++;
+    }
+}
+Console.WriteLine(count9);
+
+
 
 
 // 39. Write a C# Sharp program to check if a triple is present in an array of integers or not. If a value appears three times in a row in an array it is called a triple.
