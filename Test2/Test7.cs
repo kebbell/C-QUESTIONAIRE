@@ -574,6 +574,18 @@ Console.WriteLine(result8);
 // HT
 // Click me to see the solution
 
+string s28 = "Python";
+string s29 = "JavaScript";
+string s30 = "HTML";
+string result9 = "";
+for (int i = 0; i < s28.Length; i++)
+{
+    result9 += s28[i];
+    result9 += s29[i];
+    result9 += s30[i];
+}
+Console.WriteLine(result9);
+
 
 
 // 38. Write a C# Sharp program to count the number of two 5's next to each other in an array of integers. Count the situation where the second 5 is actually a 6.
