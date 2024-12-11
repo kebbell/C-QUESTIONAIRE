@@ -702,16 +702,15 @@ for (int i = 0; i < arr8.Length - 2; i++)
 
 
 // 40. Write a C# Sharp program to compute the sum of the two given integers. If the sum is in the range 10..20 inclusive return 30.
-
 // Sample Input:
 // 12, 17
 // 2, 17
 // 22, 17
 // 20, 0
 // Expected Output:
-
 // 29
 // 30
 // 39
 // 30
 // Click me to see the solution
+
