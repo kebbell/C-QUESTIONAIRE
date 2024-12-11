@@ -712,3 +712,13 @@
 // 30
 // Click me to see the solution
 
+int a = 12, b = 17;
+int sum = a + b;
+if (sum >= 10 && sum <= 20)
+{
+    Console.WriteLine(30);
+}
+else
+{
+    Console.WriteLine(sum);
+}
