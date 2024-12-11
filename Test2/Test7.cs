@@ -588,117 +588,115 @@
 
 
 
-// 38. Write a C# Sharp program to count the number of two 5's next to each other in an array of integers. Count the situation where the second 5 is actually a 6.
-// Sample Input:
-// { 5, 5, 2 }
-// { 5, 5, 2, 5, 5 }
-// { 5, 6, 2, 9}
-// Expected Output:
-// 1
-// 2
-// 1
-// Click me to see the solution
+// // 38. Write a C# Sharp program to count the number of two 5's next to each other in an array of integers. Count the situation where the second 5 is actually a 6.
+// // Sample Input:
+// // { 5, 5, 2 }
+// // { 5, 5, 2, 5, 5 }
+// // { 5, 6, 2, 9}
+// // Expected Output:
+// // 1
+// // 2
+// // 1
+// // Click me to see the solution
 
-int[] arr3 = { 5, 5, 2 };
-int count7 = 0;
-for (int i = 0; i < arr3.Length - 1; i++)
-{
-    if (arr3[i] == 5 && arr3[i + 1] == 5)
-    {
-        count7++;
-    }
-    else if (arr3[i] == 5 && arr3[i + 1] == 6)
-    {
-        count7++;
-    }
-}
-Console.WriteLine(count7);
-int[] arr4 = { 5, 5, 2, 5, 5 };
-int count8 = 0;
-for (int i = 0; i < arr4.Length - 1; i++)
-{
-    if (arr4[i] == 5 && arr4[i + 1] == 5)
-    {
-        count8++;
-    }
-    else if (arr4[i] == 5 && arr4[i + 1] == 6)
-    {        
-        count8++;        
-    }
-}
-Console.WriteLine(count8);
-int[] arr5 = { 5, 6, 2, 9 };
-int count9 = 0;
-for (int i = 0; i < arr5.Length - 1; i++)
-{
-    if (arr5[i] == 5 && arr5[i + 1] == 5)
-    {
-        count9++;
-    }
-    else if (arr5[i] == 5 && arr5[i + 1] == 6)
-    {
-        count9++;
-    }
-}
-Console.WriteLine(count9);
-
-
+// int[] arr3 = { 5, 5, 2 };
+// int count7 = 0;
+// for (int i = 0; i < arr3.Length - 1; i++)
+// {
+//     if (arr3[i] == 5 && arr3[i + 1] == 5)
+//     {
+//         count7++;
+//     }
+//     else if (arr3[i] == 5 && arr3[i + 1] == 6)
+//     {
+//         count7++;
+//     }
+// }
+// Console.WriteLine(count7);
+// int[] arr4 = { 5, 5, 2, 5, 5 };
+// int count8 = 0;
+// for (int i = 0; i < arr4.Length - 1; i++)
+// {
+//     if (arr4[i] == 5 && arr4[i + 1] == 5)
+//     {
+//         count8++;
+//     }
+//     else if (arr4[i] == 5 && arr4[i + 1] == 6)
+//     {        
+//         count8++;        
+//     }
+// }
+// Console.WriteLine(count8);
+// int[] arr5 = { 5, 6, 2, 9 };
+// int count9 = 0;
+// for (int i = 0; i < arr5.Length - 1; i++)
+// {
+//     if (arr5[i] == 5 && arr5[i + 1] == 5)
+//     {
+//         count9++;
+//     }
+//     else if (arr5[i] == 5 && arr5[i + 1] == 6)
+//     {
+//         count9++;
+//     }
+// }
+// Console.WriteLine(count9);
 
 
-// 39. Write a C# Sharp program to check if a triple is present in an array of integers or not. If a value appears three times in a row in an array it is called a triple.
-// Sample Input:
-// { 1, 1, 2, 2, 1 }
-// { 1, 1, 2, 1, 2, 3 }
-// { 1, 1, 1, 2, 2, 2, 1 }
-// Expected Output:
-// False
-// False
-// True
-// Click me to see the solution
 
-int[] arr6 = { 1, 1, 2, 2, 1 };
-bool flag3 = false;
-for (int i = 0; i < arr6.Length - 2; i++)
-{
-    if (arr6[i] == arr6[i + 1] && arr6[i] == arr6[i + 2])
-    {
-        flag3 = true;
-        break;
-    }
-}
-Console.WriteLine(flag3);
-int[] arr7 = { 1, 1, 2, 1, 2, 3 };
-bool flag4 = false;
-for (int i = 0; i < arr7.Length - 2; i++)
-{
-    if (arr7[i] == arr7[i + 1] && arr7[i] == arr7[i + 2])
-    {
-        flag4 = true;
-        break;
-    }
-}
-Console.WriteLine(flag4);
-int[] arr8 = { 1, 1, 1, 2, 2, 2, 1 };
-bool flag5 = false;
-for (int i = 0; i < arr8.Length - 2; i++)
-{
-    if (arr8[i] == arr8[i + 1] && arr8[i] == arr8[i + 2])
-    {
-        flag5 = true;
-        break;
-    }
-}
-    if (flag5)
-    {
-        Console.WriteLine("True");
-    }
-    else
-    {
-        Console.WriteLine("False"); 
-    }
+
+// // 39. Write a C# Sharp program to check if a triple is present in an array of integers or not. If a value appears three times in a row in an array it is called a triple.
+// // Sample Input:
+// // { 1, 1, 2, 2, 1 }
+// // { 1, 1, 2, 1, 2, 3 }
+// // { 1, 1, 1, 2, 2, 2, 1 }
+// // Expected Output:
+// // False
+// // False
+// // True
+// // Click me to see the solution
+
+// int[] arr6 = { 1, 1, 2, 2, 1 };
+// bool flag3 = false;
+// for (int i = 0; i < arr6.Length - 2; i++)
+// {
+//     if (arr6[i] == arr6[i + 1] && arr6[i] == arr6[i + 2])
+//     {
+//         flag3 = true;
+//         break;
+//     }
+// }
+// Console.WriteLine(flag3);
+// int[] arr7 = { 1, 1, 2, 1, 2, 3 };
+// bool flag4 = false;
+// for (int i = 0; i < arr7.Length - 2; i++)
+// {
+//     if (arr7[i] == arr7[i + 1] && arr7[i] == arr7[i + 2])
+//     {
+//         flag4 = true;
+//         break;
+//     }
+// }
+// Console.WriteLine(flag4);
+// int[] arr8 = { 1, 1, 1, 2, 2, 2, 1 };
+// bool flag5 = false;
+// for (int i = 0; i < arr8.Length - 2; i++)
+// {
+//     if (arr8[i] == arr8[i + 1] && arr8[i] == arr8[i + 2])
+//     {
+//         flag5 = true;
+//         break;
+//     }
+// }
+//     if (flag5)
+//     {
+//         Console.WriteLine("True");
+//     }
+//     else
+//     {
+//         Console.WriteLine("False"); 
+//     }
     
-
-
 
 
 // 40. Write a C# Sharp program to compute the sum of the two given integers. If the sum is in the range 10..20 inclusive return 30.
