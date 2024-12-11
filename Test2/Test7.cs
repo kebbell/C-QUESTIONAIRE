@@ -563,28 +563,28 @@
 
 
 
-// 37. Write a C# Sharp program to create a string of characters at indexes 0,1, 4,5, 8,9 ... from a given string.
-// Sample Input:
-// "Python"
-// "JavaScript"
-// "HTML"
-// Expected Output:
-// Pyon
-// JaScpt
-// HT
-// Click me to see the solution
+// // 37. Write a C# Sharp program to create a string of characters at indexes 0,1, 4,5, 8,9 ... from a given string.
+// // Sample Input:
+// // "Python"
+// // "JavaScript"
+// // "HTML"
+// // Expected Output:
+// // Pyon
+// // JaScpt
+// // HT
+// // Click me to see the solution
 
-string s28 = "Python";
-string s29 = "JavaScript";
-string s30 = "HTML";
-string result9 = "";
-for (int i = 0; i < s28.Length; i++)
-{
-    result9 += s28[i];
-    result9 += s29[i];
-    result9 += s30[i];
-}
-Console.WriteLine(result9);
+// string s28 = "Python";
+// string s29 = "JavaScript";
+// string s30 = "HTML";
+// string result9 = "";
+// for (int i = 0; i < s28.Length; i++)
+// {
+//     result9 += s28[i];
+//     result9 += s29[i];
+//     result9 += s30[i];
+// }
+// Console.WriteLine(result9);
 
 
 
