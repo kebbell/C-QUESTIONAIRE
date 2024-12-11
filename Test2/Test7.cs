@@ -696,7 +696,6 @@
 //     {
 //         Console.WriteLine("False"); 
 //     }
-    
 
 
 // 40. Write a C# Sharp program to compute the sum of the two given integers. If the sum is in the range 10..20 inclusive return 30.
@@ -714,6 +713,36 @@
 
 int a = 12, b = 17;
 int sum = a + b;
+if (sum >= 10 && sum <= 20)
+{
+    Console.WriteLine(30);
+}
+else
+{
+    Console.WriteLine(sum);
+}
+int c = 2, d = 17;
+sum = c + d;
+if (sum >= 10 && sum <= 20)
+{
+    Console.WriteLine(30);
+}
+else
+{
+    Console.WriteLine(sum);
+}
+int e = 22, f = 17;
+sum = e + f;
+if (sum >= 10 && sum <= 20)
+{
+    Console.WriteLine(30);
+}
+else
+{
+    Console.WriteLine(sum);
+}
+int g = 20, h = 0;
+sum = g + h;
 if (sum >= 10 && sum <= 20)
 {
     Console.WriteLine(30);
