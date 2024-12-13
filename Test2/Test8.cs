@@ -9,6 +9,15 @@
 // True
 // Click me to see the solution
 
+int a = 5, b = 4;
+if (a == 5 || b == 5 || a + b == 5 || a - b == 5)
+{
+    Console.WriteLine("True");
+}
+else
+{
+    Console.WriteLine("False");
+}
 
 
 // 42. Write a C# Sharp program to test if a given non-negative number is a multiple of 13 or one more than a multiple of 13.
