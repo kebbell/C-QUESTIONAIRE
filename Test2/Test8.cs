@@ -33,6 +33,15 @@ else
 // False
 // Click me to see the solution
 
+int c = 13;
+if (c % 13 == 0 || c % 13 == 1)
+{
+    Console.WriteLine("True");
+}
+else
+{
+    Console.WriteLine("False");
+}
 
 
 // 43. Write a C# Sharp program to check if a given number that is not negative is a multiple of 3 or 7, but not both.
