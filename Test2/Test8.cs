@@ -21,76 +21,82 @@ else
 
 
 // 42. Write a C# Sharp program to test if a given non-negative number is a multiple of 13 or one more than a multiple of 13.
-
 // Sample Input:
 // 13
 // 14
 // 27
 // 41
 // Expected Output:
-
 // True
 // True
 // True
 // False
 // Click me to see the solution
-// 43. Write a C# Sharp program to check if a given number that is not negative is a multiple of 3 or 7, but not both.
 
+
+
+// 43. Write a C# Sharp program to check if a given number that is not negative is a multiple of 3 or 7, but not both.
 // Sample Input:
 // 3
 // 7
 // 21
 // Expected Output:
-
 // True
 // True
 // False
 // Click me to see the solution
-// 44. Write a C# Sharp program to check if a given number is within 2 of a multiple of 10.
 
+
+
+// 44. Write a C# Sharp program to check if a given number is within 2 of a multiple of 10.
 // Sample Input:
 // 3
 // 7
 // 8
 // 21
 // Expected Output:
-
 // False
 // False
 // True
 // True
 // Click me to see the solution
-// 45. Write a C# Sharp program to compute the sum of the two given integers. Return 18 if one of the given integer values is in the range of 10..20 inclusive.
 
+
+
+
+// 45. Write a C# Sharp program to compute the sum of the two given integers. Return 18 if one of the given integer values is in the range of 10..20 inclusive.
 // Sample Input:
 // 3, 7
 // 10, 11
 // 10, 20
 // 21, 220
 // Expected Output:
-
 // 10
 // 18
 // 18
 // 241
 // Click me to see the solution
+
+
+
 // 46. Write a C# Sharp program to check whether a given string begins with "F" or ends with "B". If the string starts with "F" return "Fizz" and return "Buzz" if it ends with "B" If the string starts with "F" and ends with "B" return "FizzBuzz". In other cases return the original string.
 // In other cases return the original string.
-
 // Sample Input:
 // "FizzBuzz"
 // "Fizz"
 // "Buzz"
 // "Founder"
 // Expected Output:
-
 // Fizz
 // Fizz
 // Buzz
 // Fizz
 // Click me to see the solution
-// 47. Write a C# Sharp program to check if it is possible to add two integers to get the third integer from three given integers.
 
+
+
+
+// 47. Write a C# Sharp program to check if it is possible to add two integers to get the third integer from three given integers.
 // Sample Input:
 // 1, 2, 3
 // 4, 5, 6
