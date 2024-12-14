@@ -111,7 +111,6 @@ else
     Console.WriteLine(f + g);
 }
 
-
 // 46. Write a C# Sharp program to check whether a given string begins with "F" or ends with "B". If the string starts with "F" return "Fizz" and return "Buzz" if it ends with "B" If the string starts with "F" and ends with "B" return "FizzBuzz". In other cases return the original string.
 // In other cases return the original string.
 // Sample Input:
