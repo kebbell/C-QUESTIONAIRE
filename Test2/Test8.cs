@@ -101,6 +101,15 @@ else
 // 241
 // Click me to see the solution
 
+int f = 3, g = 7;
+if (f >= 10 && f <= 20 || g >= 10 && g <= 20)
+{
+    Console.WriteLine("18");
+}
+else
+{
+    Console.WriteLine(f + g);
+}
 
 
 // 46. Write a C# Sharp program to check whether a given string begins with "F" or ends with "B". If the string starts with "F" return "Fizz" and return "Buzz" if it ends with "B" If the string starts with "F" and ends with "B" return "FizzBuzz". In other cases return the original string.
