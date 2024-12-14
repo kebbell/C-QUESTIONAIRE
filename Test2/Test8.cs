@@ -88,8 +88,6 @@ else
     Console.WriteLine("False");
 }
 
-
-
 // 45. Write a C# Sharp program to compute the sum of the two given integers. Return 18 if one of the given integer values is in the range of 10..20 inclusive.
 // Sample Input:
 // 3, 7
