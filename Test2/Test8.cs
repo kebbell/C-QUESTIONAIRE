@@ -55,6 +55,15 @@ else
 // False
 // Click me to see the solution
 
+int d = 3;
+if (d % 3 == 0 && d % 7 != 0)
+{
+    Console.WriteLine("True");
+}
+else
+{
+    Console.WriteLine("False");
+}
 
 
 
