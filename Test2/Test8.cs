@@ -143,7 +143,6 @@ else
     Console.WriteLine(h);
 }
 
-
 // 47. Write a C# Sharp program to check if it is possible to add two integers to get the third integer from three given integers.
 // Sample Input:
 // 1, 2, 3
