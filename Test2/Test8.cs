@@ -78,6 +78,15 @@ else
 // True
 // Click me to see the solution
 
+int e = 3;
+if (e % 10 == 2 || e % 10 == -2)
+{
+    Console.WriteLine("True");
+}
+else
+{
+    Console.WriteLine("False");
+}
 
 
 
