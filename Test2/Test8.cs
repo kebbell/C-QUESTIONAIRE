@@ -125,6 +125,24 @@ else
 // Fizz
 // Click me to see the solution
 
+string h = "FizzBuzz";
+if (h.StartsWith("F") && h.EndsWith("B"))
+{
+    Console.WriteLine("FizzBuzz");
+}
+else if (h.StartsWith("F"))
+{
+    Console.WriteLine("Fizz");
+}
+else if (h.EndsWith("B"))
+{
+    Console.WriteLine("Buzz");
+}
+else
+{
+    Console.WriteLine(h);
+}
+
 
 
 
