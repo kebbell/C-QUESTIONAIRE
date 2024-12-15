@@ -200,6 +200,16 @@ else
 // True
 // Click me to see the solution
 
+int o = 1, p = 2, q = 3;    
+if (o < p && p < q || o == p && p == q)
+{
+    Console.WriteLine("True");
+}
+else
+{
+    Console.WriteLine("False");
+}
+
 
 
 
