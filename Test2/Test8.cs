@@ -154,6 +154,16 @@ else
 // True
 // Click me to see the solution
 
+int i = 1, j = 2, k = 3;
+if (i + j == k || i + k == j || j + k == i)
+{
+    Console.WriteLine("True");
+}
+else
+{
+    Console.WriteLine("False");
+}
+
 
 
 
