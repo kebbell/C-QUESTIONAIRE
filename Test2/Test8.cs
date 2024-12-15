@@ -246,6 +246,16 @@ else
 // False
 // Click me to see the solution
 
+int u = 11, v = 21, w = 31;
+if (Math.Abs(u - v) >= 20 || Math.Abs(u - w) >= 20 || Math.Abs(v - w) >= 20)
+{
+    Console.WriteLine("True");
+}
+else
+{
+    Console.WriteLine("False");
+}
+
 
 
 // 52. Write a C# Sharp program to find the largest of two given integers. However if the two integers have the same remainder when divided by 7, then return the smallest integer. If the two integers are the same, return 0.
