@@ -175,6 +175,16 @@ else
 // False
 // Click me to see the solution
 
+int l = 1, m = 2, n = 3;
+if (m > l && n > m)
+{
+    Console.WriteLine("True");
+}
+else
+{
+    Console.WriteLine("False");
+}
+
 
 // 49. Write a C# Sharp program to check if three given numbers are in strict increasing order.
 // For example, 4 7 15, or 45, 56, 67, but not 4 ,5, 8 or 6, 6, 8. However, if a fourth parameter is true, equality is allowed, such as 6, 6, 8 or 7, 7, 7.
