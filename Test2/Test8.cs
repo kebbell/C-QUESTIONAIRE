@@ -164,9 +164,6 @@ else
     Console.WriteLine("False");
 }
 
-
-
-
 // 48. Write a C# Sharp program to check if y is greater than x, and z is greater than y from three given integers x,y,z.
 // Sample Input:
 // 1, 2, 3
