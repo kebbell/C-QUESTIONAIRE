@@ -149,40 +149,44 @@ else
 // 4, 5, 6
 // -1, 1, 0
 // Expected Output:
-
 // True
 // False
 // True
 // Click me to see the solution
-// 48. Write a C# Sharp program to check if y is greater than x, and z is greater than y from three given integers x,y,z.
 
+
+
+
+// 48. Write a C# Sharp program to check if y is greater than x, and z is greater than y from three given integers x,y,z.
 // Sample Input:
 // 1, 2, 3
 // 4, 5, 6
 // -1, 1, 0
 // Expected Output:
-
 // True
 // True
 // False
 // Click me to see the solution
+
+
 // 49. Write a C# Sharp program to check if three given numbers are in strict increasing order.
 // For example, 4 7 15, or 45, 56, 67, but not 4 ,5, 8 or 6, 6, 8. However, if a fourth parameter is true, equality is allowed, such as 6, 6, 8 or 7, 7, 7.
-
 // Sample Input:
 // 1, 2, 3, false
 // 1, 2, 3, true
 // 10, 2, 30, false
 // 10, 10, 30, true
 // Expected Output:
-
 // True
 // True
 // False
 // True
 // Click me to see the solution
-// 50. Write a C# Sharp program to check if two or more integers that are not negative have the same rightmost digit.
 
+
+
+
+// 50. Write a C# Sharp program to check if two or more integers that are not negative have the same rightmost digit.
 // Sample Input:
 // 11, 21, 31
 // 11, 22, 31
