@@ -192,35 +192,39 @@ else
 // 11, 22, 31
 // 11, 22, 33
 // Expected Output:
-
 // True
 // True
 // False
 // Click me to see the solution
-// 51. Write a C# Sharp program to check three given integers and return true if one of them is 20 or more less than one of the others.
 
+
+
+// 51. Write a C# Sharp program to check three given integers and return true if one of them is 20 or more less than one of the others.
 // Sample Input:
 // 11, 21, 31
 // 11, 22, 31
 // 10, 20, 15
 // Expected Output:
-
 // True
 // True
 // False
 // Click me to see the solution
-// 52. Write a C# Sharp program to find the largest of two given integers. However if the two integers have the same remainder when divided by 7, then return the smallest integer. If the two integers are the same, return 0.
 
+
+
+// 52. Write a C# Sharp program to find the largest of two given integers. However if the two integers have the same remainder when divided by 7, then return the smallest integer. If the two integers are the same, return 0.
 // Sample Input:
 // 11, 21
 // 11, 20
 // 10, 10
 // Expected Output:
-
 // 21
 // 20
 // 0
 // Click me to see the solution
+
+
+
 // 53. Write a C# Sharp program to check two given integers, each in the range 10..99. Return true if a digit appears in both numbers, such as the 3 in 13 and 33.
 
 // Sample Input:
