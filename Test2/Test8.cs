@@ -224,6 +224,15 @@ else
 // False
 // Click me to see the solution
 
+int r = 11, s = 21, t = 31;
+if (r % 10 == s % 10 || r % 10 == t % 10 || s % 10 == t % 10)
+{
+    Console.WriteLine("True");
+}
+else
+{
+    Console.WriteLine("False");
+}
 
 
 // 51. Write a C# Sharp program to check three given integers and return true if one of them is 20 or more less than one of the others.
