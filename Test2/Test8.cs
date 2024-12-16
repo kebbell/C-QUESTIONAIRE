@@ -389,6 +389,16 @@ else
 // 0
 // Click me to see the solution
 
+int k = 4, l = 5, m = 7;
+if (k == 13 || k == 17 || l == 13 || l == 17 || m == 13 || m == 17)
+{
+    Console.WriteLine(0);
+}
+else
+{
+    Console.WriteLine(k + l + m);
+}
+
 
 
 // 58. Write a C# Sharp program to check two integers and return the value nearest to 13 without crossing over. Return 0 if both numbers exceed.
