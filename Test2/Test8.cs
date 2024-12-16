@@ -292,6 +292,16 @@ else
 // True
 // Click me to see the solution
 
+int a = 11, b = 21;
+if (a / 10 == b / 10 || a / 10 == b % 10 || a % 10 == b / 10 || a % 10 == b % 10)
+{
+    Console.WriteLine("True");
+}
+else
+{
+    Console.WriteLine("False");
+}
+
 
 
 // 54. Write a C# Sharp program to compute the sum of two given non-negative integers x and y as long as the sum has the same number of digits as x. If the sum has more digits than x return x without y.
@@ -304,6 +314,18 @@ else
 // 7
 // 20
 // Click me to see the solution
+
+int c = 4, d = 5;
+if (c.ToString().Length + d.ToString().Length == c.ToString().Length)
+{
+    Console.WriteLine(c + d);
+}
+else
+{
+    Console.WriteLine(c);
+}
+
+
 
 
 // 55. Write a C# Sharp program to compute the sum of three given integers. Return the third value if the two values are the same.
@@ -318,6 +340,16 @@ else
 // 12
 // 18
 // Click me to see the solution
+
+int e = 4, f = 5, g = 7;
+if (e == f)
+{
+    Console.WriteLine(e + f);
+}
+else
+{
+    Console.WriteLine(e + f + g);
+}
 
 
 // 56. Write a C# Sharp program to compute the sum of the three integers. If one of the values is 13 then do not count it and its right towards the sum.
