@@ -414,6 +414,15 @@ else
 // 0
 // Click me to see the solution
 
+int n = 4, o = 5;
+if (n > 13 || o > 13)
+{
+    Console.WriteLine(0);
+}
+else
+{
+    Console.WriteLine(Math.Min(n, o));
+}
 
 
 
