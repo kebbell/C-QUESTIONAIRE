@@ -432,13 +432,26 @@ else
 // 7, 12, 13
 // -1, 0, 1
 // Expected Output:
-
 // True
 // False
 // True
 // Click me to see the solution
-// 60. Write a C# Sharp program to create a string using the two given strings s1, s2. The new string format will be s1s2s2s1.
 
+int p = 4, q = 5, r = 6;
+int s = 7, t = 12, u2 = 13;
+int v2 = -1, w2 = 0, x2 = 1;
+if (Math.Abs(p - q) == Math.Abs(q - r) || Math.Abs(s - t) == Math.Abs(t - u2) || Math.Abs(v2 - w2) == Math.Abs(w2 - x2))
+{
+    Console.WriteLine("True");
+}
+else
+{
+    Console.WriteLine("False");
+}
+
+
+
+// 60. Write a C# Sharp program to create a string using the two given strings s1, s2. The new string format will be s1s2s2s1.
 // Sample Input:
 // "Hi", "Hello"
 // "whats", "app"
