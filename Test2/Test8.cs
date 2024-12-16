@@ -365,6 +365,16 @@ else
 // 0
 // Click me to see the solution
 
+int h = 4, i = 5, j = 7;
+if (h == 13 || i == 13 || j == 13)
+{
+    Console.WriteLine(0);
+}
+else
+{
+    Console.WriteLine(h + i + j);
+}
+
 
 // 57. Write a C# Sharp program to compute the sum of the three given integers. All values in the range 10..20 inclusive count as 0, except 13 and 17.
 // Sample Input:
