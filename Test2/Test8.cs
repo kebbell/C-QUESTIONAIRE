@@ -269,6 +269,16 @@ else
 // 0
 // Click me to see the solution
 
+int x = 11, y = 21;
+if (x % 7 == y % 7)
+{
+    Console.WriteLine(Math.Min(x, y));
+}
+else
+{
+    Console.WriteLine(Math.Max(x, y));
+}
+
 
 
 // 53. Write a C# Sharp program to check two given integers, each in the range 10..99. Return true if a digit appears in both numbers, such as the 3 in 13 and 33.
