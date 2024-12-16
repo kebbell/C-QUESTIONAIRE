@@ -402,21 +402,22 @@ else
 
 
 // 58. Write a C# Sharp program to check two integers and return the value nearest to 13 without crossing over. Return 0 if both numbers exceed.
-
 // Sample Input:
 // 4, 5
 // 7, 12
 // 10, 13
 // 17, 33
 // Expected Output:
-
 // 5
 // 12
 // 13
 // 0
 // Click me to see the solution
-// 59. Write a C# Sharp program to compare three integers (small, medium, and large) and return true if the difference between small and medium and the difference between medium and large is the same.
 
+
+
+
+// 59. Write a C# Sharp program to compare three integers (small, medium, and large) and return true if the difference between small and medium and the difference between medium and large is the same.
 // Sample Input:
 // 4, 5, 6
 // 7, 12, 13
