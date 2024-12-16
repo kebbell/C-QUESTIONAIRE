@@ -282,71 +282,73 @@ else
 
 
 // 53. Write a C# Sharp program to check two given integers, each in the range 10..99. Return true if a digit appears in both numbers, such as the 3 in 13 and 33.
-
 // Sample Input:
 // 11, 21
 // 11, 20
 // 10, 10
 // Expected Output:
-
 // True
 // False
 // True
 // Click me to see the solution
-// 54. Write a C# Sharp program to compute the sum of two given non-negative integers x and y as long as the sum has the same number of digits as x. If the sum has more digits than x return x without y.
 
+
+
+// 54. Write a C# Sharp program to compute the sum of two given non-negative integers x and y as long as the sum has the same number of digits as x. If the sum has more digits than x return x without y.
 // Sample Input:
 // 4, 5
 // 7, 4
 // 10, 10
 // Expected Output:
-
 // 9
 // 7
 // 20
 // Click me to see the solution
-// 55. Write a C# Sharp program to compute the sum of three given integers. Return the third value if the two values are the same.
 
+
+// 55. Write a C# Sharp program to compute the sum of three given integers. Return the third value if the two values are the same.
 // Sample Input:
 // 4, 5, 7
 // 7, 4, 12
 // 10, 10, 12
 // 12, 12, 18
 // Expected Output:
-
 // 16
 // 23
 // 12
 // 18
 // Click me to see the solution
-// 56. Write a C# Sharp program to compute the sum of the three integers. If one of the values is 13 then do not count it and its right towards the sum.
 
+
+// 56. Write a C# Sharp program to compute the sum of the three integers. If one of the values is 13 then do not count it and its right towards the sum.
 // Sample Input:
 // 4, 5, 7
 // 7, 4, 12
 // 10, 13, 12
 // 13, 12, 18
 // Expected Output:
-
 // 16
 // 23
 // 10
 // 0
 // Click me to see the solution
-// 57. Write a C# Sharp program to compute the sum of the three given integers. All values in the range 10..20 inclusive count as 0, except 13 and 17.
 
+
+// 57. Write a C# Sharp program to compute the sum of the three given integers. All values in the range 10..20 inclusive count as 0, except 13 and 17.
 // Sample Input:
 // 4, 5, 7
 // 7, 4, 12
 // 10, 13, 12
 // 14, 15, 16
 // Expected Output:
-
 // 16
 // 11
 // 13
 // 0
 // Click me to see the solution
+
+
+
 // 58. Write a C# Sharp program to check two integers and return the value nearest to 13 without crossing over. Return 0 if both numbers exceed.
 
 // Sample Input:
