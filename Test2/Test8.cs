@@ -235,231 +235,231 @@
 // }
 
 
-// 51. Write a C# Sharp program to check three given integers and return true if one of them is 20 or more less than one of the others.
-// Sample Input:
-// 11, 21, 31
-// 11, 22, 31
-// 10, 20, 15
-// Expected Output:
-// True
-// True
-// False
-// Click me to see the solution
+// // 51. Write a C# Sharp program to check three given integers and return true if one of them is 20 or more less than one of the others.
+// // Sample Input:
+// // 11, 21, 31
+// // 11, 22, 31
+// // 10, 20, 15
+// // Expected Output:
+// // True
+// // True
+// // False
+// // Click me to see the solution
 
-int u = 11, v = 21, w = 31;
-if (Math.Abs(u - v) >= 20 || Math.Abs(u - w) >= 20 || Math.Abs(v - w) >= 20)
-{
-    Console.WriteLine("True");
-}
-else
-{
-    Console.WriteLine("False");
-}
-
-
-
-// 52. Write a C# Sharp program to find the largest of two given integers. However if the two integers have the same remainder when divided by 7, then return the smallest integer. If the two integers are the same, return 0.
-// Sample Input:
-// 11, 21
-// 11, 20
-// 10, 10
-// Expected Output:
-// 21
-// 20
-// 0
-// Click me to see the solution
-
-int x = 11, y = 21;
-if (x % 7 == y % 7)
-{
-    Console.WriteLine(Math.Min(x, y));
-}
-else
-{
-    Console.WriteLine(Math.Max(x, y));
-}
+// int u = 11, v = 21, w = 31;
+// if (Math.Abs(u - v) >= 20 || Math.Abs(u - w) >= 20 || Math.Abs(v - w) >= 20)
+// {
+//     Console.WriteLine("True");
+// }
+// else
+// {
+//     Console.WriteLine("False");
+// }
 
 
 
-// 53. Write a C# Sharp program to check two given integers, each in the range 10..99. Return true if a digit appears in both numbers, such as the 3 in 13 and 33.
-// Sample Input:
-// 11, 21
-// 11, 20
-// 10, 10
-// Expected Output:
-// True
-// False
-// True
-// Click me to see the solution
+// // 52. Write a C# Sharp program to find the largest of two given integers. However if the two integers have the same remainder when divided by 7, then return the smallest integer. If the two integers are the same, return 0.
+// // Sample Input:
+// // 11, 21
+// // 11, 20
+// // 10, 10
+// // Expected Output:
+// // 21
+// // 20
+// // 0
+// // Click me to see the solution
 
-int a = 11, b = 21;
-if (a / 10 == b / 10 || a / 10 == b % 10 || a % 10 == b / 10 || a % 10 == b % 10)
-{
-    Console.WriteLine("True");
-}
-else
-{
-    Console.WriteLine("False");
-}
-
-
-
-// 54. Write a C# Sharp program to compute the sum of two given non-negative integers x and y as long as the sum has the same number of digits as x. If the sum has more digits than x return x without y.
-// Sample Input:
-// 4, 5
-// 7, 4
-// 10, 10
-// Expected Output:
-// 9
-// 7
-// 20
-// Click me to see the solution
-
-int c = 4, d = 5;
-if (c.ToString().Length + d.ToString().Length == c.ToString().Length)
-{
-    Console.WriteLine(c + d);
-}
-else
-{
-    Console.WriteLine(c);
-}
+// int x = 11, y = 21;
+// if (x % 7 == y % 7)
+// {
+//     Console.WriteLine(Math.Min(x, y));
+// }
+// else
+// {
+//     Console.WriteLine(Math.Max(x, y));
+// }
 
 
 
+// // 53. Write a C# Sharp program to check two given integers, each in the range 10..99. Return true if a digit appears in both numbers, such as the 3 in 13 and 33.
+// // Sample Input:
+// // 11, 21
+// // 11, 20
+// // 10, 10
+// // Expected Output:
+// // True
+// // False
+// // True
+// // Click me to see the solution
 
-// 55. Write a C# Sharp program to compute the sum of three given integers. Return the third value if the two values are the same.
-// Sample Input:
-// 4, 5, 7
-// 7, 4, 12
-// 10, 10, 12
-// 12, 12, 18
-// Expected Output:
-// 16
-// 23
-// 12
-// 18
-// Click me to see the solution
-
-int e = 4, f = 5, g = 7;
-if (e == f)
-{
-    Console.WriteLine(e + f);
-}
-else
-{
-    Console.WriteLine(e + f + g);
-}
-
-
-// 56. Write a C# Sharp program to compute the sum of the three integers. If one of the values is 13 then do not count it and its right towards the sum.
-// Sample Input:
-// 4, 5, 7
-// 7, 4, 12
-// 10, 13, 12
-// 13, 12, 18
-// Expected Output:
-// 16
-// 23
-// 10
-// 0
-// Click me to see the solution
-
-int h = 4, i = 5, j = 7;
-if (h == 13 || i == 13 || j == 13)
-{
-    Console.WriteLine(0);
-}
-else
-{
-    Console.WriteLine(h + i + j);
-}
-
-
-// 57. Write a C# Sharp program to compute the sum of the three given integers. All values in the range 10..20 inclusive count as 0, except 13 and 17.
-// Sample Input:
-// 4, 5, 7
-// 7, 4, 12
-// 10, 13, 12
-// 14, 15, 16
-// Expected Output:
-// 16
-// 11
-// 13
-// 0
-// Click me to see the solution
-
-int k = 4, l = 5, m = 7;
-if (k == 13 || k == 17 || l == 13 || l == 17 || m == 13 || m == 17)
-{
-    Console.WriteLine(0);
-}
-else
-{
-    Console.WriteLine(k + l + m);
-}
+// int a = 11, b = 21;
+// if (a / 10 == b / 10 || a / 10 == b % 10 || a % 10 == b / 10 || a % 10 == b % 10)
+// {
+//     Console.WriteLine("True");
+// }
+// else
+// {
+//     Console.WriteLine("False");
+// }
 
 
 
-// 58. Write a C# Sharp program to check two integers and return the value nearest to 13 without crossing over. Return 0 if both numbers exceed.
-// Sample Input:
-// 4, 5
-// 7, 12
-// 10, 13
-// 17, 33
-// Expected Output:
-// 5
-// 12
-// 13
-// 0
-// Click me to see the solution
+// // 54. Write a C# Sharp program to compute the sum of two given non-negative integers x and y as long as the sum has the same number of digits as x. If the sum has more digits than x return x without y.
+// // Sample Input:
+// // 4, 5
+// // 7, 4
+// // 10, 10
+// // Expected Output:
+// // 9
+// // 7
+// // 20
+// // Click me to see the solution
 
-int n = 4, o = 5;
-if (n > 13 || o > 13)
-{
-    Console.WriteLine(0);
-}
-else
-{
-    Console.WriteLine(Math.Min(n, o));
-}
+// int c = 4, d = 5;
+// if (c.ToString().Length + d.ToString().Length == c.ToString().Length)
+// {
+//     Console.WriteLine(c + d);
+// }
+// else
+// {
+//     Console.WriteLine(c);
+// }
 
 
 
-// 59. Write a C# Sharp program to compare three integers (small, medium, and large) and return true if the difference between small and medium and the difference between medium and large is the same.
-// Sample Input:
-// 4, 5, 6
-// 7, 12, 13
-// -1, 0, 1
-// Expected Output:
-// True
-// False
-// True
-// Click me to see the solution
 
-int p = 4, q = 5, r = 6;
-int s = 7, t = 12, u2 = 13;
-int v2 = -1, w2 = 0, x2 = 1;
-if (Math.Abs(p - q) == Math.Abs(q - r) || Math.Abs(s - t) == Math.Abs(t - u2) || Math.Abs(v2 - w2) == Math.Abs(w2 - x2))
-{
-    Console.WriteLine("True");
-}
-else
-{
-    Console.WriteLine("False");
-}
+// // 55. Write a C# Sharp program to compute the sum of three given integers. Return the third value if the two values are the same.
+// // Sample Input:
+// // 4, 5, 7
+// // 7, 4, 12
+// // 10, 10, 12
+// // 12, 12, 18
+// // Expected Output:
+// // 16
+// // 23
+// // 12
+// // 18
+// // Click me to see the solution
+
+// int e = 4, f = 5, g = 7;
+// if (e == f)
+// {
+//     Console.WriteLine(e + f);
+// }
+// else
+// {
+//     Console.WriteLine(e + f + g);
+// }
+
+
+// // 56. Write a C# Sharp program to compute the sum of the three integers. If one of the values is 13 then do not count it and its right towards the sum.
+// // Sample Input:
+// // 4, 5, 7
+// // 7, 4, 12
+// // 10, 13, 12
+// // 13, 12, 18
+// // Expected Output:
+// // 16
+// // 23
+// // 10
+// // 0
+// // Click me to see the solution
+
+// int h = 4, i = 5, j = 7;
+// if (h == 13 || i == 13 || j == 13)
+// {
+//     Console.WriteLine(0);
+// }
+// else
+// {
+//     Console.WriteLine(h + i + j);
+// }
+
+
+// // 57. Write a C# Sharp program to compute the sum of the three given integers. All values in the range 10..20 inclusive count as 0, except 13 and 17.
+// // Sample Input:
+// // 4, 5, 7
+// // 7, 4, 12
+// // 10, 13, 12
+// // 14, 15, 16
+// // Expected Output:
+// // 16
+// // 11
+// // 13
+// // 0
+// // Click me to see the solution
+
+// int k = 4, l = 5, m = 7;
+// if (k == 13 || k == 17 || l == 13 || l == 17 || m == 13 || m == 17)
+// {
+//     Console.WriteLine(0);
+// }
+// else
+// {
+//     Console.WriteLine(k + l + m);
+// }
 
 
 
-// 60. Write a C# Sharp program to create a string using the two given strings s1, s2. The new string format will be s1s2s2s1.
-// Sample Input:
-// "Hi", "Hello"
-// "whats", "app"
-// Expected Output:
-// HiHelloHelloHi
-// whatsappappwhats
-// Click me to see the solution
+// // 58. Write a C# Sharp program to check two integers and return the value nearest to 13 without crossing over. Return 0 if both numbers exceed.
+// // Sample Input:
+// // 4, 5
+// // 7, 12
+// // 10, 13
+// // 17, 33
+// // Expected Output:
+// // 5
+// // 12
+// // 13
+// // 0
+// // Click me to see the solution
 
-string s1 = "Hi", s2 = "Hello";
-string s3 = s1 + s2 + s2 + s1;
-Console.WriteLine(s3);
+// int n = 4, o = 5;
+// if (n > 13 || o > 13)
+// {
+//     Console.WriteLine(0);
+// }
+// else
+// {
+//     Console.WriteLine(Math.Min(n, o));
+// }
+
+
+
+// // 59. Write a C# Sharp program to compare three integers (small, medium, and large) and return true if the difference between small and medium and the difference between medium and large is the same.
+// // Sample Input:
+// // 4, 5, 6
+// // 7, 12, 13
+// // -1, 0, 1
+// // Expected Output:
+// // True
+// // False
+// // True
+// // Click me to see the solution
+
+// int p = 4, q = 5, r = 6;
+// int s = 7, t = 12, u2 = 13;
+// int v2 = -1, w2 = 0, x2 = 1;
+// if (Math.Abs(p - q) == Math.Abs(q - r) || Math.Abs(s - t) == Math.Abs(t - u2) || Math.Abs(v2 - w2) == Math.Abs(w2 - x2))
+// {
+//     Console.WriteLine("True");
+// }
+// else
+// {
+//     Console.WriteLine("False");
+// }
+
+
+
+// // 60. Write a C# Sharp program to create a string using the two given strings s1, s2. The new string format will be s1s2s2s1.
+// // Sample Input:
+// // "Hi", "Hello"
+// // "whats", "app"
+// // Expected Output:
+// // HiHelloHelloHi
+// // whatsappappwhats
+// // Click me to see the solution
+
+// string s1 = "Hi", s2 = "Hello";
+// string s3 = s1 + s2 + s2 + s1;
+// Console.WriteLine(s3);
