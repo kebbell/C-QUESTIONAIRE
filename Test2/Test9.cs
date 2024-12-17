@@ -46,6 +46,14 @@ Console.WriteLine(s10);
 // Click me to see the solution
 
 
+string s11 = "Hello";
+string s12 = "Hi";
+string s13 = s11.Substring(0, 2);
+string s14 = s12.Substring(0, 2);
+string s15 = s13;
+string s16 = s14;
+Console.WriteLine(s15);
+Console.WriteLine(s16);
 
 
 // 64. Write a C# Sharp program to create a string from the first half of a given string of even length.
