@@ -65,6 +65,12 @@ Console.WriteLine(s16);
 // H
 // Click me to see the solution
 
+string s17 = "Hello";
+string s18 = "Hi";
+string s19 = s17.Substring(0, s17.Length / 2);
+string s20 = s18.Substring(0, s18.Length / 2);
+Console.WriteLine(s19);
+Console.WriteLine(s20);
 
 
 
