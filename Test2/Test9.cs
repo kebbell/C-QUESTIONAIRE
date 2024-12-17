@@ -24,6 +24,12 @@ Console.WriteLine(s6);
 // HiHiHi
 // Click me to see the solution
 
+string s7 = "Hello";
+string s8 = "Hi";
+string s9 = s7.Substring(s7.Length - 2) + s7.Substring(s7.Length - 2) + s7.Substring(s7.Length - 2);
+string s10 = s8.Substring(s8.Length - 2) + s8.Substring(s8.Length - 2) + s8.Substring(s8.Length - 2);  
+Console.WriteLine(s9);
+Console.WriteLine(s10);
 
 
 
