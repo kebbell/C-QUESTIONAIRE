@@ -456,7 +456,10 @@ else
 // "Hi", "Hello"
 // "whats", "app"
 // Expected Output:
-
 // HiHelloHelloHi
 // whatsappappwhats
 // Click me to see the solution
+
+string s1 = "Hi", s2 = "Hello";
+string s3 = s1 + s2 + s2 + s1;
+Console.WriteLine(s3);
