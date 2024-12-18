@@ -94,8 +94,6 @@ Console.WriteLine(s24);
 Console.WriteLine(s25);
 Console.WriteLine(s26);
 
-
-
 // 66. Write a C# Sharp program to create a new string from two given strings, one of which is shorter and one of which is longer. The new string format will be long string + short string + long string.
 // Sample Input:
 // "Hello", "Hi"
