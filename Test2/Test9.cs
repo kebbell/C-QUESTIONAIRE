@@ -158,7 +158,6 @@ string s46 = s44.Substring(s44.Length - 2) + s44.Substring(0, s44.Length - 2);
 Console.WriteLine(s45);
 Console.WriteLine(s46); 
 
-
 // 70. Write a C# Sharp program to create a new string without the first and last characters of a given string of any length.
 // Sample Input:
 // "Hello"
