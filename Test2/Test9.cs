@@ -187,6 +187,12 @@ Console.WriteLine(s52);
 // JS
 // Click me to see the solution
 
+string s53 = "Hell";
+string s54 = "JS";
+string s55 = s53.Substring(s53.Length / 2 - 1, 2);
+string s56 = s54.Substring(s54.Length / 2 - 1, 2);
+Console.WriteLine(s55);
+Console.WriteLine(s56);
 
 
 // 72. Write a C# Sharp program to check if a given string ends with "on".
