@@ -126,7 +126,6 @@ string s38 = s35.Substring(1) + s36.Substring(1);
 Console.WriteLine(s37);
 Console.WriteLine(s38);
 
-
 // 68. Write a C# Sharp program to move the first two characters to the end of a given string of length at least two.
 // Sample Input:
 // "Hello"
