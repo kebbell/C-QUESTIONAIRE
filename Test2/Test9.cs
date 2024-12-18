@@ -167,6 +167,16 @@ Console.WriteLine(s46);
 // ell
 // Click me to see the solution
 
+string s47 = "Hello";
+string s48 = "JS";
+string s49 = "";
+string s50 = s47.Substring(1, s47.Length - 2);
+string s51 = s48.Substring(1, s48.Length - 2);
+string s52 = s49.Substring(1, s49.Length - 2);
+Console.WriteLine(s50);
+Console.WriteLine(s51);
+Console.WriteLine(s52);
+
 
 // 71. Write a C# Sharp program to create a string using the two middle characters of a given string of even length (at least 2).
 // Sample Input:
