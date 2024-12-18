@@ -151,6 +151,13 @@ Console.WriteLine(s42);
 // JS
 // Click me to see the solution
 
+string s43 = "Hello";
+string s44 = "JS";
+string s45 = s43.Substring(s43.Length - 2) + s43.Substring(0, s43.Length - 2);
+string s46 = s44.Substring(s44.Length - 2) + s44.Substring(0, s44.Length - 2);
+Console.WriteLine(s45);
+Console.WriteLine(s46); 
+
 
 
 // 70. Write a C# Sharp program to create a new string without the first and last characters of a given string of any length.
@@ -282,15 +289,16 @@ Console.WriteLine(s42);
 // "JS"
 // "C"
 // Expected Output:
-
 // Helol
 // Pythno
 // PPH
 // SJ
 // C
 // Click me to see the solution
-// 80. Write a C# Sharp program to check if a given string begins with 'abc' or 'xyz'. If the string begins with 'abc' or 'xyz' return 'abc' or 'xyz' otherwise return an empty string.
 
+
+
+// 80. Write a C# Sharp program to check if a given string begins with 'abc' or 'xyz'. If the string begins with 'abc' or 'xyz' return 'abc' or 'xyz' otherwise return an empty string.
 // Sample Input:
 // "abc"
 // "abcdef"
@@ -298,10 +306,8 @@ Console.WriteLine(s42);
 // "xyz"
 // "xyzsder"
 // Expected Output:
-
 // abc
 // abc
-
 // xyz
 // xyz
 // Click me to see the solution
