@@ -159,7 +159,6 @@ Console.WriteLine(s45);
 Console.WriteLine(s46); 
 
 
-
 // 70. Write a C# Sharp program to create a new string without the first and last characters of a given string of any length.
 // Sample Input:
 // "Hello"
