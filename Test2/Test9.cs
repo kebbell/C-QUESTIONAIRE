@@ -1,114 +1,114 @@
-// 61. Write a C# Sharp program to insert a given string into the middle of another given string of length 4.
-// Sample Input:
-// "[[]]","Hello"
-// "(())", "Hi"
-// Expected Output:
-// [[Hello]]
-// ((Hi))
-// Click me to see the solution
+// // 61. Write a C# Sharp program to insert a given string into the middle of another given string of length 4.
+// // Sample Input:
+// // "[[]]","Hello"
+// // "(())", "Hi"
+// // Expected Output:
+// // [[Hello]]
+// // ((Hi))
+// // Click me to see the solution
 
-string s1 = "[[]]", s2 = "Hello";
-string s3 = "(())", s4 = "Hi";
-string s5 = s1.Insert(1, s2);
-string s6 = s3.Insert(1, s4);
-Console.WriteLine(s5);
-Console.WriteLine(s6);
-
-
-// 62. Write a C# Sharp program to create a string using three copies of the last two characters of a given string of length at least two.
-// Sample Input:
-// "Hello"
-// "Hi"
-// Expected Output:
-// lololo
-// HiHiHi
-// Click me to see the solution
-
-string s7 = "Hello";
-string s8 = "Hi";
-string s9 = s7.Substring(s7.Length - 2) + s7.Substring(s7.Length - 2) + s7.Substring(s7.Length - 2);
-string s10 = s8.Substring(s8.Length - 2) + s8.Substring(s8.Length - 2) + s8.Substring(s8.Length - 2);  
-Console.WriteLine(s9);
-Console.WriteLine(s10);
+// string s1 = "[[]]", s2 = "Hello";
+// string s3 = "(())", s4 = "Hi";
+// string s5 = s1.Insert(1, s2);
+// string s6 = s3.Insert(1, s4);
+// Console.WriteLine(s5);
+// Console.WriteLine(s6);
 
 
+// // 62. Write a C# Sharp program to create a string using three copies of the last two characters of a given string of length at least two.
+// // Sample Input:
+// // "Hello"
+// // "Hi"
+// // Expected Output:
+// // lololo
+// // HiHiHi
+// // Click me to see the solution
 
-// 63. Write a C# Sharp program to create a new string using the first two characters of a given string. If the string length is less than 2, return the original string.
-// Sample Input:
-// "Hello"
-// "Hi"
-// "H"
-// " "
-// Expected Output:
-// He
-// Hi
-// H
-// Click me to see the solution
-
-
-string s11 = "Hello";
-string s12 = "Hi";
-string s13 = s11.Substring(0, 2);
-string s14 = s12.Substring(0, 2);
-string s15 = s13;
-string s16 = s14;
-Console.WriteLine(s15);
-Console.WriteLine(s16);
-
-
-// 64. Write a C# Sharp program to create a string from the first half of a given string of even length.
-// Sample Input:
-// "Hello"
-// "Hi"
-// Expected Output:
-// He
-// H
-// Click me to see the solution
-
-string s17 = "Hello";
-string s18 = "Hi";
-string s19 = s17.Substring(0, s17.Length / 2);
-string s20 = s18.Substring(0, s18.Length / 2);
-Console.WriteLine(s19);
-Console.WriteLine(s20);
+// string s7 = "Hello";
+// string s8 = "Hi";
+// string s9 = s7.Substring(s7.Length - 2) + s7.Substring(s7.Length - 2) + s7.Substring(s7.Length - 2);
+// string s10 = s8.Substring(s8.Length - 2) + s8.Substring(s8.Length - 2) + s8.Substring(s8.Length - 2);  
+// Console.WriteLine(s9);
+// Console.WriteLine(s10);
 
 
 
-// 65. Write a C# Sharp program to create a new string without the first and last character of a given string of length at least two.
-// Sample Input:
-// "Hello"
-// "Hi"
-// "Python"
-// Expected Output:
-// ell
-// ytho
-// Click me to see the solution
+// // 63. Write a C# Sharp program to create a new string using the first two characters of a given string. If the string length is less than 2, return the original string.
+// // Sample Input:
+// // "Hello"
+// // "Hi"
+// // "H"
+// // " "
+// // Expected Output:
+// // He
+// // Hi
+// // H
+// // Click me to see the solution
 
-string s21 = "Hello";
-string s22 = "Hi";
-string s23 = "Python";
-string s24 = s21.Substring(1, s21.Length - 2);
-string s25 = s22.Substring(1, s22.Length - 2);
-string s26 = s23.Substring(1, s23.Length - 2);
-Console.WriteLine(s24);
-Console.WriteLine(s25);
-Console.WriteLine(s26);
 
-// 66. Write a C# Sharp program to create a new string from two given strings, one of which is shorter and one of which is longer. The new string format will be long string + short string + long string.
-// Sample Input:
-// "Hello", "Hi"
-// "JS", "Python"
-// Expected Output:
-// HelloHiHello
-// PythonJSPython
-// Click me to see the solution
+// string s11 = "Hello";
+// string s12 = "Hi";
+// string s13 = s11.Substring(0, 2);
+// string s14 = s12.Substring(0, 2);
+// string s15 = s13;
+// string s16 = s14;
+// Console.WriteLine(s15);
+// Console.WriteLine(s16);
 
-string s27 = "Hello", s28 = "Hi";
-string s29 = "JS", s30 = "Python";
-string s31 = s27 + s28 + s27;
-string s32 = s29 + s30 + s29;
-Console.WriteLine(s31);
-Console.WriteLine(s32);
+
+// // 64. Write a C# Sharp program to create a string from the first half of a given string of even length.
+// // Sample Input:
+// // "Hello"
+// // "Hi"
+// // Expected Output:
+// // He
+// // H
+// // Click me to see the solution
+
+// string s17 = "Hello";
+// string s18 = "Hi";
+// string s19 = s17.Substring(0, s17.Length / 2);
+// string s20 = s18.Substring(0, s18.Length / 2);
+// Console.WriteLine(s19);
+// Console.WriteLine(s20);
+
+
+
+// // 65. Write a C# Sharp program to create a new string without the first and last character of a given string of length at least two.
+// // Sample Input:
+// // "Hello"
+// // "Hi"
+// // "Python"
+// // Expected Output:
+// // ell
+// // ytho
+// // Click me to see the solution
+
+// string s21 = "Hello";
+// string s22 = "Hi";
+// string s23 = "Python";
+// string s24 = s21.Substring(1, s21.Length - 2);
+// string s25 = s22.Substring(1, s22.Length - 2);
+// string s26 = s23.Substring(1, s23.Length - 2);
+// Console.WriteLine(s24);
+// Console.WriteLine(s25);
+// Console.WriteLine(s26);
+
+// // 66. Write a C# Sharp program to create a new string from two given strings, one of which is shorter and one of which is longer. The new string format will be long string + short string + long string.
+// // Sample Input:
+// // "Hello", "Hi"
+// // "JS", "Python"
+// // Expected Output:
+// // HelloHiHello
+// // PythonJSPython
+// // Click me to see the solution
+
+// string s27 = "Hello", s28 = "Hi";
+// string s29 = "JS", s30 = "Python";
+// string s31 = s27 + s28 + s27;
+// string s32 = s29 + s30 + s29;
+// Console.WriteLine(s31);
+// Console.WriteLine(s32);
 
 // 67. Write a C# Sharp program to combine two strings of length at least 1, after removing their first character.
 // Sample Input:
