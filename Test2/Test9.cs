@@ -84,6 +84,16 @@ Console.WriteLine(s20);
 // ytho
 // Click me to see the solution
 
+string s21 = "Hello";
+string s22 = "Hi";
+string s23 = "Python";
+string s24 = s21.Substring(1, s21.Length - 2);
+string s25 = s22.Substring(1, s22.Length - 2);
+string s26 = s23.Substring(1, s23.Length - 2);
+Console.WriteLine(s24);
+Console.WriteLine(s25);
+Console.WriteLine(s26);
+
 
 
 // 66. Write a C# Sharp program to create a new string from two given strings, one of which is shorter and one of which is longer. The new string format will be long string + short string + long string.
