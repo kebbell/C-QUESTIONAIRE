@@ -135,7 +135,12 @@ Console.WriteLine(s38);
 // JS
 // Click me to see the solution
 
-
+string s39 = "Hello";
+string s40 = "JS";
+string s41 = s39.Substring(2) + s39.Substring(0, 2);
+string s42 = s40.Substring(2) + s40.Substring(0, 2);
+Console.WriteLine(s41);
+Console.WriteLine(s42);
 
 // 69. Write a C# Sharp program to move the last two characters to the start of a given string of length at least two.
 // Sample Input:
