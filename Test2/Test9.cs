@@ -103,8 +103,12 @@ Console.WriteLine(s26);
 // PythonJSPython
 // Click me to see the solution
 
-
-
+string s27 = "Hello", s28 = "Hi";
+string s29 = "JS", s30 = "Python";
+string s31 = s27 + s28 + s27;
+string s32 = s29 + s30 + s29;
+Console.WriteLine(s31);
+Console.WriteLine(s32);
 
 // 67. Write a C# Sharp program to combine two strings of length at least 1, after removing their first character.
 // Sample Input:
@@ -115,6 +119,12 @@ Console.WriteLine(s26);
 // Sython
 // Click me to see the solution
 
+string s33 = "Hello", s34 = "Hi";
+string s35 = "JS", s36 = "Python";
+string s37 = s33.Substring(1) + s34.Substring(1);
+string s38 = s35.Substring(1) + s36.Substring(1);
+Console.WriteLine(s37);
+Console.WriteLine(s38);
 
 
 // 68. Write a C# Sharp program to move the first two characters to the end of a given string of length at least two.
