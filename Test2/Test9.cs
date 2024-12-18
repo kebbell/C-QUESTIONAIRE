@@ -147,125 +147,134 @@ Console.WriteLine(s42);
 // "Hello"
 // "JS"
 // Expected Output:
-
 // loHel
 // JS
 // Click me to see the solution
-// 70. Write a C# Sharp program to create a new string without the first and last characters of a given string of any length.
 
+
+
+// 70. Write a C# Sharp program to create a new string without the first and last characters of a given string of any length.
 // Sample Input:
 // "Hello"
 // "JS"
 // ""
 // Expected Output:
-
 // ell
 // Click me to see the solution
-// 71. Write a C# Sharp program to create a string using the two middle characters of a given string of even length (at least 2).
 
+
+// 71. Write a C# Sharp program to create a string using the two middle characters of a given string of even length (at least 2).
 // Sample Input:
 // "Hell"
 // "JS"
 // Expected Output:
-
 // el
 // JS
 // Click me to see the solution
-// 72. Write a C# Sharp program to check if a given string ends with "on".
 
+
+
+// 72. Write a C# Sharp program to check if a given string ends with "on".
 // Sample Input:
 // "Hello"
 // "Python"
 // "on"
 // "o"
-
 // Expected Output:
-
 // False
 // True
 // True
 // False
 // Click me to see the solution
-// 73. Write a C# Sharp program to create a new string using the first and last n characters from a given string of length at least n.
 
+
+
+
+// 73. Write a C# Sharp program to create a new string using the first and last n characters from a given string of length at least n.
 // Sample Input:
 // "Hello", 1
 // "Python", 2
 // "on", 1
 // "o", 1
 // Expected Output:
-
 // Ho
 // Pyon
 // on
 // oo
 // Click me to see the solution
-// 74. Write a C# Sharp program to create a new string of length 2 starting at the given index of a given string.
 
+
+
+// 74. Write a C# Sharp program to create a new string of length 2 starting at the given index of a given string.
 // Sample Input:
 // "Hello", 1
 // "Python", 2
 // "on", 1
 // Expected Output:
-
 // el
 // th
 // on
 // Click me to see the solution
-// 75. Write a C# Sharp program to create a string by taking at least 3 characters from the middle of a given string.
 
+
+
+// 75. Write a C# Sharp program to create a string by taking at least 3 characters from the middle of a given string.
 // Sample Input:
 // "Hello"
 // "Python"
 // "abc"
 // Expected Output:
-
 // ell
 // yth
 // abc
 // Click me to see the solution
-// 76. Write a C# Sharp program to create a new string of length 2, using the first two characters of a given string. If the given string length is less than 2 use '#' as missing characters.
 
+
+
+
+// 76. Write a C# Sharp program to create a new string of length 2, using the first two characters of a given string. If the given string length is less than 2 use '#' as missing characters.
 // Sample Input:
 // "Hello"
 // "Python"
 // "a"
 // ""
 // Expected Output:
-
 // He
 // Py
 // a#
 // ##
 // Click me to see the solution
-// 77. Write a C# Sharp program to create a string by taking the first character from a string and the last character from another string. If a string's length is 0, use '#' as its missing character.
 
+
+// 77. Write a C# Sharp program to create a string by taking the first character from a string and the last character from another string. If a string's length is 0, use '#' as its missing character.
 // Sample Input:
 // "Hello", "Hi"
 // "Python", "PHP"
 // "JS", "JS"
 // "Csharp", ""
 // Expected Output:
-
 // Hi
 // PP
 // JS
 // C#
 // Click me to see the solution
-// 78. Write a C# Sharp program to combine two given strings (lowercase). If there are any double characters in the string, omit one character.
 
+
+
+// 78. Write a C# Sharp program to combine two given strings (lowercase). If there are any double characters in the string, omit one character.
 // Sample Input:
 // "abc", "cat"
 // "python", "php"
 // "php", "php"
 // Expected Output:
-
 // abcat
 // pythonphp
 // phphp
 // Click me to see the solution
-// 79. Write a C# Sharp program to create a new string from a given string after swapping the last two characters.
 
+
+
+// 79. Write a C# Sharp program to create a new string from a given string after swapping the last two characters.
 // Sample Input:
 // "Hello"
 // "Python"
