@@ -273,26 +273,26 @@
 
 
 
-// 75. Write a C# Sharp program to create a string by taking at least 3 characters from the middle of a given string.
-// Sample Input:
-// "Hello"
-// "Python"
-// "abc"
-// Expected Output:
-// ell
-// yth
-// abc
-// Click me to see the solution
+// // 75. Write a C# Sharp program to create a string by taking at least 3 characters from the middle of a given string.
+// // Sample Input:
+// // "Hello"
+// // "Python"
+// // "abc"
+// // Expected Output:
+// // ell
+// // yth
+// // abc
+// // Click me to see the solution
 
-string s79 = "Hello";
-string s80 = "Python";
-string s81 = "abc";
-string s82 = s79.Substring(s79.Length / 2, 3);
-string s83 = s80.Substring(s80.Length / 2, 3);
-string s84 = s81.Substring(s81.Length / 2, 3);
-Console.WriteLine(s82);
-Console.WriteLine(s83);
-Console.WriteLine(s84);
+// string s79 = "Hello";
+// string s80 = "Python";
+// string s81 = "abc";
+// string s82 = s79.Substring(s79.Length / 2, 3);
+// string s83 = s80.Substring(s80.Length / 2, 3);
+// string s84 = s81.Substring(s81.Length / 2, 3);
+// Console.WriteLine(s82);
+// Console.WriteLine(s83);
+// Console.WriteLine(s84);
 
 
 // 76. Write a C# Sharp program to create a new string of length 2, using the first two characters of a given string. If the given string length is less than 2 use '#' as missing characters.
@@ -307,6 +307,19 @@ Console.WriteLine(s84);
 // a#
 // ##
 // Click me to see the solution
+
+string s85 = "Hello";
+string s86 = "Python";
+string s87 = "a";
+string s88 = "";
+string s89 = s85.Substring(0, 2);
+string s90 = s86.Substring(0, 2);
+string s91 = s87.Substring(0, 2);
+string s92 = s88.Substring(0, 2);
+Console.WriteLine(s89);
+Console.WriteLine(s90);
+Console.WriteLine(s91);
+Console.WriteLine(s92);
 
 
 // 77. Write a C# Sharp program to create a string by taking the first character from a string and the last character from another string. If a string's length is 0, use '#' as its missing character.
