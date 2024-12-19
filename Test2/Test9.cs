@@ -222,7 +222,6 @@ Console.WriteLine(s63);
 Console.WriteLine(s64);
 
 
-
 // 73. Write a C# Sharp program to create a new string using the first and last n characters from a given string of length at least n.
 // Sample Input:
 // "Hello", 1
