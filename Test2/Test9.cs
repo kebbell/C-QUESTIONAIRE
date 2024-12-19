@@ -284,6 +284,15 @@
 // abc
 // Click me to see the solution
 
+string s79 = "Hello";
+string s80 = "Python";
+string s81 = "abc";
+string s82 = s79.Substring(s79.Length / 2, 3);
+string s83 = s80.Substring(s80.Length / 2, 3);
+string s84 = s81.Substring(s81.Length / 2, 3);
+Console.WriteLine(s82);
+Console.WriteLine(s83);
+Console.WriteLine(s84);
 
 
 
