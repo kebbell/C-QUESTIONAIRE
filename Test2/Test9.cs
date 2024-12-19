@@ -365,6 +365,18 @@ Console.WriteLine(s104);
 // phphp
 // Click me to see the solution
 
+string s105 = "abc";
+string s106 = "cat";
+string s107 = "python";
+string s108 = "php";
+string s109 = "php";
+string s110 = s105 + s106;
+string s111 = s107 + s108;
+string s112 = s108 + s109;
+Console.WriteLine(s110);
+Console.WriteLine(s111);
+Console.WriteLine(s112);
+
 
 
 // 79. Write a C# Sharp program to create a new string from a given string after swapping the last two characters.
