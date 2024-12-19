@@ -110,143 +110,143 @@
 // Console.WriteLine(s31);
 // Console.WriteLine(s32);
 
-// 67. Write a C# Sharp program to combine two strings of length at least 1, after removing their first character.
-// Sample Input:
-// "Hello", "Hi"
-// "JS", "Python"
-// Expected Output:
-// elloi
-// Sython
-// Click me to see the solution
+// // 67. Write a C# Sharp program to combine two strings of length at least 1, after removing their first character.
+// // Sample Input:
+// // "Hello", "Hi"
+// // "JS", "Python"
+// // Expected Output:
+// // elloi
+// // Sython
+// // Click me to see the solution
 
-string s33 = "Hello", s34 = "Hi";
-string s35 = "JS", s36 = "Python";
-string s37 = s33.Substring(1) + s34.Substring(1);
-string s38 = s35.Substring(1) + s36.Substring(1);
-Console.WriteLine(s37);
-Console.WriteLine(s38);
+// string s33 = "Hello", s34 = "Hi";
+// string s35 = "JS", s36 = "Python";
+// string s37 = s33.Substring(1) + s34.Substring(1);
+// string s38 = s35.Substring(1) + s36.Substring(1);
+// Console.WriteLine(s37);
+// Console.WriteLine(s38);
 
-// 68. Write a C# Sharp program to move the first two characters to the end of a given string of length at least two.
-// Sample Input:
-// "Hello"
-// "JS"
-// Expected Output:
-// lloHe
-// JS
-// Click me to see the solution
+// // 68. Write a C# Sharp program to move the first two characters to the end of a given string of length at least two.
+// // Sample Input:
+// // "Hello"
+// // "JS"
+// // Expected Output:
+// // lloHe
+// // JS
+// // Click me to see the solution
 
-string s39 = "Hello";
-string s40 = "JS";
-string s41 = s39.Substring(2) + s39.Substring(0, 2);
-string s42 = s40.Substring(2) + s40.Substring(0, 2);
-Console.WriteLine(s41);
-Console.WriteLine(s42);
+// string s39 = "Hello";
+// string s40 = "JS";
+// string s41 = s39.Substring(2) + s39.Substring(0, 2);
+// string s42 = s40.Substring(2) + s40.Substring(0, 2);
+// Console.WriteLine(s41);
+// Console.WriteLine(s42);
 
-// 69. Write a C# Sharp program to move the last two characters to the start of a given string of length at least two.
-// Sample Input:
-// "Hello"
-// "JS"
-// Expected Output:
-// loHel
-// JS
-// Click me to see the solution
+// // 69. Write a C# Sharp program to move the last two characters to the start of a given string of length at least two.
+// // Sample Input:
+// // "Hello"
+// // "JS"
+// // Expected Output:
+// // loHel
+// // JS
+// // Click me to see the solution
 
-string s43 = "Hello";
-string s44 = "JS";
-string s45 = s43.Substring(s43.Length - 2) + s43.Substring(0, s43.Length - 2);
-string s46 = s44.Substring(s44.Length - 2) + s44.Substring(0, s44.Length - 2);
-Console.WriteLine(s45);
-Console.WriteLine(s46); 
+// string s43 = "Hello";
+// string s44 = "JS";
+// string s45 = s43.Substring(s43.Length - 2) + s43.Substring(0, s43.Length - 2);
+// string s46 = s44.Substring(s44.Length - 2) + s44.Substring(0, s44.Length - 2);
+// Console.WriteLine(s45);
+// Console.WriteLine(s46); 
 
-// 70. Write a C# Sharp program to create a new string without the first and last characters of a given string of any length.
-// Sample Input:
-// "Hello"
-// "JS"
-// ""
-// Expected Output:
-// ell
-// Click me to see the solution
+// // 70. Write a C# Sharp program to create a new string without the first and last characters of a given string of any length.
+// // Sample Input:
+// // "Hello"
+// // "JS"
+// // ""
+// // Expected Output:
+// // ell
+// // Click me to see the solution
 
-string s47 = "Hello";
-string s48 = "JS";
-string s49 = "";
-string s50 = s47.Substring(1, s47.Length - 2);
-string s51 = s48.Substring(1, s48.Length - 2);
-string s52 = s49.Substring(1, s49.Length - 2);
-Console.WriteLine(s50);
-Console.WriteLine(s51);
-Console.WriteLine(s52);
-
-
-// 71. Write a C# Sharp program to create a string using the two middle characters of a given string of even length (at least 2).
-// Sample Input:
-// "Hell"
-// "JS"
-// Expected Output:
-// el
-// JS
-// Click me to see the solution
-
-string s53 = "Hell";
-string s54 = "JS";
-string s55 = s53.Substring(s53.Length / 2 - 1, 2);
-string s56 = s54.Substring(s54.Length / 2 - 1, 2);
-Console.WriteLine(s55);
-Console.WriteLine(s56);
+// string s47 = "Hello";
+// string s48 = "JS";
+// string s49 = "";
+// string s50 = s47.Substring(1, s47.Length - 2);
+// string s51 = s48.Substring(1, s48.Length - 2);
+// string s52 = s49.Substring(1, s49.Length - 2);
+// Console.WriteLine(s50);
+// Console.WriteLine(s51);
+// Console.WriteLine(s52);
 
 
-// 72. Write a C# Sharp program to check if a given string ends with "on".
-// Sample Input:
-// "Hello"
-// "Python"
-// "on"
-// "o"
-// Expected Output:
-// False
-// True
-// True
-// False
-// Click me to see the solution
+// // 71. Write a C# Sharp program to create a string using the two middle characters of a given string of even length (at least 2).
+// // Sample Input:
+// // "Hell"
+// // "JS"
+// // Expected Output:
+// // el
+// // JS
+// // Click me to see the solution
 
-string s57 = "Hello";
-string s58 = "Python";
-string s59 = "on";
-string s60 = "o";
-bool s61 = s57.EndsWith("on");
-bool s62 = s58.EndsWith("on");
-bool s63 = s59.EndsWith("on");
-bool s64 = s60.EndsWith("on");
-Console.WriteLine(s61);
-Console.WriteLine(s62);
-Console.WriteLine(s63);
-Console.WriteLine(s64);
+// string s53 = "Hell";
+// string s54 = "JS";
+// string s55 = s53.Substring(s53.Length / 2 - 1, 2);
+// string s56 = s54.Substring(s54.Length / 2 - 1, 2);
+// Console.WriteLine(s55);
+// Console.WriteLine(s56);
 
 
-// 73. Write a C# Sharp program to create a new string using the first and last n characters from a given string of length at least n.
-// Sample Input:
-// "Hello", 1
-// "Python", 2
-// "on", 1
-// "o", 1
-// Expected Output:
-// Ho
-// Pyon
-// on
-// oo
-// Click me to see the solution
+// // 72. Write a C# Sharp program to check if a given string ends with "on".
+// // Sample Input:
+// // "Hello"
+// // "Python"
+// // "on"
+// // "o"
+// // Expected Output:
+// // False
+// // True
+// // True
+// // False
+// // Click me to see the solution
 
-string s65 = "Hello";
-string s66 = "Python";
-string s67 = "on";
-string s68 = "o";
-string s69 = s65.Substring(0, 1) + s65.Substring(s65.Length - 1, 1);
-string s70 = s66.Substring(0, 2) + s66.Substring(s66.Length - 2, 2);
-string s71 = s67.Substring(0, 1) + s67.Substring(s67.Length - 1, 1);
-string s72 = s68.Substring(0, 1) + s68.Substring(s68.Length - 1, 1);
-Console.WriteLine(s69);
-Console.WriteLine(s70);
-Console.WriteLine(s71);
-Console.WriteLine(s72);
+// string s57 = "Hello";
+// string s58 = "Python";
+// string s59 = "on";
+// string s60 = "o";
+// bool s61 = s57.EndsWith("on");
+// bool s62 = s58.EndsWith("on");
+// bool s63 = s59.EndsWith("on");
+// bool s64 = s60.EndsWith("on");
+// Console.WriteLine(s61);
+// Console.WriteLine(s62);
+// Console.WriteLine(s63);
+// Console.WriteLine(s64);
+
+
+// // 73. Write a C# Sharp program to create a new string using the first and last n characters from a given string of length at least n.
+// // Sample Input:
+// // "Hello", 1
+// // "Python", 2
+// // "on", 1
+// // "o", 1
+// // Expected Output:
+// // Ho
+// // Pyon
+// // on
+// // oo
+// // Click me to see the solution
+
+// string s65 = "Hello";
+// string s66 = "Python";
+// string s67 = "on";
+// string s68 = "o";
+// string s69 = s65.Substring(0, 1) + s65.Substring(s65.Length - 1, 1);
+// string s70 = s66.Substring(0, 2) + s66.Substring(s66.Length - 2, 2);
+// string s71 = s67.Substring(0, 1) + s67.Substring(s67.Length - 1, 1);
+// string s72 = s68.Substring(0, 1) + s68.Substring(s68.Length - 1, 1);
+// Console.WriteLine(s69);
+// Console.WriteLine(s70);
+// Console.WriteLine(s71);
+// Console.WriteLine(s72);
 
 
 
@@ -260,6 +260,16 @@ Console.WriteLine(s72);
 // th
 // on
 // Click me to see the solution
+
+string s73 = "Hello";
+string s74 = "Python";
+string s75 = "on";
+string s76 = s73.Substring(1, 2);
+string s77 = s74.Substring(2, 2);
+string s78 = s75.Substring(1, 2);
+Console.WriteLine(s76);
+Console.WriteLine(s77);
+Console.WriteLine(s78);
 
 
 
