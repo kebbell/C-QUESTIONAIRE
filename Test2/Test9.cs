@@ -295,147 +295,147 @@
 // Console.WriteLine(s84);
 
 
-// 76. Write a C# Sharp program to create a new string of length 2, using the first two characters of a given string. If the given string length is less than 2 use '#' as missing characters.
-// Sample Input:
-// "Hello"
-// "Python"
-// "a"
-// ""
-// Expected Output:
-// He
-// Py
-// a#
-// ##
-// Click me to see the solution
+// // 76. Write a C# Sharp program to create a new string of length 2, using the first two characters of a given string. If the given string length is less than 2 use '#' as missing characters.
+// // Sample Input:
+// // "Hello"
+// // "Python"
+// // "a"
+// // ""
+// // Expected Output:
+// // He
+// // Py
+// // a#
+// // ##
+// // Click me to see the solution
 
-string s85 = "Hello";
-string s86 = "Python";
-string s87 = "a";
-string s88 = "";
-string s89 = s85.Substring(0, 2);
-string s90 = s86.Substring(0, 2);
-string s91 = s87.Substring(0, 2);
-string s92 = s88.Substring(0, 2);
-Console.WriteLine(s89);
-Console.WriteLine(s90);
-Console.WriteLine(s91);
-Console.WriteLine(s92);
-
-
-// 77. Write a C# Sharp program to create a string by taking the first character from a string and the last character from another string. If a string's length is 0, use '#' as its missing character.
-// Sample Input:
-// "Hello", "Hi"
-// "Python", "PHP"
-// "JS", "JS"
-// "Csharp", ""
-// Expected Output:
-// Hi
-// PP
-// JS
-// C#
-// Click me to see the solution
-
-string s93 = "Hello";
-string s94 = "Hi";
-string s95 = "Python";
-string s96 = "PHP";
-string s97 = "JS";
-string s98 = "JS";
-string s99 = "Csharp";
-string s100 = "";
-string s101 = s93.Substring(0, 1) + s94.Substring(s94.Length - 1, 1);
-string s102 = s95.Substring(0, 1) + s96.Substring(s96.Length - 1, 1);
-string s103 = s97.Substring(0, 1) + s98.Substring(s98.Length - 1, 1);
-string s104 = s99.Substring(0, 1) + s100.Substring(s100.Length - 1, 1);
-Console.WriteLine(s101);
-Console.WriteLine(s102);
-Console.WriteLine(s103);
-Console.WriteLine(s104);
+// string s85 = "Hello";
+// string s86 = "Python";
+// string s87 = "a";
+// string s88 = "";
+// string s89 = s85.Substring(0, 2);
+// string s90 = s86.Substring(0, 2);
+// string s91 = s87.Substring(0, 2);
+// string s92 = s88.Substring(0, 2);
+// Console.WriteLine(s89);
+// Console.WriteLine(s90);
+// Console.WriteLine(s91);
+// Console.WriteLine(s92);
 
 
+// // 77. Write a C# Sharp program to create a string by taking the first character from a string and the last character from another string. If a string's length is 0, use '#' as its missing character.
+// // Sample Input:
+// // "Hello", "Hi"
+// // "Python", "PHP"
+// // "JS", "JS"
+// // "Csharp", ""
+// // Expected Output:
+// // Hi
+// // PP
+// // JS
+// // C#
+// // Click me to see the solution
 
-// 78. Write a C# Sharp program to combine two given strings (lowercase). If there are any double characters in the string, omit one character.
-// Sample Input:
-// "abc", "cat"
-// "python", "php"
-// "php", "php"
-// Expected Output:
-// abcat
-// pythonphp
-// phphp
-// Click me to see the solution
-
-string s105 = "abc";
-string s106 = "cat";
-string s107 = "python";
-string s108 = "php";
-string s109 = "php";
-string s110 = s105 + s106;
-string s111 = s107 + s108;
-string s112 = s108 + s109;
-Console.WriteLine(s110);
-Console.WriteLine(s111);
-Console.WriteLine(s112);
-
-
-// 79. Write a C# Sharp program to create a new string from a given string after swapping the last two characters.
-// Sample Input:
-// "Hello"
-// "Python"
-// "PHP"
-// "JS"
-// "C"
-// Expected Output:
-// Helol
-// Pythno
-// PPH
-// SJ
-// C
-// Click me to see the solution
-
-string s113 = "Hello";
-string s114 = "Python";
-string s115 = "PHP";
-string s116 = "JS";
-string s117 = "C"; 
-string s118 = s113.Substring(0, s113.Length - 2) + s113.Substring(s113.Length - 1, 1) + s113.Substring(s113.Length - 2, 1);
-string s119 = s114.Substring(0, s114.Length - 2) + s114.Substring(s114.Length - 1, 1) + s114.Substring(s114.Length - 2, 1);
-string s120 = s115.Substring(0, s115.Length - 2) + s115.Substring(s115.Length - 1, 1) + s115.Substring(s115.Length - 2, 1);
-string s121 = s116.Substring(0, s116.Length - 2) + s116.Substring(s116.Length - 1, 1) + s116.Substring(s116.Length - 2, 1);
-string s122 = s117.Substring(0, s117.Length - 2) + s117.Substring(s117.Length - 1, 1) + s117.Substring(s117.Length - 2, 1);
-Console.WriteLine(s118);
-Console.WriteLine(s119);
-Console.WriteLine(s120);
-Console.WriteLine(s121);
-Console.WriteLine(s122);
+// string s93 = "Hello";
+// string s94 = "Hi";
+// string s95 = "Python";
+// string s96 = "PHP";
+// string s97 = "JS";
+// string s98 = "JS";
+// string s99 = "Csharp";
+// string s100 = "";
+// string s101 = s93.Substring(0, 1) + s94.Substring(s94.Length - 1, 1);
+// string s102 = s95.Substring(0, 1) + s96.Substring(s96.Length - 1, 1);
+// string s103 = s97.Substring(0, 1) + s98.Substring(s98.Length - 1, 1);
+// string s104 = s99.Substring(0, 1) + s100.Substring(s100.Length - 1, 1);
+// Console.WriteLine(s101);
+// Console.WriteLine(s102);
+// Console.WriteLine(s103);
+// Console.WriteLine(s104);
 
 
-// 80. Write a C# Sharp program to check if a given string begins with 'abc' or 'xyz'. If the string begins with 'abc' or 'xyz' return 'abc' or 'xyz' otherwise return an empty string.
-// Sample Input:
-// "abc"
-// "abcdef"
-// "C"
-// "xyz"
-// "xyzsder"
-// Expected Output:
-// abc
-// abc
-// xyz
-// xyz
-// Click me to see the solution
 
-string s123 = "abc";
-string s124 = "abcdef";
-string s125 = "C";
-string s126 = "xyz";
-string s127 = "xyzsder";
-string s128 = s123.Substring(0, 3);
-string s129 = s124.Substring(0, 3);
-string s130 = s125.Substring(0, 1);
-string s131 = s126.Substring(0, 3);
-string s132 = s127.Substring(0, 3);
-Console.WriteLine(s128);
-Console.WriteLine(s129);
-Console.WriteLine(s130);
-Console.WriteLine(s131);
-Console.WriteLine(s132);
+// // 78. Write a C# Sharp program to combine two given strings (lowercase). If there are any double characters in the string, omit one character.
+// // Sample Input:
+// // "abc", "cat"
+// // "python", "php"
+// // "php", "php"
+// // Expected Output:
+// // abcat
+// // pythonphp
+// // phphp
+// // Click me to see the solution
+
+// string s105 = "abc";
+// string s106 = "cat";
+// string s107 = "python";
+// string s108 = "php";
+// string s109 = "php";
+// string s110 = s105 + s106;
+// string s111 = s107 + s108;
+// string s112 = s108 + s109;
+// Console.WriteLine(s110);
+// Console.WriteLine(s111);
+// Console.WriteLine(s112);
+
+
+// // 79. Write a C# Sharp program to create a new string from a given string after swapping the last two characters.
+// // Sample Input:
+// // "Hello"
+// // "Python"
+// // "PHP"
+// // "JS"
+// // "C"
+// // Expected Output:
+// // Helol
+// // Pythno
+// // PPH
+// // SJ
+// // C
+// // Click me to see the solution
+
+// string s113 = "Hello";
+// string s114 = "Python";
+// string s115 = "PHP";
+// string s116 = "JS";
+// string s117 = "C"; 
+// string s118 = s113.Substring(0, s113.Length - 2) + s113.Substring(s113.Length - 1, 1) + s113.Substring(s113.Length - 2, 1);
+// string s119 = s114.Substring(0, s114.Length - 2) + s114.Substring(s114.Length - 1, 1) + s114.Substring(s114.Length - 2, 1);
+// string s120 = s115.Substring(0, s115.Length - 2) + s115.Substring(s115.Length - 1, 1) + s115.Substring(s115.Length - 2, 1);
+// string s121 = s116.Substring(0, s116.Length - 2) + s116.Substring(s116.Length - 1, 1) + s116.Substring(s116.Length - 2, 1);
+// string s122 = s117.Substring(0, s117.Length - 2) + s117.Substring(s117.Length - 1, 1) + s117.Substring(s117.Length - 2, 1);
+// Console.WriteLine(s118);
+// Console.WriteLine(s119);
+// Console.WriteLine(s120);
+// Console.WriteLine(s121);
+// Console.WriteLine(s122);
+
+
+// // 80. Write a C# Sharp program to check if a given string begins with 'abc' or 'xyz'. If the string begins with 'abc' or 'xyz' return 'abc' or 'xyz' otherwise return an empty string.
+// // Sample Input:
+// // "abc"
+// // "abcdef"
+// // "C"
+// // "xyz"
+// // "xyzsder"
+// // Expected Output:
+// // abc
+// // abc
+// // xyz
+// // xyz
+// // Click me to see the solution
+
+// string s123 = "abc";
+// string s124 = "abcdef";
+// string s125 = "C";
+// string s126 = "xyz";
+// string s127 = "xyzsder";
+// string s128 = s123.Substring(0, 3);
+// string s129 = s124.Substring(0, 3);
+// string s130 = s125.Substring(0, 1);
+// string s131 = s126.Substring(0, 3);
+// string s132 = s127.Substring(0, 3);
+// Console.WriteLine(s128);
+// Console.WriteLine(s129);
+// Console.WriteLine(s130);
+// Console.WriteLine(s131);
+// Console.WriteLine(s132);
