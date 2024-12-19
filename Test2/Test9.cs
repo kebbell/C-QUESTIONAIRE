@@ -335,6 +335,23 @@ Console.WriteLine(s92);
 // C#
 // Click me to see the solution
 
+string s93 = "Hello";
+string s94 = "Hi";
+string s95 = "Python";
+string s96 = "PHP";
+string s97 = "JS";
+string s98 = "JS";
+string s99 = "Csharp";
+string s100 = "";
+string s101 = s93.Substring(0, 1) + s94.Substring(s94.Length - 1, 1);
+string s102 = s95.Substring(0, 1) + s96.Substring(s96.Length - 1, 1);
+string s103 = s97.Substring(0, 1) + s98.Substring(s98.Length - 1, 1);
+string s104 = s99.Substring(0, 1) + s100.Substring(s100.Length - 1, 1);
+Console.WriteLine(s101);
+Console.WriteLine(s102);
+Console.WriteLine(s103);
+Console.WriteLine(s104);
+
 
 
 // 78. Write a C# Sharp program to combine two given strings (lowercase). If there are any double characters in the string, omit one character.
