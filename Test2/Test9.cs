@@ -423,3 +423,19 @@ Console.WriteLine(s122);
 // xyz
 // xyz
 // Click me to see the solution
+
+string s123 = "abc";
+string s124 = "abcdef";
+string s125 = "C";
+string s126 = "xyz";
+string s127 = "xyzsder";
+string s128 = s123.Substring(0, 3);
+string s129 = s124.Substring(0, 3);
+string s130 = s125.Substring(0, 1);
+string s131 = s126.Substring(0, 3);
+string s132 = s127.Substring(0, 3);
+Console.WriteLine(s128);
+Console.WriteLine(s129);
+Console.WriteLine(s130);
+Console.WriteLine(s131);
+Console.WriteLine(s132);
