@@ -378,7 +378,6 @@ Console.WriteLine(s111);
 Console.WriteLine(s112);
 
 
-
 // 79. Write a C# Sharp program to create a new string from a given string after swapping the last two characters.
 // Sample Input:
 // "Hello"
@@ -394,6 +393,21 @@ Console.WriteLine(s112);
 // C
 // Click me to see the solution
 
+string s113 = "Hello";
+string s114 = "Python";
+string s115 = "PHP";
+string s116 = "JS";
+string s117 = "C"; 
+string s118 = s113.Substring(0, s113.Length - 2) + s113.Substring(s113.Length - 1, 1) + s113.Substring(s113.Length - 2, 1);
+string s119 = s114.Substring(0, s114.Length - 2) + s114.Substring(s114.Length - 1, 1) + s114.Substring(s114.Length - 2, 1);
+string s120 = s115.Substring(0, s115.Length - 2) + s115.Substring(s115.Length - 1, 1) + s115.Substring(s115.Length - 2, 1);
+string s121 = s116.Substring(0, s116.Length - 2) + s116.Substring(s116.Length - 1, 1) + s116.Substring(s116.Length - 2, 1);
+string s122 = s117.Substring(0, s117.Length - 2) + s117.Substring(s117.Length - 1, 1) + s117.Substring(s117.Length - 2, 1);
+Console.WriteLine(s118);
+Console.WriteLine(s119);
+Console.WriteLine(s120);
+Console.WriteLine(s121);
+Console.WriteLine(s122);
 
 
 // 80. Write a C# Sharp program to check if a given string begins with 'abc' or 'xyz'. If the string begins with 'abc' or 'xyz' return 'abc' or 'xyz' otherwise return an empty string.
