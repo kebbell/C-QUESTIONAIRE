@@ -235,6 +235,19 @@ Console.WriteLine(s64);
 // oo
 // Click me to see the solution
 
+string s65 = "Hello";
+string s66 = "Python";
+string s67 = "on";
+string s68 = "o";
+string s69 = s65.Substring(0, 1) + s65.Substring(s65.Length - 1, 1);
+string s70 = s66.Substring(0, 2) + s66.Substring(s66.Length - 2, 2);
+string s71 = s67.Substring(0, 1) + s67.Substring(s67.Length - 1, 1);
+string s72 = s68.Substring(0, 1) + s68.Substring(s68.Length - 1, 1);
+Console.WriteLine(s69);
+Console.WriteLine(s70);
+Console.WriteLine(s71);
+Console.WriteLine(s72);
+
 
 
 // 74. Write a C# Sharp program to create a new string of length 2 starting at the given index of a given string.
