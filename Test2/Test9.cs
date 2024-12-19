@@ -208,6 +208,18 @@ Console.WriteLine(s56);
 // False
 // Click me to see the solution
 
+string s57 = "Hello";
+string s58 = "Python";
+string s59 = "on";
+string s60 = "o";
+bool s61 = s57.EndsWith("on");
+bool s62 = s58.EndsWith("on");
+bool s63 = s59.EndsWith("on");
+bool s64 = s60.EndsWith("on");
+Console.WriteLine(s61);
+Console.WriteLine(s62);
+Console.WriteLine(s63);
+Console.WriteLine(s64);
 
 
 
