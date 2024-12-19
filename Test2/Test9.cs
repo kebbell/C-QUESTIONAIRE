@@ -250,26 +250,26 @@
 
 
 
-// 74. Write a C# Sharp program to create a new string of length 2 starting at the given index of a given string.
-// Sample Input:
-// "Hello", 1
-// "Python", 2
-// "on", 1
-// Expected Output:
-// el
-// th
-// on
-// Click me to see the solution
+// // 74. Write a C# Sharp program to create a new string of length 2 starting at the given index of a given string.
+// // Sample Input:
+// // "Hello", 1
+// // "Python", 2
+// // "on", 1
+// // Expected Output:
+// // el
+// // th
+// // on
+// // Click me to see the solution
 
-string s73 = "Hello";
-string s74 = "Python";
-string s75 = "on";
-string s76 = s73.Substring(1, 2);
-string s77 = s74.Substring(2, 2);
-string s78 = s75.Substring(1, 2);
-Console.WriteLine(s76);
-Console.WriteLine(s77);
-Console.WriteLine(s78);
+// string s73 = "Hello";
+// string s74 = "Python";
+// string s75 = "on";
+// string s76 = s73.Substring(1, 2);
+// string s77 = s74.Substring(2, 2);
+// string s78 = s75.Substring(1, 2);
+// Console.WriteLine(s76);
+// Console.WriteLine(s77);
+// Console.WriteLine(s78);
 
 
 
