@@ -1,15 +1,16 @@
 // 81. Write a C# Sharp program to check whether the first two characters and the last two characters of a given string are the same.
-
 // Sample Input:
 // "abab"
 // "abcdef"
 // "xyzsderxy"
 // Expected Output:
-
 // True
 // False
 // True
 // Click me to see the solution
+
+
+
 // 82. Write a C# Sharp program to combine two given strings. If the given strings have different lengths remove the characters from the longer string.
 
 // Sample Input:
