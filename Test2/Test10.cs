@@ -229,3 +229,15 @@
 
 
 
+// 100. Write a C# Sharp program to check a given array of integers and return true if it contains 10 or 20 twice. The array length will be 0, 1, or 2.
+// Sample Input:
+// { 12, 20 }
+// { 20, 20 }
+// { 10, 10 }
+// { 10 }
+// Expected Output :
+// False
+// True
+// True
+// False
+// Click me to see the solution
