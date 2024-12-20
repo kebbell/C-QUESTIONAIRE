@@ -207,17 +207,19 @@
 
 
 // 98. Write a C# Sharp program to check if an array of integers with length 2 does not contain 15 or 20.
-
 // Sample Input:
 // { 12, 20 }
 // { 14, 15 }
 // { 11, 21 }
 // Expected Output :
-
 // False
 // False
 // True
 // Click me to see the solution
+
+
+
+
 // 99. Write a C# Sharp program to create an array of integers with a length of 1 or more. The array length will be double the given array length. All the elements are 0 except the first element which is equal to the given array.
 
 // Sample Input:
