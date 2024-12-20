@@ -221,10 +221,11 @@
 
 
 // 99. Write a C# Sharp program to create an array of integers with a length of 1 or more. The array length will be double the given array length. All the elements are 0 except the first element which is equal to the given array.
-
 // Sample Input:
 // { 10, 20, -30, -40, 30 }
 // Expected Output :
-
 // New array: 10 0 0 0 0 0 0 0 0 0
 // Click me to see the solution
+
+
+
