@@ -12,17 +12,19 @@
 
 
 // 82. Write a C# Sharp program to combine two given strings. If the given strings have different lengths remove the characters from the longer string.
-
 // Sample Input:
 // "abc", "abcd"
 // "Python", "Python"
 // "JS", "Python"
 // Expected Output:
-
 // abcbcd
 // PythonPython
 // JSon
 // Click me to see the solution
+
+
+
+
 // 83. Write a C# Sharp program to create a new string using 3 copies of the first 2 characters of a given string. If the string length is less than 2 use the whole string.
 
 // Sample Input:
