@@ -80,6 +80,36 @@ Console.WriteLine(s5 + s6);
 // JJJ
 // Click me to see the solution
 
+string s7 = "abc";
+string s81 = "Python";
+string s91 = "J";
+if (s7.Length > 2)
+{
+    s7 = s7.Substring(0, 2) + s7.Substring(0, 2) + s7.Substring(0, 2);
+}
+else
+{    
+    s7 = s7.Substring(0, s7.Length) + s7.Substring(0, s7.Length) + s7.Substring(0, s7.Length);
+}
+Console.WriteLine(s7);
+if (s81.Length > 2)
+{
+    s81 = s81.Substring(0, 2) + s81.Substring(0, 2) + s81.Substring(0, 2);
+}
+else
+{
+    s81 = s81.Substring(0, s81.Length) + s81.Substring(0, s81.Length) + s81.Substring(0, s81.Length);
+}
+Console.WriteLine(s81);
+if (s91.Length > 2)
+{
+    s91 = s91.Substring(0, 2) + s91.Substring(0, 2) + s91.Substring(0, 2);
+}
+else
+{
+    s91 = s91.Substring(0, s91.Length) + s91.Substring(0, s91.Length) + s91.Substring(0, s91.Length);
+}
+Console.WriteLine(s91);
 
 
 // 84. Write a C# Sharp program to create a new string from a string. In the case that the two characters at the beginning and end of the given string are the same, return the given string without the first two characters, otherwise return the original string.
