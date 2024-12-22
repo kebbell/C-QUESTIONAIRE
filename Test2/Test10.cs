@@ -38,7 +38,6 @@ else
 }
 
 
-
 // 82. Write a C# Sharp program to combine two given strings. If the given strings have different lengths remove the characters from the longer string.
 // Sample Input:
 // "abc", "abcd"
