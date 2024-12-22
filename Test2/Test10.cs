@@ -34,9 +34,39 @@ else
 // JSon
 // Click me to see the solution
 
-
-
-
+string s12 = "abc";
+string s22 = "abcd";
+string s32 = "Python";
+string s4 = "Python";
+string s5 = "JS";
+string s6 = "Python";
+if (s1.Length > s22.Length)
+{
+    s12 = s12.Substring(0, s22.Length);
+}
+else
+{
+    s22 = s22.Substring(0, s12.Length);
+}
+Console.WriteLine(s12 + s22);
+if (s32.Length > s4.Length)
+{
+    s32 = s32.Substring(0, s4.Length);
+}
+else
+{
+    s4 = s4.Substring(0, s32.Length);
+}
+Console.WriteLine(s32 + s4);
+if (s5.Length > s6.Length)
+{
+    s5 = s5.Substring(0, s6.Length);
+}
+else
+{
+    s6 = s6.Substring(0, s5.Length);
+}
+Console.WriteLine(s5 + s6);
 
 
 // 83. Write a C# Sharp program to create a new string using 3 copies of the first 2 characters of a given string. If the string length is less than 2 use the whole string.
