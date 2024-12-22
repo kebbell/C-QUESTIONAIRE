@@ -9,6 +9,18 @@
 // True
 // Click me to see the solution
 
+string s1 = "abab";
+string s2 = "abcdef";
+string s3 = "xyzsderxy";
+if (s1.Substring(0, 2) == s1.Substring(s1.Length - 2, 2))
+{
+    Console.WriteLine("True");
+}
+else
+{
+    Console.WriteLine("False");
+}
+
 
 
 // 82. Write a C# Sharp program to combine two given strings. If the given strings have different lengths remove the characters from the longer string.
