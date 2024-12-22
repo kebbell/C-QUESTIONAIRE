@@ -20,6 +20,22 @@ else
 {
     Console.WriteLine("False");
 }
+if (s2.Substring(0, 2) == s2.Substring(s2.Length - 2, 2))
+{
+    Console.WriteLine("True");
+}
+else
+{
+    Console.WriteLine("False");
+}
+if (s3.Substring(0, 2) == s3.Substring(s3.Length - 2, 2))
+{
+    Console.WriteLine("True");
+}
+else
+{
+    Console.WriteLine("False");
+}
 
 
 
