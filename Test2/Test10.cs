@@ -1,153 +1,153 @@
-// 81. Write a C# Sharp program to check whether the first two characters and the last two characters of a given string are the same.
-// Sample Input:
-// "abab"
-// "abcdef"
-// "xyzsderxy"
-// Expected Output:
-// True
-// False
-// True
-// Click me to see the solution
+// // 81. Write a C# Sharp program to check whether the first two characters and the last two characters of a given string are the same.
+// // Sample Input:
+// // "abab"
+// // "abcdef"
+// // "xyzsderxy"
+// // Expected Output:
+// // True
+// // False
+// // True
+// // Click me to see the solution
 
-string s1 = "abab";
-string s2 = "abcdef";
-string s3 = "xyzsderxy";
-if (s1.Substring(0, 2) == s1.Substring(s1.Length - 2, 2))
-{
-    Console.WriteLine("True");
-}
-else
-{
-    Console.WriteLine("False");
-}
-if (s2.Substring(0, 2) == s2.Substring(s2.Length - 2, 2))
-{
-    Console.WriteLine("True");
-}
-else
-{
-    Console.WriteLine("False");
-}
-if (s3.Substring(0, 2) == s3.Substring(s3.Length - 2, 2))
-{
-    Console.WriteLine("True");
-}
-else
-{
-    Console.WriteLine("False");
-}
-
-
-// 82. Write a C# Sharp program to combine two given strings. If the given strings have different lengths remove the characters from the longer string.
-// Sample Input:
-// "abc", "abcd"
-// "Python", "Python"
-// "JS", "Python"
-// Expected Output:
-// abcbcd
-// PythonPython
-// JSon
-// Click me to see the solution
-
-string s12 = "abc";
-string s22 = "abcd";
-string s32 = "Python";
-string s4 = "Python";
-string s5 = "JS";
-string s6 = "Python";
-if (s1.Length > s22.Length)
-{
-    s12 = s12.Substring(0, s22.Length);
-}
-else
-{
-    s22 = s22.Substring(0, s12.Length);
-}
-Console.WriteLine(s12 + s22);
-if (s32.Length > s4.Length)
-{
-    s32 = s32.Substring(0, s4.Length);
-}
-else
-{
-    s4 = s4.Substring(0, s32.Length);
-}
-Console.WriteLine(s32 + s4);
-if (s5.Length > s6.Length)
-{
-    s5 = s5.Substring(0, s6.Length);
-}
-else
-{
-    s6 = s6.Substring(0, s5.Length);
-}
-Console.WriteLine(s5 + s6);
+// string s1 = "abab";
+// string s2 = "abcdef";
+// string s3 = "xyzsderxy";
+// if (s1.Substring(0, 2) == s1.Substring(s1.Length - 2, 2))
+// {
+//     Console.WriteLine("True");
+// }
+// else
+// {
+//     Console.WriteLine("False");
+// }
+// if (s2.Substring(0, 2) == s2.Substring(s2.Length - 2, 2))
+// {
+//     Console.WriteLine("True");
+// }
+// else
+// {
+//     Console.WriteLine("False");
+// }
+// if (s3.Substring(0, 2) == s3.Substring(s3.Length - 2, 2))
+// {
+//     Console.WriteLine("True");
+// }
+// else
+// {
+//     Console.WriteLine("False");
+// }
 
 
-// 83. Write a C# Sharp program to create a new string using 3 copies of the first 2 characters of a given string. If the string length is less than 2 use the whole string.
-// Sample Input:
-// "abc"
-// "Python"
-// "J"
-// Expected Output:
-// ababab
-// PyPyPy
-// JJJ
-// Click me to see the solution
+// // 82. Write a C# Sharp program to combine two given strings. If the given strings have different lengths remove the characters from the longer string.
+// // Sample Input:
+// // "abc", "abcd"
+// // "Python", "Python"
+// // "JS", "Python"
+// // Expected Output:
+// // abcbcd
+// // PythonPython
+// // JSon
+// // Click me to see the solution
 
-string s7 = "abc";
-string s81 = "Python";
-string s91 = "J";
-if (s7.Length > 2)
-{
-    s7 = s7.Substring(0, 2) + s7.Substring(0, 2) + s7.Substring(0, 2);
-}
-else
-{    
-    s7 = s7.Substring(0, s7.Length) + s7.Substring(0, s7.Length) + s7.Substring(0, s7.Length);
-}
-Console.WriteLine(s7);
-if (s81.Length > 2)
-{
-    s81 = s81.Substring(0, 2) + s81.Substring(0, 2) + s81.Substring(0, 2);
-}
-else
-{
-    s81 = s81.Substring(0, s81.Length) + s81.Substring(0, s81.Length) + s81.Substring(0, s81.Length);
-}
-Console.WriteLine(s81);
-if (s91.Length > 2)
-{
-    s91 = s91.Substring(0, 2) + s91.Substring(0, 2) + s91.Substring(0, 2);
-}
-else
-{
-    s91 = s91.Substring(0, s91.Length) + s91.Substring(0, s91.Length) + s91.Substring(0, s91.Length);
-}
-Console.WriteLine(s91);
+// string s12 = "abc";
+// string s22 = "abcd";
+// string s32 = "Python";
+// string s4 = "Python";
+// string s5 = "JS";
+// string s6 = "Python";
+// if (s1.Length > s22.Length)
+// {
+//     s12 = s12.Substring(0, s22.Length);
+// }
+// else
+// {
+//     s22 = s22.Substring(0, s12.Length);
+// }
+// Console.WriteLine(s12 + s22);
+// if (s32.Length > s4.Length)
+// {
+//     s32 = s32.Substring(0, s4.Length);
+// }
+// else
+// {
+//     s4 = s4.Substring(0, s32.Length);
+// }
+// Console.WriteLine(s32 + s4);
+// if (s5.Length > s6.Length)
+// {
+//     s5 = s5.Substring(0, s6.Length);
+// }
+// else
+// {
+//     s6 = s6.Substring(0, s5.Length);
+// }
+// Console.WriteLine(s5 + s6);
 
 
-// 84. Write a C# Sharp program to create a new string from a string. In the case that the two characters at the beginning and end of the given string are the same, return the given string without the first two characters, otherwise return the original string.
-// Sample Input:
-// "abcab"
-// "Python"
-// Expected Output:
-// cab
-// Python
-// Click me to see the solution
+// // 83. Write a C# Sharp program to create a new string using 3 copies of the first 2 characters of a given string. If the string length is less than 2 use the whole string.
+// // Sample Input:
+// // "abc"
+// // "Python"
+// // "J"
+// // Expected Output:
+// // ababab
+// // PyPyPy
+// // JJJ
+// // Click me to see the solution
 
-string s10 = "abcab";
-string s11 = "Python";
-if (s10.Substring(0, 1) == s10.Substring(s10.Length - 1, 1))
-{
-    s10 = s10.Substring(2);
-}
-Console.WriteLine(s10);
-if (s11.Substring(0, 1) == s11.Substring(s11.Length - 1, 1))
-{
-    s11 = s11.Substring(2);
-}
-Console.WriteLine(s11); 
+// string s7 = "abc";
+// string s81 = "Python";
+// string s91 = "J";
+// if (s7.Length > 2)
+// {
+//     s7 = s7.Substring(0, 2) + s7.Substring(0, 2) + s7.Substring(0, 2);
+// }
+// else
+// {    
+//     s7 = s7.Substring(0, s7.Length) + s7.Substring(0, s7.Length) + s7.Substring(0, s7.Length);
+// }
+// Console.WriteLine(s7);
+// if (s81.Length > 2)
+// {
+//     s81 = s81.Substring(0, 2) + s81.Substring(0, 2) + s81.Substring(0, 2);
+// }
+// else
+// {
+//     s81 = s81.Substring(0, s81.Length) + s81.Substring(0, s81.Length) + s81.Substring(0, s81.Length);
+// }
+// Console.WriteLine(s81);
+// if (s91.Length > 2)
+// {
+//     s91 = s91.Substring(0, 2) + s91.Substring(0, 2) + s91.Substring(0, 2);
+// }
+// else
+// {
+//     s91 = s91.Substring(0, s91.Length) + s91.Substring(0, s91.Length) + s91.Substring(0, s91.Length);
+// }
+// Console.WriteLine(s91);
+
+
+// // 84. Write a C# Sharp program to create a new string from a string. In the case that the two characters at the beginning and end of the given string are the same, return the given string without the first two characters, otherwise return the original string.
+// // Sample Input:
+// // "abcab"
+// // "Python"
+// // Expected Output:
+// // cab
+// // Python
+// // Click me to see the solution
+
+// string s10 = "abcab";
+// string s11 = "Python";
+// if (s10.Substring(0, 1) == s10.Substring(s10.Length - 1, 1))
+// {
+//     s10 = s10.Substring(2);
+// }
+// Console.WriteLine(s10);
+// if (s11.Substring(0, 1) == s11.Substring(s11.Length - 1, 1))
+// {
+//     s11 = s11.Substring(2);
+// }
+// Console.WriteLine(s11); 
 
 
 // 85. Write a C# Sharp program to create a new string from a given string without the first two characters. Keep the first character if it is "p" and keep the second character if it is "y".
