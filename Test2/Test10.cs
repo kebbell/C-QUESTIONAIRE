@@ -137,6 +137,19 @@ Console.WriteLine(s91);
 // Python
 // Click me to see the solution
 
+string s10 = "abcab";
+string s11 = "Python";
+if (s10.Substring(0, 1) == s10.Substring(s10.Length - 1, 1))
+{
+    s10 = s10.Substring(2);
+}
+Console.WriteLine(s10);
+if (s11.Substring(0, 1) == s11.Substring(s11.Length - 1, 1))
+{
+    s11 = s11.Substring(2);
+}
+Console.WriteLine(s11); 
+
 
 
 // 85. Write a C# Sharp program to create a new string from a given string without the first two characters. Keep the first character if it is "p" and keep the second character if it is "y".
