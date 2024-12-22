@@ -151,7 +151,6 @@ if (s11.Substring(0, 1) == s11.Substring(s11.Length - 1, 1))
 Console.WriteLine(s11); 
 
 
-
 // 85. Write a C# Sharp program to create a new string from a given string without the first two characters. Keep the first character if it is "p" and keep the second character if it is "y".
 // Sample Input:
 // "abcab"
