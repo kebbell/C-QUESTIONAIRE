@@ -325,7 +325,6 @@ if (s30[0] == s30[s30.Length - 1])
     Console.WriteLine("False");
 }
 
-
 // 90. Write a C# Sharp program to check two given arrays of integers of length 1 or more. Return true if they have the same first element or the same last element.
 // Sample Input:
 // { 10, 20, 40, 50 }, { 10, 20, 40, 50 }
