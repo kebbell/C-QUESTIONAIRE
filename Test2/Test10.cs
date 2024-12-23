@@ -309,6 +309,21 @@ if (s27[0] == 10 || s27[s27.Length - 1] == 10)
 // False
 // Click me to see the solution
 
+int[] s28 = { 10, 20, 40, 50 };
+int[] s29 = { 10, 20, 40, 10 };
+int[] s30 = { 12, 24, 35, 55 };
+if (s28[0] == s28[s28.Length - 1])
+{
+    Console.WriteLine("False");
+}
+if (s29[0] == s29[s29.Length - 1])
+{
+    Console.WriteLine("True");
+}
+if (s30[0] == s30[s30.Length - 1])
+{
+    Console.WriteLine("False");
+}
 
 
 // 90. Write a C# Sharp program to check two given arrays of integers of length 1 or more. Return true if they have the same first element or the same last element.
