@@ -201,6 +201,30 @@ Console.WriteLine(s15);
 // jython
 // Click me to see the solution
 
+string s16 = "abcab";
+string s17 = "python";
+string s18 = "abcda";
+string s19 = "jython";
+if (s16.Substring(0, 1) == "a" && s16.Substring(s16.Length - 1, 1) == "a")
+{
+    s16 = s16.Substring(1, s16.Length - 2);
+}
+Console.WriteLine(s16);
+if (s17.Substring(0, 1) == "a" && s17.Substring(s17.Length - 1, 1) == "a")
+{
+    s17 = s17.Substring(1, s17.Length - 2);
+}
+Console.WriteLine(s17);
+if (s18.Substring(0, 1) == "a" && s18.Substring(s18.Length - 1, 1) == "a")
+{
+    s18 = s18.Substring(1, s18.Length - 2);
+}
+Console.WriteLine(s18);
+if (s19.Substring(0, 1) == "a" && s19.Substring(s19.Length - 1, 1) == "a")
+{
+    s19 = s19.Substring(1, s19.Length - 2);
+}
+Console.WriteLine(s19);
 
 
 
