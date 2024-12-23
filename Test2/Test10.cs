@@ -277,6 +277,26 @@ Console.WriteLine(s23);
 // False
 // Click me to see the solution
 
+int[] s24 = { 10, 20, 40, 50 };
+int[] s25 = { 5, 20, 40, 10 };
+int[] s26 = { 10, 20, 40, 10 };
+int[] s27 = { 12, 24, 35, 55 };
+if (s24[0] == 10 || s24[s24.Length - 1] == 10)
+{
+    Console.WriteLine("True");
+}
+if (s25[0] == 10 || s25[s25.Length - 1] == 10)
+{
+    Console.WriteLine("True");
+}
+if (s26[0] == 10 || s26[s26.Length - 1] == 10)
+{
+    Console.WriteLine("True");
+}
+if (s27[0] == 10 || s27[s27.Length - 1] == 10)
+{
+    Console.WriteLine("True");
+}
 
 
 // 89. Write a C# Sharp program to check a given array of integers of length 1 or more. Return true if the first and the last element in the array are equal.
