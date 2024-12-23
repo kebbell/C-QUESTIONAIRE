@@ -264,10 +264,6 @@ if (s23.Substring(0, 1) == "a" && s23.Substring(1, 1) == "a")
 }
 Console.WriteLine(s23);
 
-
-
-
-
 // 88. Write a C# Sharp program to check a given array of integers of length 1 or more. Return true if 10 appears as either the first or last element in the given array.
 // Sample Input:
 // { 10, 20, 40, 50 }
