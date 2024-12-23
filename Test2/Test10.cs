@@ -163,8 +163,30 @@
 // ython
 // Click me to see the solution
 
-
-
+string s12 = "abcab";
+string s13 = "python";
+string s14 = "press";
+string s15 = "jython";
+if (s12.Substring(0, 1) == "p" && s12.Substring(1, 1) == "y")
+{
+    s12 = s12.Substring(2);
+}
+Console.WriteLine(s12);
+if (s13.Substring(0, 1) == "p" && s13.Substring(1, 1) == "y")
+{
+    s13 = s13.Substring(2);
+}
+Console.WriteLine(s13);
+if (s14.Substring(0, 1) == "p" && s14.Substring(1, 1) == "y")
+{
+    s14 = s14.Substring(2);
+}
+Console.WriteLine(s14);
+if (s15.Substring(0, 1) == "p" && s15.Substring(1, 1) == "y")
+{
+    s15 = s15.Substring(2);
+}
+Console.WriteLine(s15); 
 
 
 // 86. Write a C# Sharp program to create a string from a given string without the first and last character. This is if the first or last characters are 'a' otherwise return the original given string.
