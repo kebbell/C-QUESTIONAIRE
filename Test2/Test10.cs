@@ -298,7 +298,6 @@ if (s27[0] == 10 || s27[s27.Length - 1] == 10)
     Console.WriteLine("True");
 }
 
-
 // 89. Write a C# Sharp program to check a given array of integers of length 1 or more. Return true if the first and the last element in the array are equal.
 // Sample Input:
 // { 10, 20, 40, 50 }
