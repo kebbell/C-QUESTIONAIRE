@@ -468,6 +468,15 @@ for (int i = 0; i < s42.Length; i++)
 // New array: 10 30
 // Click me to see the solution
 
+int[] s43 = { 10, 20, -30, -40, 30 };
+int[] s44 = new int[2];
+s44[0] = s43[0];
+s44[1] = s43[s43.Length - 1];
+for (int i = 0; i < s44.Length; i++)
+{
+    Console.Write(s44[i] + " ");
+}
+
 
 
 
