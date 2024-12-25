@@ -408,6 +408,12 @@ for (int i = 0; i < s37.Length; i++)
 // Reverse array: 50 -40 -30 20 10
 // Click me to see the solution
 
+int[] s38 = { 10, 20, -30, -40, 50 };
+Array.Reverse(s38);
+for (int i = 0; i < s38.Length; i++)
+{
+    Console.Write(s38[i] + " ");
+}   
 
 
 // 94. Write a C# Sharp program to find out the maximum element between the first and last element in a given array of integers ( length 4), replace all elements with the maximum element.
