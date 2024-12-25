@@ -477,9 +477,6 @@ for (int i = 0; i < s44.Length; i++)
     Console.Write(s44[i] + " ");
 }
 
-
-
-
 // 97. Write a C# Sharp program to check if an array of integers length 2 contains 15 or 20.
 // Sample Input:
 // { 12, 20 }
