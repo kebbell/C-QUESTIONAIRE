@@ -449,6 +449,16 @@ for (int i = 0; i < s39.Length; i++)
 // New array: -30 30
 // Click me to see the solution
 
+int[] s40 = { 10, 20, -30, -40, 30 };
+int[] s41 = { 10, 20, 30, 40, 30 };
+int[] s42 = new int[2];
+s42[0] = s40[s40.Length / 2];
+s42[1] = s41[s41.Length / 2];
+for (int i = 0; i < s42.Length; i++)
+{
+    Console.Write(s42[i] + " ");
+}
+
 
 
 // 96. Write a C# Sharp program to create an array taking the first and last elements of a given array of integers and length 1 or more.
