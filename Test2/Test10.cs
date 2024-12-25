@@ -336,6 +336,23 @@ if (s30[0] == s30[s30.Length - 1])
 // False
 // Click me to see the solution
 
+int[] s31 = { 10, 20, 40, 50 };
+int[] s32 = { 10, 20, 40, 50 };
+int[] s33 = { 10, 20, 40, 5 };
+int[] s34 = { 1, 20, 40, 5 };
+if (s31[0] == s32[0] || s31[s31.Length - 1] == s32[s32.Length - 1])
+{
+    Console.WriteLine("True");
+}
+if (s31[0] == s33[0] || s31[s31.Length - 1] == s33[s33.Length - 1])
+{
+    Console.WriteLine("True");
+}
+if (s31[0] == s34[0] || s31[s31.Length - 1] == s34[s34.Length - 1])
+{
+    Console.WriteLine("False");
+}
+
 
 
 // 91. Write a C# Sharp program to compute the sum of the elements of an array of integers.
