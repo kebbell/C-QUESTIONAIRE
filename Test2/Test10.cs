@@ -388,6 +388,18 @@ Console.WriteLine(sum);
 // Rotated array: 20 -30 -40 10
 // Click me to see the solution
 
+int[] s37 = { 10, 20, -30, -40 };
+int temp = s37[0];
+for (int i = 0; i < s37.Length - 1; i++)
+{
+    s37[i] = s37[i + 1];
+}
+s37[s37.Length - 1] = temp;
+for (int i = 0; i < s37.Length; i++)
+{
+    Console.Write(s37[i] + " ");
+}
+
 
 // 93. Write a C# Sharp program to reverse a given array of integers and length 5.
 // Sample Input:
