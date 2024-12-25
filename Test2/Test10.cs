@@ -364,6 +364,21 @@ if (s31[0] == s34[0] || s31[s31.Length - 1] == s34[s34.Length - 1])
 // 10
 // Click me to see the solution
 
+int[] s35 = { 10, 20, 30, 40, 50 };
+int[] s36 = { 10, 20, -30, -40, 50 };
+int sum = 0;
+for (int i = 0; i < s35.Length; i++)
+{
+    sum += s35[i];
+}
+Console.WriteLine(sum);
+sum = 0;
+for (int i = 0; i < s36.Length; i++)
+{
+    sum += s36[i];
+}
+Console.WriteLine(sum); 
+
 
 
 // 92. Write a C# Sharp program to rotate the elements of a given array of integers (length 4 ) in the left direction and return the array.
