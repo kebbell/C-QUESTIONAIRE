@@ -423,6 +423,23 @@ for (int i = 0; i < s38.Length; i++)
 // New array: 20 20 20 20
 // Click me to see the solution
 
+int[] s39 = { 10, 20, -30, -40 };
+int max = s39[0];
+for (int i = 0; i < s39.Length; i++)
+{
+    if (s39[i] > max)
+    {
+        max = s39[i];
+    }
+}
+for (int i = 0; i < s39.Length; i++)
+{
+    s39[i] = max;
+}
+for (int i = 0; i < s39.Length; i++)
+{
+    Console.Write(s39[i] + " ");
+}
 
 
 // 95. Write a C# Sharp program to create an array containing the middle elements from the two given arrays of integers, each length 5.
