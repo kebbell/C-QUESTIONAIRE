@@ -488,6 +488,22 @@ for (int i = 0; i < s44.Length; i++)
 // False
 // Click me to see the solution
 
+int[] s45 = { 12, 20 };
+int[] s46 = { 14, 15 };
+int[] s47 = { 11, 21 };
+if (s45[0] == 15 || s45[1] == 15 || s45[0] == 20 || s45[1] == 20)
+{
+    Console.WriteLine("True");
+}
+if (s46[0] == 15 || s46[1] == 15 || s46[0] == 20 || s46[1] == 20)
+{
+    Console.WriteLine("True");
+}
+if (s47[0] == 15 || s47[1] == 15 || s47[0] == 20 || s47[1] == 20)
+{
+    Console.WriteLine("True");
+}
+
 
 
 // 98. Write a C# Sharp program to check if an array of integers with length 2 does not contain 15 or 20.
