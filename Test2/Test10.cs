@@ -543,6 +543,19 @@ if (s50[0] != 15 && s50[1] != 15 && s50[0] != 20 && s50[1] != 20)
 // Click me to see the solution
 
 
+int[] s51 = { 10, 20, -30, -40, 30 };
+int[] s52 = new int[s51.Length * 2];
+s52[0] = s51[0];
+for (int i = 1; i < s52.Length; i++)
+{
+    s52[i] = 0;
+}
+for (int i = 0; i < s52.Length; i++)
+{
+    Console.Write(s52[i] + " ");
+}   
+
+
 
 // 100. Write a C# Sharp program to check a given array of integers and return true if it contains 10 or 20 twice. The array length will be 0, 1, or 2.
 // Sample Input:
