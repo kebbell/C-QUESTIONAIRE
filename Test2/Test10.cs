@@ -569,3 +569,25 @@ for (int i = 0; i < s52.Length; i++)
 // True
 // False
 // Click me to see the solution
+
+
+int[] s53 = { 12, 20 };
+int[] s54 = { 20, 20 };
+int[] s55 = { 10, 10 };
+int[] s56 = { 10 };
+if (s53[0] == 10 || s53[1] == 10 || s53[0] == 20 || s53[1] == 20)
+{
+    Console.WriteLine("True");
+}
+if (s54[0] == 10 || s54[1] == 10 || s54[0] == 20 || s54[1] == 20)
+{
+    Console.WriteLine("True");
+}
+if (s55[0] == 10 || s55[1] == 10 || s55[0] == 20 || s55[1] == 20)
+{
+    Console.WriteLine("True");
+}
+if (s56[0] == 10 || s56[1] == 10 || s56[0] == 20 || s56[1] == 20)
+{
+    Console.WriteLine("False");
+}
