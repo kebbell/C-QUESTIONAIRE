@@ -518,6 +518,21 @@ if (s47[0] == 15 || s47[1] == 15 || s47[0] == 20 || s47[1] == 20)
 // Click me to see the solution
 
 
+int [] s48 = { 12, 20 };
+int[] s49 = { 14, 15 };
+int[] s50 = { 11, 21 };
+if (s48[0] != 15 && s48[1] != 15 && s48[0] != 20 && s48[1] != 20)
+{
+    Console.WriteLine("False");
+}
+if (s49[0] != 15 && s49[1] != 15 && s49[0] != 20 && s49[1] != 20)
+{
+    Console.WriteLine("False");
+}
+if (s50[0] != 15 && s50[1] != 15 && s50[0] != 20 && s50[1] != 20)
+{
+    Console.WriteLine("True");
+}   
 
 
 // 99. Write a C# Sharp program to create an array of integers with a length of 1 or more. The array length will be double the given array length. All the elements are 0 except the first element which is equal to the given array.
