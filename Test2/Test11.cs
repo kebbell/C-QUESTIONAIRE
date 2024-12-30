@@ -52,14 +52,16 @@
 
 
 // 106. Write a C# Sharp program to create an array length 3 from a given array (length at least 3) using the elements in the middle of the array.
-
 // Sample Input:
 // { 1, 5, 7, 9, 11, 13 }
 // Expected Output :
-
 // Original array: 1, 5, 7, 9, 11, 13
 // New array: 7 9 11
 // Click me to see the solution
+
+
+
+
 // 107. Write a C# Sharp program to find the largest value from first, last, and middle elements of a given array of integers of odd length (at least 1).
 
 // Sample Input:
