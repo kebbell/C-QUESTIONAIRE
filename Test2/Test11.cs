@@ -31,24 +31,26 @@
 
 
 // 104. Write a C# Sharp program to create an array from two arrays of integers, each length 3.
-
 // Sample Input:
 // { 10, 20, 30 }, { 40, 50, 60 }
 // Expected Output :
-
 // Array 1: 10, 20, 30
 // Array 2: 40, 50, 60
 // New array: 10 20 30 40 50 60
 // Click me to see the solution
-// 105. Write a C# Sharp program to create an array by swapping the first and last elements of a given array of integers with a length of at least 1.
 
+
+
+// 105. Write a C# Sharp program to create an array by swapping the first and last elements of a given array of integers with a length of at least 1.
 // Sample Input:
 // { 1, 5, 7, 9, 11, 13 }
 // Expected Output :
-
 // Original array: 1, 5, 7, 9, 11, 13
 // After swapping first and last elements: 13 5 7 9 11 1
 // Click me to see the solution
+
+
+
 // 106. Write a C# Sharp program to create an array length 3 from a given array (length at least 3) using the elements in the middle of the array.
 
 // Sample Input:
