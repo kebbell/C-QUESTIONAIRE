@@ -63,7 +63,6 @@
 
 
 // 107. Write a C# Sharp program to find the largest value from first, last, and middle elements of a given array of integers of odd length (at least 1).
-
 // Sample Input:
 // {1}
 // {1,2,9}
@@ -71,52 +70,64 @@
 // {1,2,3,4,5,6,7}
 // {1,2,2,3,7,8,9,10,6,5,4}
 // Expected Output :
-
 // 1
 // 9
 // 9
 // 7
 // 8
 // Click me to see the solution
-// 108. Write a C# Sharp program to create an array by taking the first two elements from an array. If the given array length is shorter than 2, return the given array.
 
+
+
+
+
+// 108. Write a C# Sharp program to create an array by taking the first two elements from an array. If the given array length is shorter than 2, return the given array.
 // Sample Input:
 // { 1, 5, 7, 9, 11, 13 }
 // Expected Output :
-
 // New array: 1 5
 // Click me to see the solution
-// 109. Write a C# Sharp program to count the even number of elements in a given array of integers.
 
+
+
+
+
+// 109. Write a C# Sharp program to count the even number of elements in a given array of integers.
 // Sample Input:
 // { 1, 5, 7, 9, 10, 12 }
 // Expected Output :
-
 // Original array: 1, 5, 7, 9, 10, 12
 // 2
 // Click me to see the solution
-// 110. Write a C# Sharp program to compute the difference between the largest and smallest values in a given array of integers and lengths of one or more.
 
+
+
+
+// 110. Write a C# Sharp program to compute the difference between the largest and smallest values in a given array of integers and lengths of one or more.
 // Sample Input:
 // { 1, 5, 7, 9, 10, 12 }
 // Expected Output:
-
 // Original array: 1, 5, 7, 9, 10, 12 
 // Difference between the largest and smallest values: 
 // 11
 // Click me to see the solution
-// 111. Write a C# Sharp program to compute the sum of values in a given array of integers except 17. Return 0 if the given array has no integers.
 
+
+
+
+// 111. Write a C# Sharp program to compute the sum of values in a given array of integers except 17. Return 0 if the given array has no integers.
 // Sample Input:
 // { 1, 5, 7, 9, 10, 17 }
 // Expected Output :
-
 // Original array: 1, 5, 7, 9, 10, 17
 // Sum of values in the array of integers except the number 17: 
 // 32
 // Click me to see the solution
-// 112. Write a C# Sharp program to compute the sum of the numbers in a given array except those that begin with 5 followed by at least one 6. Return 0 if the given array has no integers.
 
+
+
+
+// 112. Write a C# Sharp program to compute the sum of the numbers in a given array except those that begin with 5 followed by at least one 6. Return 0 if the given array has no integers.
 // Sample Input:
 // { 5, 6, 1, 5, 6, 9, 10, 17, 5, 6 }
 // { 5, 6, 1, 5, 6, 9, 10, 17 }
