@@ -16,15 +16,20 @@
 // Original array:  1, 5, 7
 // Larger array: 10 20 30
 // Click me to see the solution
-// 103. Write a C# Sharp program to create an array taking two middle elements from a given array of integers of length even.
 
+
+
+// 103. Write a C# Sharp program to create an array taking two middle elements from a given array of integers of length even.
 // Sample Input:
 // { 1, 5, 7, 9, 11, 13 }
 // Expected Output:
-
 // Original array: 1, 5, 7, 9, 11, 13
 // New array: 7 9
 // Click me to see the solution
+
+
+
+
 // 104. Write a C# Sharp program to create an array from two arrays of integers, each length 3.
 
 // Sample Input:
