@@ -147,17 +147,20 @@
 
 
 // 113. Write a C# Sharp program to check if a given array of integers contains 5 next to a 5 somewhere.
-
 // Sample Input:
 // { 1, 5, 6, 9, 10, 17 }
 // { 1, 5, 5, 9, 10, 17 }
 // { 1, 5, 5, 9, 10, 17, 5, 5 }
 // Expected Output :
-
 // False
 // True
 // True
 // Click me to see the solution
+
+
+
+
+
 // 114. Write a C# Sharp program to check whether a given array of integers contains 5's and 7's.
 
 // Sample Input:
