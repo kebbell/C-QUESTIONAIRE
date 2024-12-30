@@ -135,7 +135,6 @@
 // { 1, 5, 9, 10, 17, 5, 6 }
 // { 1, 5, 9, 10, 17, 5}
 // Expected Output :
-
 // Sum of the numbers of the said array except those numbers starting with 5 followed by atleast one 6: 
 // 37
 // 37
@@ -143,6 +142,10 @@
 // 42
 // 47
 // Click me to see the solution
+
+
+
+
 // 113. Write a C# Sharp program to check if a given array of integers contains 5 next to a 5 somewhere.
 
 // Sample Input:
